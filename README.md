@@ -4,7 +4,10 @@ Repository voor open consultatie van de BRO gegevenscatalogus 'Booronderzoek - b
 # Consultatie toelichting: how to
 De Basisregistratie Ondergrond is in ontwikkeling. Via deze site kan er actief meegedacht worden en op de documentatie worden gereageerd.  Vanaf december 2016 is er via deze site een consultatie van een aantal gegevenscatalogi van de BRO. Voor attendering van stakeholders is er een emailnotificatie.
 
-De BRO gegevenscatalogus 'Booronderzoek - bodemkundige boormonsterbeschrijving' is vanaf eind januari in consultatie. De consultatietermijn eindigt 24 februari 2017. De catalogus is benaderbaar via [deze pagina][2]. 
+De BRO gegevenscatalogus 'Booronderzoek - bodemkundige boormonsterbeschrijving' is vanaf eind januari in consultatie. De consultatietermijn eindigt 24 februari 2017. 
+
+De catalogus is benaderbaar via:
+- BRO gegevenscatalogus [Booronderzoek][2]. 
 
 Voor de consultatie van de overige BRO gegevenscatalogi zijn er aparte pagina's:
 - [Consultatie BRO Grondwatermonitoringput][6]
