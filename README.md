@@ -1,12 +1,12 @@
 # Booronderzoek
-Repository voor open consultatie van de BRO gegevenscatalogus booronderzoek - bodemkundige boormonsterbeschrijving.
+Repository voor open consultatie van de BRO gegevenscatalogus 'Booronderzoek - bodemkundige boormonsterbeschrijving'.
 
 # Consultatie toelichting: how to
-De Basisregistratie Ondergrond is in ontwikkeling. Via deze site kan er actief meegedacht worden en op de documentatie worden gereageerd.  Vanaf januari 2016 is er via deze site een consultatie van een aantal gegevenscatalogi van de BRO. Voor attendering van stakeholders is er een emailnotificatie.
+De Basisregistratie Ondergrond is in ontwikkeling. Via deze site kan er actief meegedacht worden en op de documentatie worden gereageerd.  Vanaf december 2016 is er via deze site een consultatie van een aantal gegevenscatalogi van de BRO. Voor attendering van stakeholders is er een emailnotificatie.
 
-De gegevenscatalogus BRO Booronderzoek - bodemkundige boormonsterbeschrijving is benaderbaar via [deze pagina][2]. 
+De BRO gegevenscatalogus 'Booronderzoek - bodemkundige boormonsterbeschrijving' is vanaf eind januari in consultatie. De consultatietermijn eindigt 24 februari 2017. De catalogus is benaderbaar via [deze pagina][2]. 
 
-Voor de consultatie van de overige gegevenscatalogi zijn er aparte pagina's:
+Voor de consultatie van de overige BRO gegevenscatalogi zijn er aparte pagina's:
 - [Consultatie BRO Grondwatermonitoringput][6]
 - [Consultatie Geotechnisch Sondeeronderzoek][5]
 
@@ -26,7 +26,7 @@ U kunt ook [alle gemelde issues][1] bekijken.
 
 Volg de onderstaande stappen om de gegevenscatalogus te reviewen:
 
-1. Download de BRO gegevenscatalogus Booronderzoek - bodemkundige boormonsterbeschrijving van de BRO Info website. [Klik hier om de catalogus te downloaden][2].
+1. Download de BRO gegevenscatalogus 'Booronderzoek - bodemkundige boormonsterbeschrijving' van de BRO Info website. [Klik hier om de catalogus te downloaden][2].
 2. Review het document.
 3. Om een nieuw issue aan te maken: 
   1. Controleer eerst of het issue al gemeld is: [bestaande issues Booronderzoek][1]
