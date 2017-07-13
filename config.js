@@ -1,7 +1,7 @@
 var respecConfig = {
   specStatus: "GN-WV",
   specType: "IM",
-  //publishDate: "2017-06-15",
+  publishDate: "2017-07-28",
   editors: [{
     name: "First Lastname",
     company: "Company",
@@ -11,7 +11,7 @@ var respecConfig = {
     company: "Company",
     companyURL: "CompanyURL",
   }],
-  shortName: "bro-booronderzoek",
+  shortName: "bro-bhr",
   github: "https://github.com/BROprogramma/booronderzoek",
   //previousPublishDate: "2017-01-01",
   //previousStatus: "GN-CV",
