@@ -1,17 +1,11 @@
 var respecConfig = {
   specStatus: "GN-WV",
   specType: "IM",
-  publishDate: "2017-07-28",
+  publishDate: "2017-01-25",
   editors: [
     {
-      name: "First Lastname",
-      company: "Company",
-      companyURL: "CompanyURL",
-    },
-    {
-      name: "Second Lastname",
-      company: "Company",
-      companyURL: "CompanyURL",
+      name: "TNO Geologische Dienst Nederland",
+      url: "https://www.tno.nl/nl/",
     },
   ],
   shortName: "bro-bhr-p",
