@@ -13,7 +13,7 @@
    <body>
       <p>Conceptual model/BHR-P conceptueel - MIM/20191127</p>
       <p>Imvertor: 1.56.1</p>
-      <p>Model release: Conceptualmodel-BHR-Pconceptueel-MIM-1.9127november2019-1-20191127-20191127-175003</p>
+      <p>Model release: Conceptualmodel-BHR-Pconceptueel-MIM-1.9127november2019-1-20191127-20191127-181342</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -113,7 +113,16 @@
             <section id=""><a class="anchor" id="graph_EAID_767F438F_1014_47bc_BBDC_98606932693D"></a><section id="global_class_ModelBHRPDeel2_Booronderzoek">
                   <h3>   Booronderzoek</h3>
                   <div class="imageinfo "><img src="Images/EAID_8A487999_3FB5_47ed_9933_B593203BF109.png" usemap="#imagemap-EAID_8A487999_3FB5_47ed_9933_B593203BF109" alt="Diagram "><map name="imagemap-EAID_8A487999_3FB5_47ed_9933_B593203BF109">
-                        <area shape="rect" alt="Booronderzoek" coords="10,10,281,202" href="#graph_EAID_767F438F_1014_47bc_BBDC_98606932693D"></map><p><b>Booronderzoek</b></p>
+                        <area shape="rect" alt="Boormonsteranalyse" coords="10,173,168,201" href="#graph_EAID_C497D0C8_A7FC_4280_82C3_3C866CAA23AB">
+                        <area shape="rect" alt="Boormonsterbeschrijving" coords="81,302,239,330" href="#graph_EAID_697C344A_A1CE_4e19_A1E8_D608CAB8F0B2">
+                        <area shape="rect" alt="Terreintoestand" coords="315,302,473,330" href="#graph_EAID_AF1FFED2_C283_48d3_BB6D_22F3F876045D">
+                        <area shape="rect" alt="Boring" coords="549,302,707,330" href="#graph_EAID_EEB4A074_34DE_4020_8995_D8081DCBBB6C">
+                        <area shape="rect" alt="Gestandaardiseerde locatie" coords="600,173,758,201" href="#graph_EAID_4D17BE34_0DFD_4a20_9A39_F437E781D80F">
+                        <area shape="rect" alt="Aangeleverde verticale positie" coords="600,95,758,123" href="#graph_EAID_5B6EEAEE_FAAF_4ab9_9D33_709559A9E297">
+                        <area shape="rect" alt="Aangeleverde locatie" coords="600,17,758,45" href="#graph_EAID_C81072B6_E99D_435f_9E4C_B1D5FED530D4">
+                        <area shape="rect" alt="Rapportagegeschiedenis" coords="10,97,168,125" href="#graph_EAID_6C31CE0B_20BC_4ca1_9BFA_C6D0EF8B7476">
+                        <area shape="rect" alt="Registratiegeschiedenis" coords="10,17,168,49" href="#graph_EAID_8505883D_9F95_4151_9381_E70B2B7F19DE">
+                        <area shape="rect" alt="Booronderzoek" coords="241,10,512,202" href="#graph_EAID_767F438F_1014_47bc_BBDC_98606932693D"></map><p><b>Booronderzoek</b></p>
                   </div>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -127,7 +136,7 @@
                            <th>Definitie</th>
                            <td>
                               
-                              <p>De gegevens die het wandonderzoek identificeren en inzicht geven in de geschiedenis
+                              <p>De gegevens die het booronderzoek identificeren en inzicht geven in de geschiedenis
                                  van het object voorafgaand aan opname in de registratie ondergrond.
                               </p>
                               
@@ -2179,7 +2188,7 @@
                </section><a class="anchor" id="graph_EAID_5B6EEAEE_FAAF_4ab9_9D33_709559A9E297"></a><section id="global_class_ModelBHRPDeel2_AangeleverdeVerticalePositie">
                   <h3>   Aangeleverde verticale positie</h3>
                   <div class="imageinfo "><img src="Images/EAID_89CAECF5_B5EF_47cd_9B6D_F7625C7A2C2F.png" usemap="#imagemap-EAID_89CAECF5_B5EF_47cd_9B6D_F7625C7A2C2F" alt="Diagram "><map name="imagemap-EAID_89CAECF5_B5EF_47cd_9B6D_F7625C7A2C2F">
-                        <area shape="rect" alt="Aangeleverde verticale positie" coords="10,10,327,124" href="#graph_EAID_5B6EEAEE_FAAF_4ab9_9D33_709559A9E297"></map><p><b>Aangeleverde verticale positie</b></p>
+                        <area shape="rect" alt="Aangeleverde verticale positie" coords="10,10,327,137" href="#graph_EAID_5B6EEAEE_FAAF_4ab9_9D33_709559A9E297"></map><p><b>Aangeleverde verticale positie</b></p>
                   </div>
                   <table style="width: 100%;">
                      <colgroup style="width: 30%;"></colgroup>
@@ -2247,13 +2256,23 @@
                               <td>LokaalVerticaalReferentiepunt</td>
                            </tr>
                            <tr>
+                              <th>Regels</th>
+                              <td>
+                                 
+                                 <p>Een locatie op land heeft de waarde <em>maaiveld</em> of <em>waterbodem</em>. Een locatie op zee heeft de waarde <em>waterbodem</em>. Omdat het vakgebied bodemkunde is ligt de locatie op land.
+                                 </p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>(check toelichting)
-                                    Het lokaal verticaal referentiepunt is voor bodemkundig booronderzoek altijd het maaiveld,
-                                    omdat het booronderzoek nooit onder water ligt. De afspraak is dat strooisel boven
-                                    het lokaal verticaal referentiepunt ligt.
+                                 <p>Het domein bevat begrippen die naar een vlak verwijzen. Het lokaal verticaal referentiepunt
+                                    is het punt waar het booronderzoek zo’n vlak doorsnijdt en dat geldt als het punt
+                                    waar het onderzoek begonnen is. De enige uitzondering op de regel is het bodemkundig
+                                    booronderzoek waarin strooisel beschreven is. De afspraak is dat strooisel boven het
+                                    lokaal verticaal referentiepunt ligt. 
                                  </p>
                                  
                               </td>
@@ -2305,11 +2324,7 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Eenheid</th>
-                              <td>m (meters)</td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Waardebereik</th>
-                              <td>niet gespecificeerd  tot niet gespecificeerd</td>
+                              <td>m </td>
                            </tr>
                            <tr>
                               <th>Regels IMBRO/A</th>
@@ -2328,6 +2343,92 @@
                                     verticaal referentiepunt boven het verticaal referentievlak en dat is voor bodemkunde
                                     altijd NAP. Met behulp van de verschuiving kan een diepte omgerekend worden naar een
                                     positie ten opzichte van NAP.
+                                 </p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Mogelijk geen waarde</th>
+                              <td>Ja</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     
+                  </section>
+                  <section id="detail_attribute_ModelBHRPDeel2_AangeleverdeVerticalePositie_waterdiepte">
+                     <h4>  waterdiepte</h4>
+                     
+                     <table style="width: 100%;">
+                        <colgroup style="width: 30%;"></colgroup>
+                        <colgroup style="width: 70%;"></colgroup>
+                        <tbody>
+                           <tr>
+                              <th>Type gegeven</th>
+                              <td>Attribuut van Aangeleverde verticale positie</td>
+                           </tr>
+                           <tr>
+                              <th>Definitie</th>
+                              <td>
+                                 
+                                 <p>De positie van de waterbodem ten opzichte van het wateroppervlak.</p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Juridische status</th>
+                              <td>Authentiek</td>
+                           </tr>
+                           <tr>
+                              <th>Kardinaliteit</th>
+                              <td>1</td>
+                           </tr>
+                           <tr>
+                              <th>Domein</th>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Naam</th>
+                              <td>Meetwaarde 3.3</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Type</th>
+                              <td>Getal</td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Eenheid</th>
+                              <td>m </td>
+                           </tr>
+                           <tr>
+                              <th>&nbsp;&nbsp;Waardebereik</th>
+                              <td>0 tot 100</td>
+                           </tr>
+                           <tr>
+                              <th>Regels</th>
+                              <td>
+                                 
+                                 <p>Het gegeven is aanwezig wanneer het gegeven <em>lokaal verticaal referentiepunt</em> de waarde <em>waterbodem</em> heeft. In andere gevallen ontbreekt het gegeven.
+                                 </p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Regels IMBRO/A</th>
+                              <td>
+                                 
+                                 <p>Voor IMBRO/A-gegevens kan de waterdiepte niet bepaald zijn; in dat geval en alleen
+                                    in dat geval heeft het attribuut geen waarde.
+                                 </p>
+                                 
+                              </td>
+                           </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>Het gegeven geeft extra informatie over de omstandigheden op plaatsen waar de waterdiepte
+                                    veranderlijk is, bijvoorbeeld in uiterwaarden.
+                                    Het wordt bovendien door de basisregistratie ondergrond gebruikt bij de transformatie
+                                    van coördinaten van RD naar ETRS89. 
                                  </p>
                                  
                               </td>
@@ -2374,6 +2475,16 @@
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
                               <td>VerticaalReferentievlak</td>
+                           </tr>
+                           <tr>
+                              <th>Regels</th>
+                              <td>
+                                 
+                                 <p>De algemene regel is dat een locatie op land de waarde <em>NAP</em> heeft en een locatie op zee de waarde <em>LAT</em> of <em>MSL</em>. Omdat het vakgebied bodemkunde is, ligt de locatie op land en heeft het gegeven
+                                    de waarde <em>NAP</em>.
+                                 </p>
+                                 
+                              </td>
                            </tr>
                            <tr>
                               <th>Toelichting</th>
@@ -2456,9 +2567,15 @@
                               <td>
                                  
                                  <p>Het gegeven is van belang in verband met mogelijke veranderingen in de positie van
-                                    het maaiveld. In het geval de positie is bepaald op basis van het AHN geldt als datum
-                                    1 januari van het jaar waarin de gebruikte versie van het AHN voor het gebied waarin
-                                    de locatie ligt, is vastgesteld.
+                                    het maaiveld of de waterbodem.
+                                    In het geval de positie is bepaald op basis van het AHN geldt als datum 1 januari
+                                    van het jaar waarin de gebruikte versie van het AHN voor het gebied waarin de locatie
+                                    ligt, is vastgesteld.
+                                    De eerste regel voor IMBRO/A is op de volgende overweging gebaseerd: wanneer bij gegevens
+                                    uit het verleden de meest relevante datum van het booronderzoek, de rapportagedatum
+                                    onderzoek, niet bekend is, kan een eventueel wel ingevulde datum verticale positie
+                                    bepaling niet in de chronologische context geplaatst worden en verliest het zijn toegevoegde
+                                    waarde.
                                  </p>
                                  
                               </td>
@@ -2545,7 +2662,7 @@
                               <td>
                                  
                                  <p>Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon
-                                    die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het wandonderzoek,
+                                    die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van het booronderzoek,
                                     of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese
                                     Unie dan Nederland.
                                  </p>
@@ -2576,7 +2693,7 @@
                               <th>Regels</th>
                               <td>
                                  
-                                 <p>De organisatie moet binnen de basisregistratie ondergrond als uitvoerder van wandonderzoek
+                                 <p>De organisatie moet binnen de basisregistratie ondergrond als uitvoerder van booronderzoek
                                     bekend zijn.
                                  </p>
                                  
@@ -9036,25 +9153,6 @@
                      </table>
                      
                   </section>
-               </section><a class="anchor" id="graph_EAID_E906CCD7_537E_4823_955E_A5B188C254DB"></a><section id="global_class_ModelBHRPDeel2_Boormonsterfoto">
-                  <h3>   Boormonsterfoto</h3>
-                  <table style="width: 100%;">
-                     <colgroup style="width: 30%;"></colgroup>
-                     <colgroup style="width: 70%;"></colgroup>
-                     <tbody>
-                        <tr>
-                           <th>Type gegeven</th>
-                           <td>Entiteit</td>
-                        </tr>
-                        <tr>
-                           <th>Relaties met andere entiteiten</th>
-                           <td>
-                              <a class="link" href="#global_class_ModelBHRPDeel2_Booronderzoek">Booronderzoek</a>
-                              
-                              heeft 0..1 Boormonsterfoto<br></td>
-                        </tr>
-                     </tbody>
-                  </table>
                </section><a class="anchor" id="graph_EAID_4B2108B5_2549_4222_B1C3_253785E10046"></a><section id="global_class_ModelBHRPDeel2_BijzonderheidOnderin">
                   <h3>   Bijzonderheid onderin</h3>
                   <div class="imageinfo "><img src="Images/EAID_FB1CEDAF_A31D_498d_A76A_405AD569B076.png" usemap="#imagemap-EAID_FB1CEDAF_A31D_498d_A76A_405AD569B076" alt="Diagram "><map name="imagemap-EAID_FB1CEDAF_A31D_498d_A76A_405AD569B076">
@@ -15790,6 +15888,25 @@
                      </table>
                      
                   </section>
+               </section><a class="anchor" id="graph_EAID_E906CCD7_537E_4823_955E_A5B188C254DB"></a><section id="global_class_ModelBHRPDeel2_Boormonsterfoto">
+                  <h3>   Boormonsterfoto</h3>
+                  <table style="width: 100%;">
+                     <colgroup style="width: 30%;"></colgroup>
+                     <colgroup style="width: 70%;"></colgroup>
+                     <tbody>
+                        <tr>
+                           <th>Type gegeven</th>
+                           <td>Entiteit</td>
+                        </tr>
+                        <tr>
+                           <th>Relaties met andere entiteiten</th>
+                           <td>
+                              <a class="link" href="#global_class_ModelBHRPDeel2_Booronderzoek">Booronderzoek</a>
+                              
+                              heeft 0..1 Boormonsterfoto<br></td>
+                        </tr>
+                     </tbody>
+                  </table>
                </section>
             </section>
          </section>
