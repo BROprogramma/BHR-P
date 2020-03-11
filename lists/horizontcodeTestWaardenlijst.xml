@@ -4,14 +4,14 @@
 		<Categorie>Strooisellaag</Categorie>
 		<Waarde>O</Waarde>
 		<IMBRO> </IMBRO>
-		<IMBRO-A color="#228B22">√</IMBRO-A>
+		<IMBRO-A color="#228B22" textStyle="bold">√</IMBRO-A>
 		<Omschrijving>Een moerige horizont, die boven een A- of een E-horizont ligt en die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting (strooisellaag). Kenmerken niet nader gespecificeerd.</Omschrijving>
 	</horizontcodeTestWaardenlijst>
 	<horizontcodeTestWaardenlijst>
 		<Categorie>Strooisellaag</Categorie>
 		<Waarde>Of</Waarde>
-		<IMBRO>√</IMBRO>
-		<IMBRO-A>√</IMBRO-A>
+		<IMBRO color="#228B22" textStyle="bold">√</IMBRO>
+		<IMBRO-A color="#228B22" textStyle="bold">√</IMBRO-A>
 		<Omschrijving>Een moerige horizont, die boven een A- of een E-horizont ligt en die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting (strooisellaag), met omgezette plantenresten, maar met nog herkenbare fragmenten.</Omschrijving>
 	</horizontcodeTestWaardenlijst>
 	<horizontcodeTestWaardenlijst>
@@ -549,8 +549,8 @@
 	<horizontcodeTestWaardenlijst>
 		<Categorie>Bodemlaag</Categorie>
 		<Waarde>Cw</Waarde>
-		<IMBRO> </IMBRO>
 		<IMBRO>√</IMBRO>
+		<IMBRO-A>√</IMBRO-A>
 		<Omschrijving>Een moerige laag die weinig of niet is veranderd door bodemvormende processen, sterk verweerd.</Omschrijving>
 	</horizontcodeTestWaardenlijst>
 	<horizontcodeTestWaardenlijst>
