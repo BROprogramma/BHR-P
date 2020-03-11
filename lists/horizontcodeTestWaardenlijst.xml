@@ -2,13 +2,6 @@
 <domeintabel>
 	<horizontcodeTestWaardenlijst>
 		<Categorie>Strooisellaag</Categorie>
-		<Waarde>O</Waarde>
-		<IMBRO> </IMBRO>
-		<IMBRO-A color="#228B22" textStyle="bold">√</IMBRO-A>
-		<Omschrijving>Een moerige horizont, die boven een A- of een E-horizont ligt en die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting (strooisellaag). Kenmerken niet nader gespecificeerd.</Omschrijving>
-	</horizontcodeTestWaardenlijst>
-	<horizontcodeTestWaardenlijst>
-		<Categorie>Strooisellaag</Categorie>
 		<Waarde>Of</Waarde>
 		<IMBRO color="#228B22" textStyle="bold">√</IMBRO>
 		<IMBRO-A color="#228B22" textStyle="bold">√</IMBRO-A>
@@ -34,13 +27,6 @@
 		<IMBRO>√</IMBRO>
 		<IMBRO-A>√</IMBRO-A>
 		<Omschrijving>Een moerige horizont, die boven een A- of een E-horizont ligt en die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting (strooisellaag), hoofd- en overgangshorizont die geen andere kleine-letter-toevoeging heeft, maar die wel onderverdeeld wordt. Zonder specifieke kenmerken.</Omschrijving>
-	</horizontcodeTestWaardenlijst>
-	<horizontcodeTestWaardenlijst>
-		<Categorie>Bodemlaag</Categorie>
-		<Waarde>A</Waarde>
-		<IMBRO> </IMBRO>
-		<IMBRO-A>√</IMBRO-A>
-		<Omschrijving>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren). Kenmerken niet nader gespecificeerd.</Omschrijving>
 	</horizontcodeTestWaardenlijst>
 	<horizontcodeTestWaardenlijst>
 		<Categorie>Bodemlaag</Categorie>
@@ -142,13 +128,6 @@
 	</horizontcodeTestWaardenlijst>
 	<horizontcodeTestWaardenlijst>
 		<Categorie>Bodemlaag</Categorie>
-		<Waarde>AB</Waarde>
-		<IMBRO> </IMBRO>
-		<IMBRO-A>√</IMBRO-A>
-		<Omschrijving>Geleidelijke overgang van een A- naar een B-horizont, van minerale samenstelling, waarin de organische stof geheel of vrijwel geheel is omgezet. Kenmerken niet nader gespecificeerd.</Omschrijving>
-	</horizontcodeTestWaardenlijst>
-	<horizontcodeTestWaardenlijst>
-		<Categorie>Bodemlaag</Categorie>
 		<Waarde>ABh</Waarde>
 		<IMBRO>√</IMBRO>
 		<IMBRO-A>√</IMBRO-A>
@@ -188,13 +167,6 @@
 		<IMBRO>√</IMBRO>
 		<IMBRO-A>√</IMBRO-A>
 		<Omschrijving>Geleidelijke overgang van een A- naar een B-horizont, van minerale samenstelling, waarin de organische stof geheel of vrijwel geheel is omgezet en met kenmerken van homogenisatie en roestvlekken.</Omschrijving>
-	</horizontcodeTestWaardenlijst>
-	<horizontcodeTestWaardenlijst>
-		<Categorie>Bodemlaag</Categorie>
-		<Waarde>AC</Waarde>
-		<IMBRO> </IMBRO>
-		<IMBRO-A>√</IMBRO-A>
-		<Omschrijving>Geleidelijke overgang van een A- naar een C-horizont, met een minerale of moerige samenstelling. Kenmerken niet nader gespecificeerd.</Omschrijving>
 	</horizontcodeTestWaardenlijst>
 	<horizontcodeTestWaardenlijst>
 		<Categorie>Bodemlaag</Categorie>
@@ -240,13 +212,6 @@
 	</horizontcodeTestWaardenlijst>
 	<horizontcodeTestWaardenlijst>
 		<Categorie>Bodemlaag</Categorie>
-		<Waarde>AE</Waarde>
-		<IMBRO> </IMBRO>
-		<IMBRO-A>√</IMBRO-A>
-		<Omschrijving>Geleidelijke overgang van een A- naar een E-horizont, van minerale samenstelling, waarin de organische stof geheel of vrijwel geheel is omgezet en door het verticaal (soms lateraal) uitspoelen is verarmd aan kleimineralen en/of sesquioxyden. Kenmerken niet nader gespecificeerd.</Omschrijving>
-	</horizontcodeTestWaardenlijst>
-	<horizontcodeTestWaardenlijst>
-		<Categorie>Bodemlaag</Categorie>
 		<Waarde>AEg</Waarde>
 		<IMBRO>√</IMBRO>
 		<IMBRO-A>√</IMBRO-A>
@@ -258,13 +223,6 @@
 		<IMBRO>√</IMBRO>
 		<IMBRO-A>√</IMBRO-A>
 		<Omschrijving>Geleidelijke overgang van een A- naar een E-horizont, van minerale samenstelling, waarin de organische stof geheel of vrijwel geheel is omgezet en door het verticaal (soms lateraal) uitspoelen is verarmd aan kleimineralen en/of sesquioxyden. Zonder specifieke kenmerken.</Omschrijving>
-	</horizontcodeTestWaardenlijst>
-	<horizontcodeTestWaardenlijst>
-		<Categorie>Bodemlaag</Categorie>
-		<Waarde>B</Waarde>
-		<IMBRO> </IMBRO>
-		<IMBRO-A>√</IMBRO-A>
-		<Omschrijving>Een minerale (soms moerige) inspoelingshorizont. Kenmerken niet nader gespecificeerd.</Omschrijving>
 	</horizontcodeTestWaardenlijst>
 	<horizontcodeTestWaardenlijst>
 		<Categorie>Bodemlaag</Categorie>
@@ -394,13 +352,6 @@
 	</horizontcodeTestWaardenlijst>
 	<horizontcodeTestWaardenlijst>
 		<Categorie>Bodemlaag</Categorie>
-		<Waarde>BC</Waarde>
-		<IMBRO> </IMBRO>
-		<IMBRO-A>√</IMBRO-A>
-		<Omschrijving>Geleidelijke overgang van een B- naar een C-horizont, met minerale samenstelling. Kenmerken niet nader gespecificeerd.</Omschrijving>
-	</horizontcodeTestWaardenlijst>
-	<horizontcodeTestWaardenlijst>
-		<Categorie>Bodemlaag</Categorie>
 		<Waarde>BCe</Waarde>
 		<IMBRO>√</IMBRO>
 		<IMBRO-A>√</IMBRO-A>
@@ -426,13 +377,6 @@
 		<IMBRO>√</IMBRO>
 		<IMBRO-A>√</IMBRO-A>
 		<Omschrijving>Geleidelijke overgang van een B- naar een C-horizont, met minerale samenstelling en kenmerken van homogenisatie.</Omschrijving>
-	</horizontcodeTestWaardenlijst>
-	<horizontcodeTestWaardenlijst>
-		<Categorie>Bodemlaag</Categorie>
-		<Waarde>C</Waarde>
-		<IMBRO> </IMBRO>
-		<IMBRO-A>√</IMBRO-A>
-		<Omschrijving>Een moerige of minerale laag (vast gesteente uitgezonderd), die weinig of niet is veranderd door bodemvormende processen die een O-, A-, E- en B-horizont zouden kunnen doen ontstaan. Kenmerken niet nader gespecificeerd.</Omschrijving>
 	</horizontcodeTestWaardenlijst>
 	<horizontcodeTestWaardenlijst>
 		<Categorie>Bodemlaag</Categorie>
@@ -576,13 +520,6 @@
 	</horizontcodeTestWaardenlijst>
 	<horizontcodeTestWaardenlijst>
 		<Categorie>Bodemlaag</Categorie>
-		<Waarde>E</Waarde>
-		<IMBRO> </IMBRO>
-		<IMBRO-A>√</IMBRO-A>
-		<Omschrijving>Een minerale horizont die door het verticaal (soms lateraal) uitspoelen is verarmd aan kleimineralen en/of sesquioxyden. Meestal heeft de E-horizont een lager humusgehalte dan de erboven liggende horizont. Deze eluviale horizont (vandaar de E) heet ook wel uitspoelingshorizont. Kenmerken niet nader gespecificeerd.</Omschrijving>
-	</horizontcodeTestWaardenlijst>
-	<horizontcodeTestWaardenlijst>
-		<Categorie>Bodemlaag</Categorie>
 		<Waarde>Eb</Waarde>
 		<IMBRO>√</IMBRO>
 		<IMBRO-A>√</IMBRO-A>
@@ -601,13 +538,6 @@
 		<IMBRO>√</IMBRO>
 		<IMBRO-A>√</IMBRO-A>
 		<Omschrijving>Een minerale horizont die door het verticaal (soms lateraal) uitspoelen is verarmd aan kleimineralen en/of sesquioxyden, zonder specifieke kenmerken. Deze eluviale horizont (vandaar de E) heet ook wel uitspoelingshorizont. Zonder specifieke kenmerken.</Omschrijving>
-	</horizontcodeTestWaardenlijst>
-	<horizontcodeTestWaardenlijst>
-		<Categorie>Bodemlaag</Categorie>
-		<Waarde>EB</Waarde>
-		<IMBRO> </IMBRO>
-		<IMBRO-A>√</IMBRO-A>
-		<Omschrijving>Geleidelijke overgang van een E- naar een B-horizont, met een minerale samenstelling, deels verarmd door uitspoeling van kleimineralen en/of sesquioxyden. Kenmerken niet nader gespecificeerd.</Omschrijving>
 	</horizontcodeTestWaardenlijst>
 	<horizontcodeTestWaardenlijst>
 		<Categorie>Bodemlaag</Categorie>
@@ -636,6 +566,76 @@
 		<IMBRO>√</IMBRO>
 		<IMBRO-A>√</IMBRO-A>
 		<Omschrijving>Geleidelijke overgang van een E- naar een B-horizont, met een minerale samenstelling deels verarmd door uitspoeling van kleimineralen en/of sesquioxyden en deels met kenmerken van ingespoelde lutum.</Omschrijving>
+	</horizontcodeTestWaardenlijst>
+	<horizontcodeTestWaardenlijst>
+		<Categorie>Strooisellaag</Categorie>
+		<Waarde>O</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBRO-A color="#228B22" textStyle="bold">√</IMBRO-A>
+		<Omschrijving>Een moerige horizont, die boven een A- of een E-horizont ligt en die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting (strooisellaag). Kenmerken niet nader gespecificeerd.</Omschrijving>
+	</horizontcodeTestWaardenlijst>
+	<horizontcodeTestWaardenlijst>
+		<Categorie>Bodemlaag</Categorie>
+		<Waarde>A</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBRO-A>√</IMBRO-A>
+		<Omschrijving>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren). Kenmerken niet nader gespecificeerd.</Omschrijving>
+	</horizontcodeTestWaardenlijst>
+	<horizontcodeTestWaardenlijst>
+		<Categorie>Bodemlaag</Categorie>
+		<Waarde>AB</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBRO-A>√</IMBRO-A>
+		<Omschrijving>Geleidelijke overgang van een A- naar een B-horizont, van minerale samenstelling, waarin de organische stof geheel of vrijwel geheel is omgezet. Kenmerken niet nader gespecificeerd.</Omschrijving>
+	</horizontcodeTestWaardenlijst>
+	<horizontcodeTestWaardenlijst>
+		<Categorie>Bodemlaag</Categorie>
+		<Waarde>AC</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBRO-A>√</IMBRO-A>
+		<Omschrijving>Geleidelijke overgang van een A- naar een C-horizont, met een minerale of moerige samenstelling. Kenmerken niet nader gespecificeerd.</Omschrijving>
+	</horizontcodeTestWaardenlijst>
+	<horizontcodeTestWaardenlijst>
+		<Categorie>Bodemlaag</Categorie>
+		<Waarde>AE</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBRO-A>√</IMBRO-A>
+		<Omschrijving>Geleidelijke overgang van een A- naar een E-horizont, van minerale samenstelling, waarin de organische stof geheel of vrijwel geheel is omgezet en door het verticaal (soms lateraal) uitspoelen is verarmd aan kleimineralen en/of sesquioxyden. Kenmerken niet nader gespecificeerd.</Omschrijving>
+	</horizontcodeTestWaardenlijst>
+	<horizontcodeTestWaardenlijst>
+		<Categorie>Bodemlaag</Categorie>
+		<Waarde>B</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBRO-A>√</IMBRO-A>
+		<Omschrijving>Een minerale (soms moerige) inspoelingshorizont. Kenmerken niet nader gespecificeerd.</Omschrijving>
+	</horizontcodeTestWaardenlijst>
+	<horizontcodeTestWaardenlijst>
+		<Categorie>Bodemlaag</Categorie>
+		<Waarde>BC</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBRO-A>√</IMBRO-A>
+		<Omschrijving>Geleidelijke overgang van een B- naar een C-horizont, met minerale samenstelling. Kenmerken niet nader gespecificeerd.</Omschrijving>
+	</horizontcodeTestWaardenlijst>
+	<horizontcodeTestWaardenlijst>
+		<Categorie>Bodemlaag</Categorie>
+		<Waarde>C</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBRO-A>√</IMBRO-A>
+		<Omschrijving>Een moerige of minerale laag (vast gesteente uitgezonderd), die weinig of niet is veranderd door bodemvormende processen die een O-, A-, E- en B-horizont zouden kunnen doen ontstaan. Kenmerken niet nader gespecificeerd.</Omschrijving>
+	</horizontcodeTestWaardenlijst>
+		<horizontcodeTestWaardenlijst>
+		<Categorie>Bodemlaag</Categorie>
+		<Waarde>E</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBRO-A>√</IMBRO-A>
+		<Omschrijving>Een minerale horizont die door het verticaal (soms lateraal) uitspoelen is verarmd aan kleimineralen en/of sesquioxyden. Meestal heeft de E-horizont een lager humusgehalte dan de erboven liggende horizont. Deze eluviale horizont (vandaar de E) heet ook wel uitspoelingshorizont. Kenmerken niet nader gespecificeerd.</Omschrijving>
+	</horizontcodeTestWaardenlijst>
+		<horizontcodeTestWaardenlijst>
+		<Categorie>Bodemlaag</Categorie>
+		<Waarde>EB</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBRO-A>√</IMBRO-A>
+		<Omschrijving>Geleidelijke overgang van een E- naar een B-horizont, met een minerale samenstelling, deels verarmd door uitspoeling van kleimineralen en/of sesquioxyden. Kenmerken niet nader gespecificeerd.</Omschrijving>
 	</horizontcodeTestWaardenlijst>
 	<horizontcodeTestWaardenlijst>
 		<Categorie>Vast gesteentelaag</Categorie>
