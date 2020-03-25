@@ -13,7 +13,7 @@
    <body>
       <p>Conceptual model/BHR-P conceptueel - MIM/20200214</p>
       <p>Imvertor: 1.59.2</p>
-      <p>Model release: Conceptualmodel-BHR-Pconceptueel-MIM-1.9127november2019-1-20200214-20200325-160236</p>
+      <p>Model release: Conceptualmodel-BHR-Pconceptueel-MIM-1.9127november2019-1-20200214-20200325-165303</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -37,9 +37,11 @@
                         <th>Definitie</th>
                         <td>
                            
-                           <p>Het geheel van gegevens dat betrekking heeft op een specifiek booronderzoek dat op
-                              een specifiek moment en op een specifieke locatie in Nederland en onder een bepaalde
-                              opdracht is uitgevoerd. 
+                           <p>Het geheel van gegevens dat betrekking heeft op een booronderzoek dat vanuit een bepaalde
+                              opdracht is uitgevoerd door op een bepaald moment op een bepaalde locatie in Nederland
+                              of zijn Exclusieve Economische Zone een boring uit te voeren en de monsters die daarmee
+                              uit de ondergrond zijn verkregen te beschrijven en/of te onderzoeken en/of in het
+                              boorgat zelf metingen aan de ondergrond uit te voeren.. 
                            </p>
                            
                         </td>
@@ -48,10 +50,12 @@
                         <th>Populatie</th>
                         <td>
                            
-                           <p>De populatie booronderzoeken in de registratie ondergrond omvat alleen de onderzoeken
-                              die vanuit het vakgebied van de bodemkunde worden uitgevoerd.
-                              Ieder object heeft ter identificatie een eigen BRO-ID. 
-                              De huidige gegevensdefinitie beperkt zich tot de boormonsterbeschrijving en de boormonsteranalyse.
+                           <p>De populatie booronderzoeken in de registratie ondergrond omvat alle onderzoeken met
+                              uitzondering van onderzoek dat onder het regime van de Mijnbouwwet valt en onderzoek
+                              dat met het oog op de beoordeling van de bodemmilieukwaliteit of vanuit de archeologie
+                              wordt uitgevoerd. Ieder object heeft ter identificatie een eigen BRO-ID. 
+                              De huidige gegevensdefinitie beschrijft alleen het bodemkundig booronderzoek en beperkt
+                              zich verder tot de boormonsterbeschrijving en de boormonsteranalyse. 
                            </p>
                            
                         </td>
@@ -64,25 +68,6 @@
          <section>
             <h2>Het domeinmodel</h2>
             <section id="">
-               <div class="imageinfo overview"><img src="Images/EAID_D6588CC3_0108_4b72_8419_F2C7022F9A9E.png" usemap="#imagemap-EAID_D6588CC3_0108_4b72_8419_F2C7022F9A9E" alt="Diagram "><map name="imagemap-EAID_D6588CC3_0108_4b72_8419_F2C7022F9A9E">
-                     <area shape="rect" alt="Gestandaardiseerde locatie" coords="539,453,838,528" href="#graph_EAID_4D17BE34_0DFD_4a20_9A39_F437E781D80F">
-                     <area shape="rect" alt="Aangeleverde verticale positie" coords="539,293,838,420" href="#graph_EAID_5B6EEAEE_FAAF_4ab9_9D33_709559A9E297">
-                     <area shape="rect" alt="Aangeleverde locatie" coords="539,173,838,274" href="#graph_EAID_C81072B6_E99D_435f_9E4C_B1D5FED530D4">
-                     <area shape="rect" alt="Geboord traject" coords="602,1004,838,1066" href="#graph_EAID_BCE4FB50_EC8B_4ebc_BA2F_AED708915459">
-                     <area shape="rect" alt="Verwijderde laag" coords="602,880,838,955" href="#graph_EAID_4F931859_A209_48c8_95B4_EF48947342D4">
-                     <area shape="rect" alt="Verwijderd traject" coords="602,763,838,825" href="#graph_EAID_9CAAE4E0_1030_4145_8BA6_E7E82C1A81D3">
-                     <area shape="rect" alt="Boorprocedure" coords="602,687,838,736" href="#graph_EAID_BC5BEC9E_1CD9_400e_931D_D3328E315CAA">
-                     <area shape="rect" alt="Terreintoestand" coords="578,558,838,646" href="#graph_EAID_AF1FFED2_C283_48d3_BB6D_22F3F876045D">
-                     <area shape="rect" alt="Geboord interval" coords="307,1004,498,1066" href="#graph_EAID_7A51F6B2_4675_47d0_849C_BCE1853C65CF">
-                     <area shape="rect" alt="Boorapparaat" coords="307,884,498,950" href="#graph_EAID_F4D931C9_4668_4a29_94E7_347B9C7D4AFC">
-                     <area shape="rect" alt="Boring" coords="299,687,505,814" href="#graph_EAID_EEB4A074_34DE_4020_8995_D8081DCBBB6C">
-                     <area shape="rect" alt="Tussentijdse gebeurtenis" coords="68,566,257,623" href="#graph_EAID_648ED0D8_FACD_42e6_9C8A_648C6F5E0DA8">
-                     <area shape="rect" alt="Rapportagegeschiedenis" coords="68,469,257,528" href="#graph_EAID_6C31CE0B_20BC_4ca1_9BFA_C6D0EF8B7476">
-                     <area shape="rect" alt="Boormonsterbeschrijving" coords="12,59,257,126" href="#graph_EAID_697C344A_A1CE_4e19_A1E8_D608CAB8F0B2">
-                     <area shape="rect" alt="Registratiegeschiedenis" coords="12,247,254,439" href="#graph_EAID_8505883D_9F95_4151_9381_E70B2B7F19DE">
-                     <area shape="rect" alt="Boormonsteranalyse" coords="12,139,257,202" href="#graph_EAID_C497D0C8_A7FC_4280_82C3_3C866CAA23AB">
-                     <area shape="rect" alt="Booronderzoek" coords="298,175,504,368" href="#graph_EAID_767F438F_1014_47bc_BBDC_98606932693D"></map><p><b>Domeinmodel BRO Booronderzoek</b></p>
-               </div>
                <div class="imageinfo overview"><img src="Images/EAID_1C3500F1_E5BB_47e3_9CE1_BB98873D797A.png" usemap="#imagemap-EAID_1C3500F1_E5BB_47e3_9CE1_BB98873D797A" alt="Diagram "><map name="imagemap-EAID_1C3500F1_E5BB_47e3_9CE1_BB98873D797A">
                      <area shape="rect" alt="Bodemclassificatie" coords="548,10,838,244" href="#graph_EAID_CFE14268_F08B_4a20_BB74_3FEA8BBA0438">
                      <area shape="rect" alt="Zuurgraad bodemlaag" coords="520,558,682,620" href="#graph_EAID_20864613_7F9B_4610_9180_7A919D60C45B">
@@ -97,7 +82,7 @@
                      <area shape="rect" alt="Strooisellaag" coords="10,410,186,510" href="#graph_EAID_53792607_43A9_402c_BCFF_E9A10589D199">
                      <area shape="rect" alt="Boorprofiel" coords="203,190,500,304" href="#graph_EAID_E066634E_A30B_4f31_9447_9ADBF0419CB4">
                      <area shape="rect" alt="Boormonsterbeschrijving" coords="204,10,498,125" href="#graph_EAID_697C344A_A1CE_4e19_A1E8_D608CAB8F0B2">
-                     <area shape="rect" alt="Zuurgraad strooisellaag" coords="13,558,186,623" href="#graph_EAID_50D04CCB_A0D6_4ec1_85EB_B23EC6D99A02"></map><p><b>Domeinmodel BRO Bodemkundige boormonsterbeschrijving</b></p>
+                     <area shape="rect" alt="Zuurgraad strooisellaag" coords="13,558,186,623" href="#graph_EAID_50D04CCB_A0D6_4ec1_85EB_B23EC6D99A02"></map><p><b>Domeinmodel bodemkundig booronderzoek- Boormonsterbeschrijving</b></p>
                </div>
                <div class="imageinfo overview"><img src="Images/EAID_6383BFB7_B0C0_44d9_9C7F_929703659479.png" usemap="#imagemap-EAID_6383BFB7_B0C0_44d9_9C7F_929703659479" alt="Diagram "><map name="imagemap-EAID_6383BFB7_B0C0_44d9_9C7F_929703659479">
                      <area shape="rect" alt="Bepaling organisch koolstofgehalte" coords="605,208,850,309" href="#graph_EAID_2654F355_B276_4bf9_88A8_37C937B28434">
@@ -112,7 +97,7 @@
                      <area shape="rect" alt="Bepaling korrelgrootteverdeling" coords="267,329,522,447" href="#graph_EAID_250A2914_584B_4aa5_8F59_FF33B3931236">
                      <area shape="rect" alt="Bepaling zuurgraad" coords="16,193,220,274" href="#graph_EAID_39BC700B_7E29_4f34_8226_964ABBE902AB">
                      <area shape="rect" alt="Boormonsteranalyse" coords="267,10,520,115" href="#graph_EAID_C497D0C8_A7FC_4280_82C3_3C866CAA23AB">
-                     <area shape="rect" alt="Onderzocht interval" coords="267,166,521,275" href="#graph_EAID_E03DABD7_D5A7_43b1_8E45_22FE722A3256"></map><p><b>Bodemkundige boormonsteranalyse deel 1</b></p>
+                     <area shape="rect" alt="Onderzocht interval" coords="267,166,521,275" href="#graph_EAID_E03DABD7_D5A7_43b1_8E45_22FE722A3256"></map><p><b>Domeinmodel bodemkundig booronderzoek- Boormonsteranalyse deel 1</b></p>
                </div>
                <div class="imageinfo overview"><img src="Images/EAID_00029315_9461_4363_B7AC_4412C5E6439A.png" usemap="#imagemap-EAID_00029315_9461_4363_B7AC_4412C5E6439A" alt="Diagram "><map name="imagemap-EAID_00029315_9461_4363_B7AC_4412C5E6439A">
                      <area shape="rect" alt="Waterdoorlatendheidstoestand" coords="520,552,787,631" href="#graph_EAID_DC02E36B_F1B5_4332_949C_95620F88CB8F">
@@ -123,7 +108,7 @@
                      <area shape="rect" alt="Krimpverloop" coords="312,331,457,386" href="#graph_EAID_3EB07C97_1626_4580_A461_10F4A6FC2324">
                      <area shape="rect" alt="Bepaling krimpverloop" coords="264,168,505,272" href="#graph_EAID_B531AA18_409C_4b6d_BF4C_424B3B352278">
                      <area shape="rect" alt="Onderzocht interval" coords="264,86,505,118" href="#graph_EAID_E03DABD7_D5A7_43b1_8E45_22FE722A3256">
-                     <area shape="rect" alt="Boormonsteranalyse" coords="263,10,506,40" href="#graph_EAID_C497D0C8_A7FC_4280_82C3_3C866CAA23AB"></map><p><b>Domeinmodel BRO Bodemkundige  boormonsteranalyse deel 2a</b></p>
+                     <area shape="rect" alt="Boormonsteranalyse" coords="263,10,506,40" href="#graph_EAID_C497D0C8_A7FC_4280_82C3_3C866CAA23AB"></map><p><b>Domeinmodel bodemkundig booronderzoek- Boormonsteranalyse deel 2</b></p>
                </div>
                <div class="imageinfo overview"><img src="Images/EAID_CE320481_9F0A_4ab7_B678_33AE1565E3C7.png" usemap="#imagemap-EAID_CE320481_9F0A_4ab7_B678_33AE1565E3C7" alt="Diagram "><map name="imagemap-EAID_CE320481_9F0A_4ab7_B678_33AE1565E3C7">
                      <area shape="rect" alt="Watergehalte en doorlatendheid bij bepaalde bodemvochtpotentiaal" coords="316,638,593,726" href="#graph_EAID_E396B552_D072_4cbd_A53D_CE28BF948F73">
@@ -136,7 +121,7 @@
                      <area shape="rect" alt="Waterretentie" coords="10,525,275,590" href="#graph_EAID_318E226C_39F0_4e94_BF68_FF86ADC7A4CB">
                      <area shape="rect" alt="Bepaling waterretentie stapsgewijs" coords="10,211,275,450" href="#graph_EAID_1B89AC72_862D_4faa_BB88_6A2F01273E9C">
                      <area shape="rect" alt="Onderzocht interval" coords="169,98,399,130" href="#graph_EAID_E03DABD7_D5A7_43b1_8E45_22FE722A3256">
-                     <area shape="rect" alt="Boormonsteranalyse" coords="169,10,399,46" href="#graph_EAID_C497D0C8_A7FC_4280_82C3_3C866CAA23AB"></map><p><b>Domeinmodel BRO bodemkundige boormonsteranalyse deel 2b</b></p>
+                     <area shape="rect" alt="Boormonsteranalyse" coords="169,10,399,46" href="#graph_EAID_C497D0C8_A7FC_4280_82C3_3C866CAA23AB"></map><p><b>Domeinmodel bodemkundig booronderzoek- Boormonsteranalyse deel 3</b></p>
                </div>
                <div class="imageinfo overview"><img src="Images/EAID_B4B00F21_40F2_4133_BDED_18FBA68DE030.png" usemap="#imagemap-EAID_B4B00F21_40F2_4133_BDED_18FBA68DE030" alt="Diagram "><map name="imagemap-EAID_B4B00F21_40F2_4133_BDED_18FBA68DE030">
                      <area shape="rect" alt="Vorm doorlatendheidscurve" coords="371,654,531,755" href="#graph_EAID_C3A532B3_4A3F_45d1_9EE5_2AA7C2C3F150">
@@ -145,7 +130,7 @@
                      <area shape="rect" alt="Waterretentiekarakteristiek" coords="10,503,241,583" href="#graph_EAID_B88999F7_1698_4752_91ED_B6497B2577A4">
                      <area shape="rect" alt="Modellering van hydrofysische karakteristieken" coords="157,352,419,430" href="#graph_EAID_821A8B98_A622_4063_90E4_B8755FC87107">
                      <area shape="rect" alt="Onderzocht interval" coords="172,177,398,281" href="#graph_EAID_E03DABD7_D5A7_43b1_8E45_22FE722A3256">
-                     <area shape="rect" alt="Boormonsteranalyse" coords="170,10,400,120" href="#graph_EAID_C497D0C8_A7FC_4280_82C3_3C866CAA23AB"></map><p><b>Domeinmodel BRO Bodemkundige boormonsteranalyse deel 3</b></p>
+                     <area shape="rect" alt="Boormonsteranalyse" coords="170,10,400,120" href="#graph_EAID_C497D0C8_A7FC_4280_82C3_3C866CAA23AB"></map><p><b>Domeinmodel bodemkundig booronderzoek- Boormonsteranalyse deel 4</b></p>
                </div>
             </section>
          </section>
@@ -1538,8 +1523,8 @@
                            <td>
                               
                               <p>De gegevens staan niet in een brondocument, maar worden automatisch door de basisregistratie
-                                 ondergrond gegenereerd.De resultaten van het booronderzoek worden in een keer of in
-                                 delen gerapporteerd. Wanneer een deelrapport dat onder de wettelijke verplichtingen
+                                 ondergrond gegenereerd. De resultaten van het booronderzoek worden in een keer of
+                                 in delen gerapporteerd. Wanneer een deelrapport dat onder de wettelijke verplichtingen
                                  valt door de bronhouder is geaccepteerd, wordt het ter registratie aan de landelijke
                                  voorziening aangeboden. De rapportagegeschiedenis geeft de essentie van het verloop
                                  van de rapportage en vormt de zgn. materiële geschiedenis van het registratieobject
@@ -1858,8 +1843,8 @@
                            </td>
                         </tr>
                      </tbody>
-                  </table><a class="anchor" id="detail_attribute_Model_Aangeleverdelocatie_coordinaten"></a><section id="detail_attribute_Model_Aangeleverdelocatie_coordinaten">
-                     <h4>  coordinaten</h4>
+                  </table><a class="anchor" id="detail_attribute_Model_Aangeleverdelocatie_cordinaten"></a><section id="detail_attribute_Model_Aangeleverdelocatie_cordinaten">
+                     <h4>  coördinaten</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -1891,7 +1876,7 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
-                              <td>Coordinatenpaar</td>
+                              <td>Coördinatenpaar</td>
                            </tr>
                            <tr>
                               <th>Regels</th>
@@ -2693,8 +2678,8 @@
                            </td>
                         </tr>
                      </tbody>
-                  </table><a class="anchor" id="detail_attribute_Model_Gestandaardiseerdelocatie_coordinaten"></a><section id="detail_attribute_Model_Gestandaardiseerdelocatie_coordinaten">
-                     <h4>  coordinaten</h4>
+                  </table><a class="anchor" id="detail_attribute_Model_Gestandaardiseerdelocatie_cordinaten"></a><section id="detail_attribute_Model_Gestandaardiseerdelocatie_cordinaten">
+                     <h4>  coördinaten</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -2726,7 +2711,7 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
-                              <td>Coordinatenpaar</td>
+                              <td>Coördinatenpaar</td>
                            </tr>
                            <tr>
                               <th>Is afgeleid</th>
@@ -2777,8 +2762,8 @@
                         </tbody>
                      </table>
                      
-                  </section><a class="anchor" id="detail_attribute_Model_Gestandaardiseerdelocatie_coordinaattransformatie"></a><section id="detail_attribute_Model_Gestandaardiseerdelocatie_coordinaattransformatie">
-                     <h4>  coordinaattransformatie</h4>
+                  </section><a class="anchor" id="detail_attribute_Model_Gestandaardiseerdelocatie_cordinaattransformatie"></a><section id="detail_attribute_Model_Gestandaardiseerdelocatie_cordinaattransformatie">
+                     <h4>  coördinaattransformatie</h4>
                      
                      <table style="width: 100%;">
                         <colgroup style="width: 30%;"></colgroup>
@@ -2812,11 +2797,7 @@
                            </tr>
                            <tr>
                               <th>&nbsp;&nbsp;Naam</th>
-                              <td><a class="link" href="#detail_class_Model_Coordinaattransformatie">Coordinaattransformatie</a></td>
-                           </tr>
-                           <tr>
-                              <th>&nbsp;&nbsp;Type</th>
-                              <td>Waardelijst uitbreidbaar</td>
+                              <td>Coördinaattransformatie</td>
                            </tr>
                         </tbody>
                      </table>
@@ -5432,7 +5413,7 @@
                               
                               <p>In het veld kan de zuurgraad op bepaalde dieptes worden bepaald met een indicatorpapiertje.
                                  Met een mes wordt een inkeping in de wand gemaakt op de beschrijflijn en daar wordt
-                                 het ph-indicatorpapier in de wand gestoken. Eventueel wordt het ph-indicator papier
+                                 het pH-indicatorpapier in de wand gestoken. Eventueel wordt het pH-indicator papier
                                  bevochtigd met demi-water als de veldmedewerker dat nodig vindt. Het pH-indicator
                                  papier wordt na 5 minuten afgelezen. In het veld kan de pH van 2 tot 9 betrouwbaar
                                  worden afgelezen.
@@ -5828,7 +5809,7 @@
                               
                               <p>In het veld kan de zuurgraad op bepaalde dieptes worden bepaald met een indicatorpapiertje.
                                  Met een mes wordt een inkeping in de wand gemaakt op de beschrijflijn en daar wordt
-                                 het ph-indicatorpapier in de wand gestoken. Eventueel wordt het ph-indicator papier
+                                 het pH-indicatorpapier in de wand gestoken. Eventueel wordt het pH-indicator papier
                                  bevochtigd met demi-water als de veldmedewerker dat nodig vindt. Het pH-indicator
                                  papier wordt na 5 minuten afgelezen. In het veld kan de pH van 2 tot 9 betrouwbaar
                                  worden afgelezen.
@@ -7815,6 +7796,16 @@
                               <th>&nbsp;&nbsp;Type</th>
                               <td>Waardelijst uitbreidbaar</td>
                            </tr>
+                           <tr>
+                              <th>Toelichting</th>
+                              <td>
+                                 
+                                 <p>In de bodemkunde wordt de zachte kalksteen die in Zuid-Limburg binnen de geologie
+                                    en de geotechniek als mergel wordt onderscheiden beschreven als grond.
+                                 </p>
+                                 
+                              </td>
+                           </tr>
                         </tbody>
                      </table>
                      
@@ -9141,9 +9132,9 @@
                               <td>
                                  
                                  <p>De bemonsteringsstrategie bij niet-locatiespecifiek onderzoek kent een aantal varianten,
-                                    waarbij de onderzochte opppervlakte en het patroon van bemonstering verschillen. Voor
+                                    waarbij het onderzochte opppervlak en het patroon van bemonstering verschillen. Voor
                                     het onderzoek dat onder de basisregistratie ondergrond valt is er een grens gesteld
-                                    aan de grootte van de onderzochte oppervlakte, die mag niet groter zijn dan 35 bij
+                                    aan de grootte van het onderzochte oppervlak, die mag niet groter zijn dan 35 bij
                                     35 meter. 
                                  </p>
                                  
@@ -9438,7 +9429,7 @@
                               <th>Toelichting</th>
                               <td>
                                  
-                                 <p>Wanneer de boormonsteranalyse niet locatiespecifiek is strekt het onderzochte interval
+                                 <p>Wanneer de boormonsteranalyse niet locatiespecifiek is, strekt het onderzochte interval
                                     zich gewoonlijk uit over het gehele onderzochte oppervlak, maar voor sommige onderzochte
                                     intervallen geldt dat het alleen betrekking heeft op de locatie van de boring .
                                  </p>
@@ -22249,7 +22240,11 @@
                <colgroup></colgroup>
                <tbody>
                   <tr>
-                     <td></td>
+                     <td>
+                        
+                        <p>De lijst met de methodes voor bodemkundige boormonsterbeschrijving.</p>
+                        
+                     </td>
                   </tr>
                </tbody>
             </table>
@@ -25710,7 +25705,7 @@
                   <tr>
                      <td>
                         
-                        <p>De lijst met de vloeistoffen die tijdens het boren is gebruikt.</p>
+                        <p>De lijst met de vloeistoffen die tijdens het boren worden gebruikt.</p>
                         
                      </td>
                   </tr>
@@ -26337,8 +26332,8 @@
             </table>
             
          </section>
-         <section id="detail_class_Model_Coordinaattransformatie">
-            <h3>  Coordinaattransformatie</h3>
+         <section id="detail_class_Model_Cordinaattransformatie">
+            <h3>  Coördinaattransformatie</h3>
             
             <table style="width: 100%;" class="list">
                <colgroup></colgroup>
@@ -30079,7 +30074,7 @@
                   <tr>
                      <td>
                         
-                        <p>De lijst voor de classificatie van het gehalte organsiche stof van grond volgens NEN
+                        <p>De lijst voor de classificatie van het gehalte organische stof van grond volgens NEN
                            5104.
                         </p>
                         
@@ -30159,7 +30154,7 @@
                   <tr>
                      <td>
                         
-                        <p>De lijst met de waarde van het profielverloop. </p>
+                        <p>De lijst met de waarde voor het profielverloop. </p>
                         
                      </td>
                   </tr>
