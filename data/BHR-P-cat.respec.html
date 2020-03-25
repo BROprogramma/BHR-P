@@ -1516,14 +1516,12 @@
                   <td>
                      
                      <p>De gegevens staan niet in een brondocument, maar worden automatisch door de basisregistratie
-                        ondergrond gegenereerd.
-                     </p>
-                     
-                     <p>De resultaten van het booronderzoek worden in een keer of in delen gerapporteerd.
-                        Wanneer een deelrapport dat onder de wettelijke verplichtingen valt door de bronhouder
-                        is geaccepteerd, wordt het ter registratie aan de landelijke voorziening aangeboden.
-                        De rapportagegeschiedenis geeft de essentie van het verloop van de rapportage en vormt
-                        de zgn. materiële geschiedenis van het registratieobject booronderzoek.
+                        ondergrond gegenereerd.De resultaten van het booronderzoek worden in een keer of in
+                        delen gerapporteerd. Wanneer een deelrapport dat onder de wettelijke verplichtingen
+                        valt door de bronhouder is geaccepteerd, wordt het ter registratie aan de landelijke
+                        voorziening aangeboden. De rapportagegeschiedenis geeft de essentie van het verloop
+                        van de rapportage en vormt de zgn. materiële geschiedenis van het registratieobject
+                        booronderzoek.
                      </p>
                      
                   </td>
@@ -2707,6 +2705,10 @@
                   <tr>
                      <th>&nbsp;&nbsp;Naam</th>
                      <td>Coordinatenpaar</td>
+                  </tr>
+                  <tr>
+                     <th>Is afgeleid</th>
+                     <td>Ja</td>
                   </tr>
                </tbody>
             </table>
@@ -9175,8 +9177,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p> De organisatie moet binnen de basisregistratie ondergrond als uitvoerder van booronderzoek
-                           bekend zijn.
+                        <p>De organisatie moet bekend zijn binnen de basisregistratie ondergrond als uitvoerder
+                           van booronderzoek
                         </p>
                         
                      </td>
@@ -9342,8 +9344,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De einddiepte moet groter zijn dan de begindiepte van het <em>Onderzocht interval</em>.<br clear="none">
-                           De einddiepte van het onderste interval mag niet groter zijn dan de <em>einddiepte wand</em> van de entiteit <em>Wandontsluiting</em>.
+                        <p>De <em>einddiepte</em> moet groter zijn dan de <em>begindiepte</em> van het <em>Onderzocht interval</em>.<br clear="none">
+                           De <em>einddiepte</em> van het onderste interval mag niet groter zijn dan de <em>einddiepte</em> van de entiteit <em>Geboord traject</em>.
                         </p>
                         
                      </td>
@@ -9404,8 +9406,8 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Boormonsteranalyse</em> gelijk is aan <em>hydrofysicaChemieNietGespecificeerd</em>, <em>hydrofysicaNietGespecificeerd</em>, <em>hydrofysicaStandaard</em> of <em>hydrofysicaStandaardChemieNietGespecificeerd</em>.<br clear="none">
-                           Het attribuut mag niet aanwezig zijn in alle andere gevallen. 
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>locatiespecifiek</em> van de entiteit <em>Boormonsteranalyse</em> gelijk is aan <em>nee</em>. 
+                           Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
                      </td>
@@ -9467,7 +9469,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Wandmonsteranalyse</em> gelijk is aan <em>hydrofysicaChemieNietGespecificeerd</em>, <em>hydrofysicaNietGespecificeerd</em>, <em>hydrofysicaStandaard</em> , <em>hydrofysicaUitgebreid</em>, <em>hydrofysicaUitgebreidChemieNietGespecificeerd</em> of <em>hydrofysicaStandaardChemieNietGespecificeerd</em>.
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Boormonsteranalyse</em> gelijk is aan <em>hydrofysicaChemieNietGespecificeerd</em>, <em>hydrofysicaNietGespecificeerd</em>, <em>hydrofysicaStandaard</em>, <em>hydrofysicaUitgebreid</em>, <em>hydrofysicaUitgebreidChemieNietGespecificeerd</em> of <em>hydrofysicaStandaardChemieNietGespecificeerd</em>. 
                         </p>
                         
                      </td>
@@ -9476,9 +9478,7 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Voor IMBRO/A gegevens mag het attribuut ontbreken wanneer de waarde van het attribuut
-                           <em>soort analyse</em> van de entiteit <em>Boormonsteranalyse</em> gelijk is aan <em>hydrofysicaChemieNietGespecificeerd</em>, <em>hydrofysicaNietGespecificeerd</em>, <em>hydrofysicaStandaard</em> of <em>hydrofysicaStandaardChemieNietGespecificeerd</em>.
-                        </p>
+                        <p>Voor IMBRO/A gegevens mag het attribuut ontbreken.</p>
                         
                      </td>
                   </tr>
@@ -9542,7 +9542,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Wandmonsteranalyse</em> gelijk is aan <em>hydrofysicaChemieNietGespecificeerd</em>, <em>hydrofysicaNietGespecificeerd</em>, <em>hydrofysicaStandaard</em> , <em>hydrofysicaUitgebreid</em>, <em>hydrofysicaUitgebreidChemieNietGespecificeerd</em> of <em>hydrofysicaStandaardChemieNietGespecificeerd</em>.<br clear="none">
+                        <p>Het attribuut moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Boormonsteranalyse</em> gelijk is aan <em>hydrofysicaChemieNietGespecificeerd</em>, <em>hydrofysicaNietGespecificeerd</em>, <em>hydrofysicaStandaard</em>, <em>hydrofysicaUitgebreid</em>, <em>hydrofysicaUitgebreidChemieNietGespecificeerd</em> of <em>hydrofysicaStandaardChemieNietGespecificeerd</em>.<br clear="none">
                            Het attribuut mag niet aanwezig zijn in alle andere gevallen.
                         </p>
                         
@@ -9587,8 +9587,9 @@
                   <th>Regels</th>
                   <td>
                      
-                     <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Wandmonsteranalyse</em> gelijk is aan <em>chemieBodemkartering</em>, <em>chemieKlimaat</em> of <em>chemieNatuur.</em>
-                        
+                     <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Wandmonsteranalyse</em> gelijk is aan <em>basis</em>, <em>chemieKlimaat</em> of <em>chemieNatuur</em>.<br clear="none">
+                        De entiteit mag aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Wandmonsteranalyse</em> gelijk is aan <em>chemieNietGespecificeerd</em>, <em>hydrofysicaNietGespecificeerd</em>, <em>hydrofysicaStandaardChemieNietGespecificeerd</em>, <em>hydrofysicaUitgebreidChemieNietGespecificeerd</em> of <em>nietGespecificeerd</em>.<br clear="none">
+                        De entiteit mag niet aanwezig zijn in alle andere gevallen. 
                      </p>
                      
                   </td>
@@ -9649,7 +9650,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De waarde van het attribuut is gelijk aan <em>NENISO10390v2005</em>.
+                        <p>De waarde van het attribuut moet gelijk zijn aan <em>NENISO10390v2005</em>.
                         </p>
                         
                      </td>
@@ -9658,7 +9659,7 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Naast de IMBRO waardes mag de waarde van het attribuut gelijk zijn aan <em>onbekend</em>.
+                        <p>Naast de IMBRO waarden mag de waarde van het attribuut ook gelijk zijn aan <em>onbekend</em>.
                         </p>
                         
                      </td>
@@ -9709,7 +9710,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De waarde van het attribuut is gelijk aan <em>zuurgraadKCl</em>, <em>zuurgraadH2O</em> of <em>zuurgraadCaCl2</em>.
+                        <p> De waarde van het attribuut moet gelijk zijn aan <em>zuurgraadKCl</em>, <em>zuurgraadH2O</em> of <em>zuurgraadCaCl2</em>.
                         </p>
                         
                      </td>
@@ -9718,7 +9719,7 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Naast de IMBRO waardes mag de waarde van het attribuut gelijk zijn aan <em>onbekend</em>.
+                        <p>Naast de IMBRO waarden mag de waarde van het attribuut ook gelijk zijn aan <em>onbekend</em>.
                         </p>
                         
                      </td>
@@ -9817,7 +9818,8 @@
                   <th>Regels</th>
                   <td>
                      
-                     <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Onderzocht interval</em> gelijk is aan <em>basis</em>, <em>chemieBodemkartering</em>, <em>chemieKlimaat</em>, <em>chemieNatuur</em>, <em>hydrofysicaStandaard</em>, <em>hydrofysicaStandaardChemieNietGespecificeerd</em>.
+                     <p> De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Boormonsteranalyse</em> gelijk is aan <em>basis</em>, <em>chemieKlimaat</em>, <em>chemieNatuur</em>, <em>hydrofysicaStandaard</em>, <em>hydrofysicaStandaardChemieNietGespecificeerd</em>, <em>hydrofysicaUitgebreid</em> of <em>hydrofysicaUitgebreidChemieNietGespecificeerd</em>.<br clear="none">
+                        De entiteit mag aanwezig zijn in alle andere gevallen. 
                      </p>
                      
                   </td>
@@ -9884,7 +9886,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De waarde van het attribuut moet gelijk zijn aan <em>NEN5753v2018plusWENR</em>, <em>ISO11277v2009</em>.
+                        <p>De waarde van het attribuut moet gelijk zijn aan <em>NEN5753v2018plusWENR</em> of <em>ISO11277v2009</em>. 
                         </p>
                         
                      </td>
@@ -9893,7 +9895,7 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Naast de IMBRO waarden mag de waarde van het attribuut gelijk zijn aan <em>onbekend</em>.
+                        <p>Naast de IMBRO waarden mag de waarde van het attribuut ook gelijk zijn aan <em>onbekend</em>.
                         </p>
                         
                      </td>
@@ -9953,7 +9955,7 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Naast de IMBRO waarden mag de waarde van het attribuut gelijk zijn aan <em>natDroogZeven</em> of <em>onbekend</em>.
+                        <p>Naast de IMBRO waarden mag de waarde van het attribuut ook gelijk zijn aan <em>natDroogZeven</em> of <em>onbekend</em>.
                         </p>
                         
                      </td>
@@ -10282,9 +10284,9 @@
                   <th>Regels</th>
                   <td>
                      
-                     <p>Het attribuut mag niet aanwezig zijn wanneer de waarde van het attribuut <em>gestandaardiseerde korrelgrootteverdeling bepaald</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>nee</em>.<br clear="none">
-                        Het attribuut moet aanwezig zijn in alle andere gevallen.<br clear="none">
-                        De som van de fracties is 100%.
+                     <p>De entiteit mag niet aanwezig zijn wanneer de waarde van het attribuut <em>gestandaardiseerde korrelgrootteverdeling bepaald</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>nee</em>.<br clear="none">
+                        De entiteit moet aanwezig zijn in alle andere gevallen.<br clear="none">
+                        De som van de fracties moet gelijk zijn aan 100. 
                      </p>
                      
                   </td>
@@ -10482,7 +10484,7 @@
                   <td>
                      
                      <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>fractieverdeling</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>minimaalBasis</em>, <em>minimaalStandaard</em> of <em>minimaalUitgebreid</em>.
-                        De entiteit moet afwezig zijn in alle andere gevallen.
+                        De entiteit mag niet aanwezig zijn in alle andere gevallen.
                      </p>
                      
                   </td>
@@ -10626,7 +10628,7 @@
                   <td>
                      
                      <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>fractieverdeling</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>standaardBasis</em>, <em>standaardStandaard</em> of <em>standaardUitgebreid</em>.<br clear="none">
-                        De entiteit moet afwezig zijn in alle andere gevallen.
+                        De entiteit mag niet aanwezig zijn in alle andere gevallen.
                      </p>
                      
                   </td>
@@ -10823,7 +10825,7 @@
                      <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>fractieverdeling</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan<br clear="none">
                         <em>uitgebreidStandaard</em> of<br clear="none">
                         <em>uitgebreidUitgebreid</em>.<br clear="none">
-                        De entiteit moet afwezig zijn in alle andere gevallen.
+                        De entiteit mag niet aanwezig zijn in alle andere gevallen.
                      </p>
                      
                   </td>
@@ -11214,7 +11216,7 @@
                   <td>
                      
                      <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>fractieverdeling</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>standaardStandaard</em> of <em>uitgebreidStandaard</em>.<br clear="none">
-                        De entiteit moet afwezig zijn in alle andere gevallen.
+                        De entiteit mag niet aanwezig zijn in alle andere gevallen.
                      </p>
                      
                   </td>
@@ -11457,7 +11459,7 @@
                   <td>
                      
                      <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>fractieverdeling</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>standaardUitgebreid</em> of <em>uitgebreidUitgebreid</em>.<br clear="none">
-                        De entiteit moet afwezig zijn in alle andere gevallen.
+                        De entiteit mag niet aanwezig zijn in alle andere gevallen.
                      </p>
                      
                   </td>
@@ -11957,8 +11959,17 @@
                   <th>Regels</th>
                   <td>
                      
-                     <p>De entiteit moet aanwezig zijn onder IMBRO/A wanneer de waarde van het attribuut <em>gestandaardiseerde korrelgrootteverdeling bepaald</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>nee</em>.<br clear="none">
-                        De entiteit moet ontbreken in alle andere gevallen.
+                     <p>De entiteit mag niet aanwezig zijn wanneer de waarde het attribuut <em>korrelgrootteverdeling gestandaardiseerd</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>ja</em> en dat is onder IMBRO altijd het geval.<br clear="none">
+                        De entiteit mag niet aanwezig zijn in alle andere gevallen.
+                     </p>
+                     
+                  </td>
+               </tr>
+               <tr>
+                  <th>Regels IMBRO/A</th>
+                  <td>
+                     
+                     <p>De entiteit moet aanwezig wanneer de waarde van het attribuut <em>korrelgrootteverdeling gestandaardiseerd</em> van de entiteit <em>Bepaling korrelgrootteverdeling</em> gelijk is aan <em>nee</em>. 
                      </p>
                      
                   </td>
@@ -11969,9 +11980,9 @@
                      
                      <p>In het verleden zijn fractieverdelingen in vele verschillende reeksen gemeten met
                         verschillende grenzen van de fracties. Ook is niet altijd de gehele reeks vastgelegd,
-                        maar bijvoorbeeld alleen de fractie van 0 tot 2 um omdat dat het lutumgehalte vertegenwoordigt.
-                        Dit impliceert dat de rest van de fractie 2 tot 2000 um is. In principe geldt dat
-                        alle ontbrekende fracties samen met de bekende fractie 100% voorstelt.<br clear="none">
+                        maar bijvoorbeeld alleen de fractie van 0 tot 2 µm omdat dat het lutumgehalte vertegenwoordigt.
+                        Dit impliceert dat de rest van de fractie 2 tot 2000 µm is. In principe geldt dat
+                        alle ontbrekende fracties samen met de bekende fractie 100 % voorstelt.<br clear="none">
                         
                      </p>
                      
@@ -12180,8 +12191,8 @@
                   <th>Regels</th>
                   <td>
                      
-                     <p>De entiteit moet aanwezig wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>wandmonsteranalyse</em> gelijk is aan <em>chemieBodemkartering</em> of <em>chemieNatuur</em> 
-                        
+                     <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Wandmonsteranalyse</em> gelijk is aan <em>basis</em>, <em>chemieNatuur</em>, <em>hydrofysicaStandaard</em>, <em>hydrofysicaStandaardChemieNietGespecificeerd</em>, <em>hydrofysicaUitgebreid</em> of <em>hydrofysicaUitgebreidChemieNietGespecificeerd</em>.<br clear="none">
+                        De entiteit mag aanwezig zijn in alle andere gevallen. 
                      </p>
                      
                   </td>
@@ -12243,7 +12254,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De waarde van het attribuut is gelijk aan <em>NEN5754v2014</em>.
+                        <p> De waarde van het attribuut moet gelijk zijn aan <em>NEN5754v2014</em> of <em>NEN5754v2014plusWENR</em> . 
                         </p>
                         
                      </td>
@@ -12252,7 +12263,7 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Naast de IMBRO waarden mag de waarde van het attribuut gelijk zijn aan <em>onbekend</em>.
+                        <p>Naast de IMBRO waarden mag de waarde van het attribuut ook gelijk zijn aan <em>onbekend</em>.
                         </p>
                         
                      </td>
@@ -12303,7 +12314,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De waarde van het attribuut is gelijk aan <em>verhitten550.</em>
+                        <p>De waarde van het attribuut moet gelijk zijn aan <em>verhitten550.</em>
                            
                         </p>
                         
@@ -12313,7 +12324,7 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Naast de IMBRO waarden mag de waarde van het attribuut gelijk zijn aan <em>verhitten600</em> of <em>onbekend</em>.
+                        <p>Naast de IMBRO waarden mag de waarde van het attribuut ook gelijk zijn aan <em>verhitten600</em> of <em>onbekend</em>.
                         </p>
                         
                      </td>
@@ -12596,8 +12607,8 @@
                      <th>Reden geen waarde</th>
                      <td>
                         
-                        <p>De waarde van het attribuut mag niet aanwezig zijn wanneer de waarde van het gegeven
-                           kleiner is dan de rapportagegrens.
+                        <p>Het kan voorkomen dat de waarde van het gegeven kleiner is dan de rapportagegrens,
+                           alleen in dat geval ontbreekt de waarde. 
                         </p>
                         
                      </td>
@@ -12625,6 +12636,17 @@
                      
                      <p>Het volgens een bepaalde methode bepalen van het aandeel organische koolstof in de
                         massa van het materiaal.
+                     </p>
+                     
+                  </td>
+               </tr>
+               <tr>
+                  <th>Regels</th>
+                  <td>
+                     
+                     <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Boormonsteranalyse</em> gelijk is aan <em>chemieKlimaat</em>, <em>chemieNatuur</em>.
+                        De entiteit mag aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Boormonsteranalyse</em> gelijk is aan <em>chemieNietGespecificeerd</em>, <em>hydrofysicaChemieNietGespecificeerd</em>, <em>hydrofysicaStandaardChemieNietGespecificeerd</em>, <em>hydrofysicaUitgebreidChemieNietGespecificeerd</em> of <em>nietGespecificeerd</em>.<br clear="none">
+                        De entiteit mag niet aanwezig zijn in alle andere gevallen. 
                      </p>
                      
                   </td>
@@ -12688,10 +12710,20 @@
                      <td>Waardelijst uitbreidbaar</td>
                   </tr>
                   <tr>
-                     <th>Reden geen waarde</th>
+                     <th>Regels</th>
                      <td>
                         
-                        <p>Voor IMBRO/A-gegevens mag de waarde ontbreken.</p>
+                        <p>De waarde van het attribuut moet gelijk zijn aan <em>EN15936v2012</em>. 
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <th>Regels IMBRO/A</th>
+                     <td>
+                        
+                        <p> Naast de IMBRO waarden mag de waarde van het attribuut gelijk zijn aan <em>ISO14235v1998</em>. 
+                        </p>
                         
                      </td>
                   </tr>
@@ -12741,8 +12773,7 @@
                      <th>Regels</th>
                      <td>
                         
-                        <p>De waarde van het attribuut moet gelijk zijn aan <em>verhitten</em>CO<sub>2</sub>
-                           <em>meten</em> of <em>natOxiderenDichromaatKurmies</em>.
+                        <p>De waarde van het attribuut moet gelijk zijn aan <em>verhitten</em>CO2<em>meten</em> of <em>natOxiderenDichromaatKurmies</em>.
                         </p>
                         
                      </td>
@@ -12751,8 +12782,7 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Naast de IMBRO waardes mag de waarde van het attribuut gelijk zijn aan <em>natOxiderenDichromaatWalkleyBlack</em> of <em>natOxiderenKMnO4.</em>
-                           
+                        <p>Naast de IMBRO waardes mag de waarde van het attribuut ook gelijk zijn aan <em>natOxiderenDichromaatWalkleyBlack</em>, <em>natOxiderenDichromaatNietKurmies</em> of <em>natOxiderenKMnO4</em>.
                         </p>
                         
                      </td>
@@ -12945,8 +12975,8 @@
                      <th>Reden geen waarde</th>
                      <td>
                         
-                        <p>De waarde van het attribuut mag niet aanwezig zijn wanneer de waarde van het gegeven
-                           kleiner is dan de rapportagegrens.
+                        <p>Het kan voorkomen dat de waarde van het gegeven kleiner is dan de rapportagegrens,
+                           alleen in dat geval ontbreekt de waarde. 
                         </p>
                         
                      </td>
@@ -12982,10 +13012,9 @@
                   <th>Regels</th>
                   <td>
                      
-                     <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Wandmonsteranalyse</em> gelijk is aan <em>hydrofysicaChemieNietGespecificeerd, hydrofysicaNietGespecificeerd, hydrofysicaStandaard
-                           of hydrofysicaStandaardChemieNietGespecificeerd.</em>
-                        <br clear="none">
-                        De entiteit mag niet aanwezig zijn in alle andere gevallen.
+                     <p> De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Boormonsteranalyse</em> gelijk is aan <em>hydrofysicaStandaard</em>, <em>hydrofysicaStandaardChemieNietGespecificeerd</em>, <em>hydrofysicaUitgebreid</em> of <em>hydrofysicaUitgebreidChemieNietGespecificeerd</em>.
+                        De entiteit mag aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Boormonsteranalyse</em> gelijk is aan <em>hydrofysicaChemieNietGespecificeerd</em>, <em>hydrofysicaNietGespecificeerd</em> of <em>nietGespecificeerd</em>.
+                        De entiteit mag niet aanwezig zijn in alle andere gevallen. 
                      </p>
                      
                   </td>
@@ -13060,7 +13089,7 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Naast de IMBRO waarden mag de waarde van het attribuut gelijk zijn aan <em>onbekend</em>.
+                        <p>Naast de IMBRO waarden mag de waarde van het attribuut ook gelijk zijn aan <em>onbekend</em>.
                         </p>
                         
                      </td>
@@ -13553,9 +13582,9 @@
                   <th>Regels</th>
                   <td>
                      
-                     <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Wandmonsteranalyse</em> gelijk is aan <em>hydrofysicaChemieNietGespecificeerd, hydrofysicaNietGespecificeerd, hydrofysicaStandaard
-                           of hydrofysicaStandaardChemieNietGespecificeerd.</em>
-                        De entiteit mag niet aanwezig zijn in alle andere gevallen.
+                     <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Boormonsteranalyse</em> gelijk is aan <em>hydrofysicaUitgebreid</em> of <em>hydrofysicaUitgebreidChemieNietGespecificeerd</em>.
+                        De entiteit mag aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Boormonsteranalyse</em> gelijk is aan <em>hydrofysicaChemieNietGespecificeerd</em>, <em>hydrofysicaNietGespecificeerd</em> of <em>nietGespecificeerd</em>.
+                        De entiteit mag niet aanwezig zijn in alle andere gevallen. 
                      </p>
                      
                   </td>
@@ -13631,7 +13660,7 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Naast de IMBRO waarden mag de waarde van het attribuut gelijk zijn aan <em>onbekend</em>.
+                        <p>Naast de IMBRO waarden mag de waarde van het attribuut ook gelijk zijn aan <em>onbekend</em>.
                         </p>
                         
                      </td>
@@ -13702,7 +13731,7 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Naast de IMBRO waarden mag de waarde van het attribuut gelijk zijn aan <em>aantalDOnbekend</em> of <em>onbekend</em>.
+                        <p>Naast de IMBRO waarden mag de waarde van het attribuut ook gelijk zijn aan <em>aantalDOnbekend</em> of <em>onbekend</em>.
                         </p>
                         
                      </td>
@@ -14249,10 +14278,9 @@
                   <th>Regels</th>
                   <td>
                      
-                     <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Wandmonsteranalyse</em> gelijk is aan <em>hydrofysicaChemieNietGespecificeerd, hydrofysicaNietGespecificeerd, hydrofysicaStandaard
-                           of hydrofysicaStandaardChemieNietGespecificeerd.</em>
-                        <br clear="none">
-                        De entiteit mag niet aanwezig zijn in alle andere gevallen.
+                     <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Boormonsteranalyse</em> gelijk is aan <em>hydrofysicaStandaard</em>, <em>hydrofysicaStandaardChemieNietGespecificeerd</em>, <em>hydrofysicaUitgebreid</em> of <em>hydrofysicaUitgebreidChemieNietGespecificeerd</em>.
+                        De entiteit mag aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Boormonsteranalyse</em> gelijk is aan <em>hydrofysicaChemieNietGespecificeerd</em>, <em>hydrofysicaNietGespecificeerd</em> of <em>nietGespecificeerd</em>.
+                        De entiteit mag niet aanwezig zijn in alle andere gevallen. 
                      </p>
                      
                   </td>
@@ -14383,7 +14411,7 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Naast de IMBRO waarden mag de waarde van het attribuut gelijk zijn aan <em>onbekend</em>.
+                        <p>Naast de IMBRO waarden mag de waarde van het attribuut ook gelijk zijn aan <em>onbekend</em>.
                         </p>
                         
                      </td>
@@ -15384,9 +15412,9 @@
                   <th>Regels</th>
                   <td>
                      
-                     <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Wandmonsteranalyse</em> gelijk is aan <em>hydrofysicaStandaard</em> of <em>hydrofysicaStandaardChemieNietGespecificeerd</em>.<br clear="none">
-                        De entiteit mag aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Wandmonsteranalyse</em> gelijk is aan <em>hydrofysicaChemieNietGespecificeerd</em> of <em>hydrofysicaNietGespecificeerd</em> of <em>nietGespecificeerd</em>.<br clear="none">
-                        De entiteit mag niet aanwezig zijn in alle andere gevallen.
+                     <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Boormonsteranalyse</em> gelijk is aan <em>hydrofysicaStandaard</em>, <em>hydrofysicaStandaardChemieNietGespecificeerd</em>, <em>hydrofysicaUitgebreid</em> of <em>hydrofysicaUitgebreidChemieNietGespecificeerd</em>.
+                        De entiteit mag aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Boormonsteranalyse</em> gelijk is aan <em>hydrofysicaChemieNietGespecificeerd</em>, <em>hydrofysicaNietGespecificeerd</em> of <em>nietGespecificeerd</em>.
+                        De entiteit mag niet aanwezig zijn in alle andere gevallen. 
                      </p>
                      
                   </td>
@@ -15525,7 +15553,7 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Naast de IMBRO waarden mag de waarde van het attribuut gelijk zijn aan <em>onbekend</em>.
+                        <p>Naast de IMBRO waarden mag de waarde van het attribuut ook gelijk zijn aan <em>onbekend</em>.
                         </p>
                         
                      </td>
@@ -16717,8 +16745,8 @@
                   <th>Regels</th>
                   <td>
                      
-                     <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Wandmonsteranalyse</em> gelijk is aan <em>hydrofysicaStandaard</em> of <em>hydrofysicaStandaardChemieNietGespecificeerd</em>.<br clear="none">
-                        De entiteit mag aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Wandmonsteranalyse</em> gelijk is aan <em>hydrofysicaChemieNietGespecificeerd</em> of <em>hydrofysicaNietGespecificeerd</em> of <em>nietGespecificeerd</em>.<br clear="none">
+                     <p>De entiteit moet aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Boormonsteranalyse</em> gelijk is aan <em>hydrofysicaStandaard</em>, <em>hydrofysicaStandaardChemieNietGespecificeerd</em>, <em>hydrofysicaUitgebreid</em> of <em>hydrofysicaUitgebreidChemieNietGespecificeerd</em>.
+                        De entiteit mag aanwezig zijn wanneer de waarde van het attribuut <em>soort analyse</em> van de entiteit <em>Boormonsteranalyse</em> gelijk is aan <em>hydrofysicaChemieNietGespecificeerd</em>, <em>hydrofysicaNietGespecificeerd</em> of <em>nietGespecificeerd</em>.
                         De entiteit mag niet aanwezig zijn in alle andere gevallen. 
                      </p>
                      
@@ -16858,7 +16886,7 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Naast de IMBRO waarden mag de waarde van het attribuut gelijk zijn aan <em>onbekend</em>. 
+                        <p>Naast de IMBRO waarden mag de waarde van het attribuut ook gelijk zijn aan <em>onbekend</em>. 
                         </p>
                         
                      </td>
@@ -16920,7 +16948,7 @@
                      <th>Regels IMBRO/A</th>
                      <td>
                         
-                        <p>Naast de IMBRO waarden mag de waarde van het attribuut gelijk zijn aan <em>onbekend</em> of <em>onbekendBeuving</em>.
+                        <p>Naast de IMBRO waarden mag de waarde van het attribuut ook gelijk zijn aan <em>onbekend</em> of <em>onbekendBeuving</em>.
                         </p>
                         
                      </td>
@@ -21851,27 +21879,7 @@
                <th>Omschrijving</th>
             </tr>
             <tr>
-               <td>vanGenugten</td>
-               <td>✔</td>
-               <td>✔</td>
-               <td>
-                  
-                  <p>to do</p>
-                  
-               </td>
-            </tr>
-            <tr>
-               <td>mualemvanGenugten</td>
-               <td>✔</td>
-               <td>✔</td>
-               <td>
-                  
-                  <p>to do</p>
-                  
-               </td>
-            </tr>
-            <tr>
-               <td>beuving1986</td>
+               <td>bronswijk1986</td>
                <td>✔</td>
                <td>✔</td>
                <td>
@@ -21886,22 +21894,9 @@
                <td>✔</td>
                <td>
                   
-                  <p>Een door WEnR in 2021 voor eigen gebruik opgestelde procedure voor de bepaling van
+                  <p>Een door WENR in 2021 voor eigen gebruik opgestelde procedure voor de bepaling van
                      het verloop van de waterdoorlatendheid volgens de k50-methode en waarbij voor de verzadigde
-                     waterdoorlatendheid verwezen wordt naar de NEN5789plusWENR.
-                  </p>
-                  
-               </td>
-            </tr>
-            <tr>
-               <td>NEN5789plusWENR</td>
-               <td>✔</td>
-               <td>✔</td>
-               <td>
-                  
-                  <p>Een door WEnR voor eigen gebruik opgestelde procedure voor de bepaling van de verzadigde
-                     waterdoorlatendheid bij constante gradiënt die zich conformeert aan NEN 5789:1991
-                     <em>Onverzadigde zone - Bepaling van de verzadigde waterdoorlatendheid,</em> en op onderdelen wat specifieker is.
+                     waterdoorlatendheid verwezen wordt naar de NEN5789plusWENR. 
                   </p>
                   
                </td>
@@ -21930,16 +21925,6 @@
             </tr>
             <tr>
                <td>standaard WENR laser procedure</td>
-               <td>✔</td>
-               <td>✔</td>
-               <td>
-                  
-                  <p>to do</p>
-                  
-               </td>
-            </tr>
-            <tr>
-               <td>bronswijk1986</td>
                <td>✔</td>
                <td>✔</td>
                <td>
@@ -22007,22 +21992,15 @@
                </td>
             </tr>
             <tr>
-               <td>ISO14235v1998</td>
-               <td></td>
-               <td>✔</td>
-               <td>
-                  
-                  <p>ISO 14235:1998 Bepaling van organisch koolstof met sulfachrome oxidatie.</p>
-                  
-               </td>
-            </tr>
-            <tr>
-               <td>onbekend</td>
+               <td>NEN5789plusWENR</td>
                <td>✔</td>
                <td>✔</td>
                <td>
                   
-                  <p>Het is niet bekend volgens welke procedure de bepaling is uitgevoerd.</p>
+                  <p>Een door WEnR voor eigen gebruik opgestelde procedure voor de bepaling van de verzadigde
+                     waterdoorlatendheid bij constante gradiënt die zich conformeert aan NEN 5789:1991
+                     <em>Onverzadigde zone - Bepaling van de verzadigde waterdoorlatendheid,</em> en op onderdelen wat specifieker is.
+                  </p>
                   
                </td>
             </tr>
@@ -22054,6 +22032,16 @@
                </td>
             </tr>
             <tr>
+               <td>ISO14235v1998</td>
+               <td></td>
+               <td>✔</td>
+               <td>
+                  
+                  <p>ISO 14235:1998 Bepaling van organisch koolstof met sulfachrome oxidatie.</p>
+                  
+               </td>
+            </tr>
+            <tr>
                <td>NEN5753v2018plusWENR</td>
                <td>✔</td>
                <td>✔</td>
@@ -22065,6 +22053,28 @@
                      verdeling in grond en waterbodem na verwijdering van organische stof, carbonaten en
                      eventueel ijzer.
                   </p>
+                  
+               </td>
+            </tr>
+            <tr>
+               <td>NEN5754v2014plusWENR</td>
+               <td>✔</td>
+               <td>✔</td>
+               <td>
+                  
+                  <p>Een door WENR voor eigen gebruik opgestelde procedure voor de chemie voor het bepalen
+                     van het organischestofgehalte die zich conformeert aan NEN 5754:2014 <em>Bodem - Berekening van het gehalte aan organische stof volgens de gloeiverliesmethode</em> en op onderdelen wat specifieker is. 
+                  </p>
+                  
+               </td>
+            </tr>
+            <tr>
+               <td>onbekend</td>
+               <td></td>
+               <td>✔</td>
+               <td>
+                  
+                  <p>Het is niet bekend volgens welke procedure de bepaling is uitgevoerd.</p>
                   
                </td>
             </tr>
@@ -30986,8 +30996,9 @@
                   
                   <p>De bodemkundige monsteranalyse omvat alle bepalingen die voor standaard hydrofysisch
                      onderzoek vereist zijn en dat betekent dat de korrelgrootte, het organische stofgehalte,
-                     waterdoorlatendheid, waterretentie stapsgewijs en de bepaling watergehalte en doorlatendheid
-                     bij veranderende bodemvochtpotentiaal zijn bepaald en dat er een modellering is gemaakt.
+                     de droge bulkdichtheid, waterdoorlatendheid, waterretentie stapsgewijs en de bepaling
+                     watergehalte en doorlatendheid bij veranderende bodemvochtpotentiaal zijn bepaald
+                     en dat er een modellering is gemaakt. 
                   </p>
                   
                </td>
@@ -31015,6 +31026,21 @@
                </td>
             </tr>
             <tr>
+               <td>hydrofysicaUitgebreid</td>
+               <td>✔</td>
+               <td>✔</td>
+               <td>
+                  
+                  <p>De bodemkundige monsteranalyse omvat alle bepalingen die voor standaard hydrofysisch
+                     onderzoek vereist zijn en dat betekent dat de korrelgrootte, het organische stofgehalte,
+                     de droge bulkdichtheid, waterdoorlatendheid, waterretentie stapsgewijs en de bepaling
+                     watergehalte en doorlatendheid bij veranderende bodemvochtpotentiaal zijn bepaald
+                     en dat er een modellering is gemaakt. 
+                  </p>
+                  
+               </td>
+            </tr>
+            <tr>
                <td>hydrofysicaUitgebreidChemieNietGespecificeerd</td>
                <td>✔</td>
                <td>✔</td>
@@ -31022,20 +31048,6 @@
                   
                   <p>De bodemkundige monsteranalyse omvat alle bepalingen die voor standaard hydrofysisch
                      onderzoek vereist zijn en niet gespecificeerde chemische bepalingen.
-                  </p>
-                  
-               </td>
-            </tr>
-            <tr>
-               <td>hydrofysicaUitgebreid</td>
-               <td>✔</td>
-               <td>✔</td>
-               <td>
-                  
-                  <p>De bodemkundige monsteranalyse omvat alle bepalingen die voor standaard hydrofysisch
-                     onderzoek vereist zijn en dat betekent dat de korrelgrootte, het organischestofgehalte,
-                     waterdoorlatendheid, waterretentie stapsgewijs en de bepaling watergehalte en doorlatendheid
-                     bij veranderende bodemvochtpotentiaal zijn bepaald en dat er een synthese is gemaakt.
                   </p>
                   
                </td>
