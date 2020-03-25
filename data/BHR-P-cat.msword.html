@@ -13,7 +13,7 @@
    <body>
       <p>Conceptual model/BHR-P conceptueel - MIM/20200214</p>
       <p>Imvertor: 1.59.2</p>
-      <p>Model release: Conceptualmodel-BHR-Pconceptueel-MIM-1.9127november2019-1-20200214-20200325-135840</p>
+      <p>Model release: Conceptualmodel-BHR-Pconceptueel-MIM-1.9127november2019-1-20200214-20200325-150006</p>
       <hr>
       <section>
          <h1>Artikel 1 Definitie van registratieobject, entiteiten en attributen</h1>
@@ -21487,7 +21487,7 @@
                   <tr>
                      <td>
                         
-                        <p>De lijst met de methoden die voor de bepalingen in de bodemkundige monsteranalyses
+                        <p>De lijst met de methoden die voor de bepalingen in de bodemkundige monsteranalyse
                            worden toegepast.
                         </p>
                         
@@ -21509,16 +21509,68 @@
                      <th>Omschrijving</th>
                   </tr>
                   <tr>
+                     <td>aantaID1</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p>Methode voor het bepalen van het krimpverloop. De massa is bepaald met een balans.
+                           Het volume is bepaald door de gemiddelde hoogte of de gemiddelde diameter te meten.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>aantaID2</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p>Methode voor het bepalen van het krimpverloop. De massa is bepaald met een balans.
+                           Het volume is bepaald door de gemiddelde hoogte en de gemiddelde diameter te meten.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>archimedes</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p>Methode voor het bepalen van het krimpverloop. Een verzadigd monster is gecoated en
+                           ondergedompeld in een bak met water. Uit de hoeveelheid verplaatst water is het volume
+                           van het monster berekend met behulp van de wet van Archimedes. De massa is bepaald
+                           met een balans. Deze methode wordt toegepast op kluiten die met een schop uit de bodem
+                           worden gestoken.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>camera</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p>Methode voor het bepalen van het krimpverloop. Met behulp van cameraopnames is het
+                           volume van het monster bepaald op basis van het aantal pixels. De massa is bepaald
+                           met een balans.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
                      <td>constantHead</td>
                      <td>✔</td>
                      <td>✔</td>
                      <td>
                         
-                        <p>Methode voor het bepalen van de waterdoorlatendheid van verzadigde grond. Er wordt
-                           een hydraulische gradiënt aangelegd tussen de bovenkant van het proefstuk en de onderkant
-                           en die wordt tijdens de proef constant gehouden. Zodra het debiet niet meer verandert,
-                           wordt de meting uitgevoerd. De verzadigde waterdoorlatendheid wordt berekend met de
-                           wet van Darcy.
+                        <p>Methode voor het bepalen van de verzadigde waterdoorlatendheid. Er wordt een hydraulische
+                           gradiënt aangelegd tussen de boven- en onderkant van het monster en die wordt tijdens
+                           de proef constant gehouden. Zodra het debiet niet meer verandert, wordt de meting
+                           uitgevoerd. De verzadigde waterdoorlatendheid wordt berekend met de wet van Darcy.
+                           
                         </p>
                         
                      </td>
@@ -21529,8 +21581,9 @@
                      <td>✔</td>
                      <td>
                         
-                        <p>Methode waarbij eerst de verzadigde waterdoorlatendheid wordt bepaald met de constantHead-methode,
-                           waarna het verloop in de onverzadigde grond wordt bepaald met de k50-methode.
+                        <p>Methode voor het bepalen van het waterdoorlatendheidsverloop. Eerst wordt de verzadigde
+                           waterdoorlatendheid bepaald met de constant head methode, waarna aan hetzelfde monster
+                           het verloop in de onverzadigde grond wordt bepaald met de k50-methode. 
                         </p>
                         
                      </td>
@@ -21550,35 +21603,18 @@
                      </td>
                   </tr>
                   <tr>
-                     <td>drukplaatMassametrisch</td>
+                     <td>drukplaat</td>
                      <td>✔</td>
                      <td>✔</td>
                      <td>
                         
-                        <p>Methode voor de stapsgewijze bepaling van het verloop in de mate van waterretentie.
-                           Een monster wordt op een poreuze, keramische plaat geplaatst en er wordt een bodemvochtpotentiaal
-                           aangebracht. Zodra het monster in evenwicht is met de ingestelde bodemvochtpotentiaal,
-                           wordt het monster gewogen. Dit proces wordt een aantal malen herhaald, steeds bij
-                           een lagere potentiaal. Daarna wordt het massa watergehalte voor iedere stap in de
-                           bepaling berekend. Deze methode kan meten van een bodemvochtpotentiaal van 0 tot minus
-                           15.000.
-                        </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>drukplaatVolumetrisch</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p>Methode voor de stapsgewijze bepaling van het verloop in de mate van waterretentie.
-                           Een monster wordt op een poreuze, keramische plaat geplaatst en er wordt een bodemvochtpotentiaal
-                           aangebracht. Zodra het monster in evenwicht is met de ingestelde bodemvochtpotentiaal,
-                           wordt het monster gewogen. Dit proces wordt een aantal malen herhaald, steeds bij
-                           een lagere potentiaal. Daarna wordt het volumetrisch watergehalte voor iedere stap
-                           in de bepaling  berekend. Deze methode kan meten van een bodemvochtpotentiaal van
-                           0 tot minus 15.000.
+                        <p>Methode voor de stapsgewijze bepaling van de waterretentie. Een monster wordt op een
+                           poreuze, keramische plaat geplaatst en er wordt een bodemvochtpotentiaal aangebracht.
+                           Zodra het monster in evenwicht is met de ingestelde bodemvochtpotentiaal, wordt het
+                           monster gewogen. Bij waarden groter dan minus 1000 cm H<sub>2</sub>O kan de meting een aantal keren worden herhaald aan hetzelfde monster, steeds bij
+                           een lagere potentiaal. Bij waarden kleiner dan minus 1000 cm H<sub>2</sub>O is er maar een meting per monster. Aan het eind wordt het monster gedroogd in de
+                           oven en wordt het watergehalte voor iedere stap in de bepaling berekend. Deze methode
+                           kan meten van een bodemvochtpotentiaal tussen 0 en minus 15.000 cm H<sub>2</sub>O. 
                         </p>
                         
                      </td>
@@ -21589,57 +21625,41 @@
                      <td>✔</td>
                      <td>
                         
-                        <p>Methode voor het bepalen van de waterdoorlatendheid van niet-verzadigde grond. De
-                           waterdoorlatendheid wordt bepaald bij een stapsgewijs afnemend bodemvochtpotentiaal.
+                        <p>Methode voor het bepalen van het waterdoorlatendheidsverloop. De methode wordt gebruikt
+                           voor het natte bereik (tot minus 1000 cm H<sub>2</sub>O). De waterdoorlatendheid wordt bepaald bij een stapsgewijs afnemende bodemvochtpotentiaal.
                            In iedere stap wordt een drukgradiënt aangelegd tussen de bovenkant en onderkant door
-                           het monster te benevelen met een constante hoeveelheid water. Zodra het debiet constant
-                           is, wordt de meting uitgevoerd en daarbij wordt de bodemvochtpotentiaal gemeten met
-                           een tensiometer. De optie bestaat om het volumetrisch watergehalte te bepalen en daarvoor
-                           wordt dan een sonde in het monster geplaatst. De waterdoorlatendheid wordt berekend
-                           met de wet van Darcy bij de bodemvochtpotentiaal in het midden van het monster.
+                           het monster te benevelen met een constante hoeveelheid water en aan de onderkant een
+                           kleine zuigspanning aan te leggen. Zodra het debiet constant is, wordt de meting uitgevoerd
+                           en daarbij wordt de bodemvochtpotentiaal gemeten met een tensiometer. De optie bestaat
+                           om het volumetrisch watergehalte te bepalen. De waterdoorlatendheid wordt berekend
+                           met de wet van Darcy bij de bodemvochtpotentiaal in het midden van het monster. 
                         </p>
                         
                      </td>
                   </tr>
                   <tr>
-                     <td>natOxiderenDichromaatKurmies</td>
+                     <td>laserVolume</td>
                      <td>✔</td>
                      <td>✔</td>
                      <td>
                         
-                        <p>Methode voor het bepalen van het organsiche koolstofgehalte. De organische stof wordt
-                           in een sterk zuur milieu geoxideeerd met kaliumdichromaat en gedurende anderhalf uur
-                           verhit op 100 °C. De hoeveelheid Cr3+ wordt bepaald en daaruit wordt het gehalte aan
-                           organische koolstof berekend.
+                        <p>Methode voor het bepalen van het krimpverloop. Met behulp van laser van het monster
+                           is het volume van het monster bepaald. De berekening van het volume is geautomatiseerd
+                           uitgevoerd. De massa is bepaald met een balans.
                         </p>
                         
                      </td>
                   </tr>
                   <tr>
-                     <td>natOxiderenDichromaatNietKurmies</td>
+                     <td>luchtdroog</td>
                      <td>✔</td>
                      <td>✔</td>
                      <td>
                         
-                        <p>De organische stof wordt in zuur milieu geoxideerd met kaliumdichromaat. Verhitting
-                           vindt niet plaats of is anders dan gedurende anderhalf uur op 100 °C.  De organische
-                           koolstof wordt omgezet in kooldioxide en het dichromaat in Cr3+. De hoeveelheid Cr3+
-                           wordt bepaald en daaruit wordt het gehalte aan organische koolstof berekend.
-                        </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>natOxiderenKMnO4</td>
-                     <td></td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p>Methode voor het bepalen van het organsiche koolstofgehalte.De organische koolstof
-                           is verwijderd met KMnO4 en zwavelzuur. Uit de verbruikte hoeveelheid KMnO4, wordt
-                           de hoeveelheid zuurstof berekend die voor oxydatie nodig is geweest en daaruit leidt
-                           men het gehalte aan organische koolstof af. De methode is ook bekend als organisch
-                           koolstofbepaling volgens Istscherekow.
+                        <p>Methode voor de stapsgewijze bepaling van de waterretentie. Een monster wordt in een
+                           droogbak zonder deksel in een stellingkast geplaatst tot de massa niet meer verandert.
+                           Daarna wordt het monster gewogen en na drogen in de oven nogmaals gewogen. Uit het
+                           massaverlies wordt het watergehalte berekend. 
                         </p>
                         
                      </td>
@@ -21652,7 +21672,7 @@
                         
                         <p>Methode voor het bepalen van de korrelgrootteverdeling van grond. Het materiaal is
                            nat gezeefd over de 50 µm-zeef en de 63µm-zeef. De verdeling van de korrels groter
-                           dan 50 µm is bepaald door middel van droge zeving.
+                           dan 63 µm is bepaald door middel van droge zeving.
                         </p>
                         
                      </td>
@@ -21664,7 +21684,7 @@
                      <td>
                         
                         <p>Methode voor het bepalen van de korrelgrootteverdeling van grond. Het materiaal is
-                           nat gezeefd over de 50µm-zeef en de 63 µm-zeef. De verdeling van de korrels kleiner
+                           nat gezeefd over de 50 µm-zeef en de 63µm-zeef. De verdeling van de korrels kleiner
                            dan 50 µm is bepaald door middel van pipetteren. Wanneer de verdeling van de korrels
                            groter dan 63 µm is bepaald, is dit gebeurd door middel van droge zeving.
                         </p>
@@ -21672,53 +21692,30 @@
                      </td>
                   </tr>
                   <tr>
-                     <td>natZevenLaser</td>
+                     <td>natOxiderenDichromaatKurmies</td>
                      <td>✔</td>
                      <td>✔</td>
                      <td>
                         
-                        <p>Methode voor het bepalen van de korrelgrootteverdeling van grond. Het materiaal is
-                           gezeefd over de 2 mm-zeef. De verdeling van de korrels kleiner dan 2 mm is bepaald
-                           door middel van laserdiffractie. 
+                        <p>Methode voor het bepalen van het organische koolstofgehalte. De organische stof wordt
+                           in een sterk zuur milieu geoxideerd met kaliumdichromaat en gedurende anderhalf uur
+                           verhit op 100 °C. De hoeveelheid Cr<sup>3+</sup> wordt bepaald en daaruit wordt het gehalte aan organische koolstof berekend.
                         </p>
                         
                      </td>
                   </tr>
                   <tr>
-                     <td>pH_KCl</td>
+                     <td>verdampingsmethodeStandaardIPM</td>
                      <td>✔</td>
                      <td>✔</td>
                      <td>
                         
-                        <p>Methode voor het bepalen van de zuurgraad. Potentiometrsiche bepaling van de zuurgraad
-                           uitgedrukt in pH gebruik makend van een glaselectrode in een 1:5 volumetrische oplossing
-                           van grond in 1 mol/l KCl.
-                        </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>pH_H2O</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p>Methode voor het bepalen van de zuurgraad. Potentiometrische bepaling van de zuurgraad
-                           uitgedrukt in pH gebruik makend van een glaselectrode in een 1:5 volumetrische oplossing
-                           van grond in water.
-                        </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>pH_CaCl2</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p>Methode voor het bepalen van de zuurgraad. Potentiometrische bepaling van de zuurgraad
-                           uitgedrukt in pH gebruik makend van een glaselectrode in een 1:5 volumetrische oplossing
-                           van grond in 0,01 mol/l CaCl2.
+                        <p>Methode voor het bepalen van het watergehalte en de doorlatendheid bij veranderende
+                           bodemvochtpotentiaal. De methode beschrijft het bepalen van de waterretentie volgens
+                           de verdampingsmethode, de reductie van het aantal metingen tot een verwerkbaar resultaat,
+                           het modelleren van de waterretentiekarakteristiek die de waterretentie bij verdamping
+                           het best beschrijft (prefit) en de berekening van de waterdoorlatendheden volgens
+                           de Instantaneous Profile Method (IPM- methode). 
                         </p>
                         
                      </td>
@@ -21737,89 +21734,16 @@
                      </td>
                   </tr>
                   <tr>
-                     <td>verhitten600</td>
-                     <td></td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p>Methode voor het bepalen van het organischestofgehalte.Het materiaal wordt verhit
-                           tot 600 °C, waardoor de organische stof verbrandt. Uit het massaverlies is het gehalte
-                           berekend.
-                        </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
                      <td>verhittenCO2meten</td>
                      <td>✔</td>
                      <td>✔</td>
                      <td>
                         
-                        <p>Methode voor het bepalen van het organsiche koolstofgehalte. Voorafgaand aan de bepaling
+                        <p>Methode voor het bepalen van het organische koolstofgehalte. Voorafgaand aan de bepaling
                            wordt de anorganische koolstof verwijderd met fosforzuur. Het materiaal wordt vervolgens
                            bij een temperatuur van ten minste 900 °C verbrand waarbij de aanwezige organische
                            koolstof wordt omgezet in CO<sub>2</sub>. De hoeveelheid  CO<sub>2</sub> wordt gemeten en daaruit wordt het gehalte aan organische koolstof berekend.
                         </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>schuifmaat (z+x)</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p>to do…</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>Archimed_coating van kluit</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p>to do…</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>camera</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p>to do…</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>Laser</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p>to do…</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>schuifmaat+klokje (alleen z)</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p>to do…</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>schuifmaat of klokje (alleen x)</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p>to do…</p>
                         
                      </td>
                   </tr>
@@ -21829,15 +21753,14 @@
                      <td>✔</td>
                      <td>
                         
-                        <p>Methode voor de stapsgewijze bepaling van het verloop in de mate van waterretentie.
-                           Het monster wordt op een bak geplaatst gevuld met grond die een hoge doorlatendheid
-                           combineert met een kleine poriendiameter en er wordt een bepaalde bodemvochtpotentiaal
-                           aangebracht. Zodra het monster in evenwicht is met de ingestelde potentiaal, wordt
-                           het monster gewogen. Dit proces wordt een aantal malen herhaald steeds bij een andere
-                           potentiaal. De potentiaal neemt stapsgewijze toe of stapsgewijze af. Daarna wordt
-                           het volumetrisch watergehalte voor iedere stap in de bepaling berekend. Deze methode
-                           kan meten van een bodemvochtpotentiaal van 0 tot minus 100 en voor archiefgegevens
-                           tot 200.
+                        <p>Methode voor de stapsgewijze bepaling van de waterretentie. Het monster wordt op een
+                           bak geplaatst gevuld met grond die een hoge doorlatendheid combineert met een kleine
+                           poriëndiameter. Er wordt een bepaalde bodemvochtpotentiaal aangebracht. Zodra het
+                           monster in evenwicht is met de ingestelde potentiaal, wordt het monster gewogen. Dit
+                           proces wordt een aantal keren herhaald steeds bij een andere  potentiaal. De potentiaal
+                           neemt stapsgewijs toe (<em>vernattend</em>) of stapsgewijs af. Aan het eind wordt het monster gedroogd in de oven en wordt het
+                           watergehalte voor iedere stap in de bepaling berekend. Met deze methode kan het watergehalte
+                           bij een drukhoogte van 0 tot minus 100 cm H<sub>2</sub>O en voor archiefgegevens tot minus 200 cm worden gemeten. 
                         </p>
                         
                      </td>
@@ -21848,21 +21771,153 @@
                      <td>✔</td>
                      <td>
                         
-                        <p>Methode voor de stapsgewijze bepaling van het verloop in de mate van de waterretentie.
-                           Bij deze methode wordt eerst de zandbak uitgevoerd. Daarna wordt hetzelfde monster
-                           gebruikt voor metingen aan de drukplaat.
+                        <p>Methode voor de stapsgewijze bepaling van de waterretentie. Bij deze methode wordt
+                           eerst de zandbakmethode gevolgd. Vervolgens wordt hetzelfde monster gebruikt voor
+                           metingen met de drukplaat methode. 
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>zuurgraadCaCl2</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p>Methode voor het bepalen van de zuurgraad. Potentiometrische bepaling van de zuurgraad
+                           uitgedrukt in pH gebruik makend van een glaselectrode in een 1:5 volumetrische oplossing
+                           van grond in 0,01 mol/l CaCl<sub>2</sub>.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>zuurgraadH2O</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p>Methode voor het bepalen van de zuurgraad. Potentiometrische bepaling van de zuurgraad
+                           uitgedrukt in pH gebruik makend van een glaselectrode in een 1:5 volumetrische oplossing
+                           van grond in water.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>zuurgraadKCl</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p>Methode voor het bepalen van de zuurgraad. Potentiometrische bepaling van de zuurgraad
+                           uitgedrukt in pH gebruik makend van een glaselectrode in een 1:5 volumetrische oplossing
+                           van grond in 1 mol/l KCl.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>onbekend</td>
+                     <td></td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p>Het is niet bekend welke methode is gehanteerd.</p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>aantal1DOnbekend</td>
+                     <td></td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p>Methode voor het bepalen van het krimpverloop. De massa is bepaald met een balans.
+                           Het volume is bepaald door de afmeting van het monster op een niet nader bepaalde
+                           manier te meten. 
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>natOxiderenDichromaatNietKurmies</td>
+                     <td></td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p>Methode voor het bepalen van het organische koolstofgehalte. De organische stof wordt
+                           in zuur milieu geoxideerd met kaliumdichromaat. Verhitting vindt niet plaats of is
+                           anders dan gedurende anderhalf uur op 100 °C.  De organische koolstof wordt omgezet
+                           in kooldioxide en het dichromaat in Cr<sup>3+</sup>. De hoeveelheid Cr<sup>3+</sup> wordt bepaald en daaruit wordt het gehalte aan organische koolstof berekend.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>natOxiderenDichromaatWalkleyBlack</td>
+                     <td></td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p>Methode voor het bepalen van het organische koolstofgehalte. De organische stof wordt
+                           in zuur milieu geoxideerd met kaliumdichromaat zonder toegevoegde warmte. De organische
+                           koolstof wordt omgezet in kooldioxide en het dichromaat in Cr<sup>3+</sup>. De hoeveelheid Cr<sup>3+</sup> wordt bepaald en daaruit wordt het gehalte aan organische koolstof berekend.
                         </p>
                         
                      </td>
                   </tr>
                   <tr>
                      <td>natOxiderenH2O2</td>
-                     <td>✔</td>
+                     <td></td>
                      <td>✔</td>
                      <td>
                         
                         <p>Methode voor het bepalen van het organischestofgehalte. De organische stof is verwijderd
-                           met H2O2 (30 %). Uit het massaverllies is het gehalte berekend. 
+                           met H<sub>2</sub>O<sub>2</sub> (30 %). Uit het massaverlies is het gehalte berekend.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>natOxiderenKMnO4</td>
+                     <td></td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p>Methode voor het bepalen van het organische koolstofgehalte. De organische koolstof
+                           is verwijderd met KMnO<sub>4</sub> en zwavelzuur. Uit de verbruikte hoeveelheid KMnO<sub>4</sub>, wordt de hoeveelheid zuurstof berekend die voor oxidatie nodig is geweest en daaruit
+                           leidt men het gehalte aan organische koolstof af. De methode is ook bekend als organisch
+                           koolstofbepaling volgens Istscherekow.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>onbekendBeuving</td>
+                     <td></td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p>Methode voor het bepalen van het watergehalte en de doorlatendheid bij veranderende
+                           bodemvochtpotentiaal. De methode is voor eigen gebruik opgesteld door het Instituut
+                           voor Cultuurtechniek en Waterhuishouding, een van de voorgangers van Wageningen Environmental
+                           Research en ligt ten grondslag aan de gegevens in Beuving 1986: <em>Vocht- en doorlatendheidskarakteristieken, dichtheid en samenstelling van bodemprofielen
+                              in zand-, zavel-, klei- en veengronden.</em> 
+                           
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>verhitten600</td>
+                     <td></td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p>Methode voor het bepalen van het organischestofgehalte. Het materiaal wordt verhit
+                           tot 600 °C, waardoor de organische stof verbrandt. Uit het massaverlies is het gehalte
+                           berekend.
                         </p>
                         
                      </td>
@@ -21880,7 +21935,7 @@
                   <tr>
                      <td>
                         
-                        <p>De lijst met de procedures die voor de bepalingen in de bodemkundige monsteranalyses
+                        <p>De lijst met de procedures die voor de bepalingen in de bodemkundige monsteranalyse
                            worden toegepast.
                         </p>
                         
@@ -21907,7 +21962,36 @@
                      <td>✔</td>
                      <td>
                         
-                        <p>to do</p>
+                        <p>Bronswijk 1986: <em>Handleiding voor het bepalen van het zwel- en krimpvermogen van een bodem</em> voor eigen gebruik opgesteld door het Instituut voor Cultuurtechniek en Waterhuishouding,
+                           een van de voorgangers van WEnR, beschrijft de procedure voor het bepalen van het
+                           krimpverloop van grond. 
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>cameraprocedureWENRv1</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p>Een door WENR voor eigen gebruik opgestelde procedure voor de bepaling van het volume
+                           van krimpende grond met behulp van een camera. In de procedure staat opgenomen welke
+                           bewerkingsstappen er zijn om het volume te bepalen.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>laserprocedureWENRv1</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p>Een door WENR voor eigen gebruik opgestelde procedure voor de bepaling van het volume
+                           van krimpende grond met behulp van een laser. In de procedure staat opgenomen welke
+                           bewerkingsstappen er zijn om het volume te bepalen.
+                        </p>
                         
                      </td>
                   </tr>
@@ -21919,65 +22003,7 @@
                         
                         <p>Een door WENR in 2021 voor eigen gebruik opgestelde procedure voor de bepaling van
                            het verloop van de waterdoorlatendheid volgens de k50-methode en waarbij voor de verzadigde
-                           waterdoorlatendheid verwezen wordt naar de NEN5789plusWENR. 
-                        </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>ISO11272v2017plusWENR</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p>Een door WEnR voor eigen gebruik opgestelde procedure voor het bepalen van de droge
-                           bulkdichtheid die zich conformeert aan <em>ISO 11272:2017 Soil quality -Determination of dry bulk density</em> en op onderdelen wat specifieker is.
-                        </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>standaard WENR camera procedure</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p>to do</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>standaard WENR laser procedure</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p>to do</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>ISO11274v2014plusWENR2020</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p>Een door WEnR voor eigen gebruik opgestelde procedure voor het bepalen van de waterretentie
-                           en die zich conformeert aan <em>NEN-EN-ISO 11274:2014 Bodem - Bepaling van eigenschappen van waterretentie - Laboratoriummethoden</em> en op onderdelen wat specifieker is. De procedure dekt sinds 2020 ook de bepaling
-                           van het luchtdroog watergehalte.
-                        </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>ISO11275v2014plusWENR</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p>Een door WEnR voor eigen gebruik opgestelde procedure voor het bepalen van de waterretentie
-                           en de snelheid waarmee water door de grond stroomt die zich conformeert aan <em>NEN-EN-ISO 11275:2014 Bodem - Bepaling van onverzadigde hydraulische conductiviteit
-                              en waterretentie karakteristieken - Indamprestmethode van wind</em> en op onderdelen wat specifieker is.
+                           waterdoorlatendheid verwezen wordt naar de NEN5789plusWENR.
                         </p>
                         
                      </td>
@@ -21988,54 +22014,58 @@
                      <td>✔</td>
                      <td>
                         
-                        <p>NEN-EN 15936:2012 Bepaling van de totale organische koolstof door droge verbranding.</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>NENISO10390v2005</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p>NEN-ISO 10390:2005 Instrumentele bepaling van de zuurgraad uitgedrukt in pH gebruik
-                           makend van een glaselectrode.
+                        <p>NEN-EN 15936:2012 <em>Slib, behandeld biologisch afval, bodem en afval - Bepaling van de totale organische
+                              koolstof (TOC) door droge verbranding</em> beschrijft de procedure voor het bepalen van het 
                         </p>
                         
                      </td>
                   </tr>
                   <tr>
-                     <td>NEN5754v2014</td>
+                     <td>ISO10390v2005</td>
                      <td>✔</td>
                      <td>✔</td>
                      <td>
                         
-                        <p>NEN 5754:2014 Berekening van het gehalte aan organische stof volgens de gloeiverliesmethode</p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>NEN5789plusWENR</td>
-                     <td>✔</td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p>Een door WEnR voor eigen gebruik opgestelde procedure voor de bepaling van de verzadigde
-                           waterdoorlatendheid bij constante gradiënt die zich conformeert aan NEN 5789:1991
-                           <em>Onverzadigde zone - Bepaling van de verzadigde waterdoorlatendheid,</em> en op onderdelen wat specifieker is.
+                        <p>ISO 10390:2005 <em>Bodem - Bepaling van de pH waarde</em> en beschrijft de procedure voor het bepalen van de zuurgraad.<br clear="none">
+                           
                         </p>
                         
                      </td>
                   </tr>
                   <tr>
-                     <td>ISO13320v2009</td>
+                     <td>ISO11272v2017plusWENR</td>
                      <td>✔</td>
                      <td>✔</td>
                      <td>
                         
-                        <p>NEN-ISO 13320:2009 <em>Analyse van de deeltjesgrootteverdeling - Methoden met laserdiffractie</em> beschrijft de procedure voor het bepalen van de korrelgrootteverdeling door middel
-                           van laserdiffractie.
-                           Een internationale norm geaccepteerd door Nederland.
+                        <p>Een door WENR voor eigen gebruik opgestelde procedure voor het bepalen van de droge
+                           bulkdichtheid die zich conformeert aan <em>ISO 11272:2017 Soil quality -Determination of dry bulk density</em> en op onderdelen wat specifieker is.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>ISO11274v2014plusWENR2020</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p>Een door WENR voor eigen gebruik opgestelde procedure voor het bepalen van de waterretentie
+                           en die zich conformeert aan <em>NEN-EN-ISO 11274:2014 Bodem - Bepaling van eigenschappen van waterretentie - Laboratoriummethoden</em> en op onderdelen wat specifieker is. De procedure dekt sinds 2020 ook de methode
+                           luchtdroog.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>ISO11275v2014plusWENR</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p>Een door WENR voor eigen gebruik opgestelde procedure voor het bepalen van de waterretentie
+                           en de snelheid waarmee water door de grond stroomt die zich conformeert aan <em>NEN-EN-ISO 11275:2014 Bodem - Bepaling van onverzadigde hydraulische conductiviteit
+                              en waterretentie karakteristieken - Indamprestmethode van wind</em> en op onderdelen wat specifieker is.
                         </p>
                         
                      </td>
@@ -22048,19 +22078,9 @@
                         
                         <p>NEN-ISO 11277:2009 <em>Bodem - Bepaling van de deeltjesgrootteverdeling in minerale bodemmaterialen - Methode
                               door zeven en sedimentering</em> beschrijft de procedure voor het bepalen van de korrelgrootteverdeling door middel
-                           van zeven.
+                           van zeven en pipetteren.
                            Een internationale norm geaccepteerd door Nederland.
                         </p>
-                        
-                     </td>
-                  </tr>
-                  <tr>
-                     <td>ISO14235v1998</td>
-                     <td></td>
-                     <td>✔</td>
-                     <td>
-                        
-                        <p>ISO 14235:1998 Bepaling van organisch koolstof met sulfachrome oxidatie.</p>
                         
                      </td>
                   </tr>
@@ -22070,11 +22090,24 @@
                      <td>✔</td>
                      <td>
                         
-                        <p>Een door WEnR voor eigen gebruik opgestelde procedure voor de bepaling van de korrelgrootteverdeling
+                        <p>Een door WENR voor eigen gebruik opgestelde procedure voor de bepaling van de korrelgrootteverdeling
                            die zich conformeert aan NEN 5753:2018 <em>Bodem - Bepaling van het lutumgehalte en de korrelgrootteverdeling in grond en waterbodem
-                              met behulp van zeef en pipet.</em> Deze beschrijft de procdure voor de bepaling van het lutumgehalte en de korrelgrootte
-                           verdeling in grond en waterbodem na verwijdering van organische stof, carbonaten en
-                           eventueel ijzer.
+                              met behulp van zeef en pipet.</em> Deze beschrijft de procedure voor de bepaling van het lutumgehalte en de korrelgrootteverdeling
+                           in grond en waterbodem na verwijdering van organische stof en koolzure kalk. 
+                           Bij WENR wordt ijzer nooit verwijderd in de voorbehandeling. Bij het pipetteren wordt
+                           door WENR gecorrigeerd voor het kalkgehalte en de indampresten van de peptisator volgens
+                           de methode van Huba. 
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>NEN5754v2014</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p>NEN 5754:2014 <em>Bodem - Berekening van het gehalte aan organische stof volgens de gloeiverliesmethode</em> beschrijft de procedure voor het bepalen van het organische koolstofgehalte. 
                         </p>
                         
                      </td>
@@ -22086,8 +22119,31 @@
                      <td>
                         
                         <p>Een door WENR voor eigen gebruik opgestelde procedure voor de chemie voor het bepalen
-                           van het organischestofgehalte die zich conformeert aan NEN 5754:2014 <em>Bodem - Berekening van het gehalte aan organische stof volgens de gloeiverliesmethode</em> en op onderdelen wat specifieker is. 
+                           van het organische koolstofgehalte die zich conformeert aan NEN 5754:2014 <em>Bodem - Berekening van het gehalte aan organische stof volgens de gloeiverliesmethode</em> en op onderdelen wat specifieker is. 
                         </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>NEN5789plusWENR</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p>Een door WENR voor eigen gebruik opgestelde procedure voor de bepaling van de verzadigde
+                           waterdoorlatendheid bij constante gradiënt die zich conformeert aan NEN 5789:1991
+                           <em>Onverzadigde zone - Bepaling van de verzadigde waterdoorlatendheid,</em> en op onderdelen wat specifieker is.
+                        </p>
+                        
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>geen</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p>Er is geen bepalingsprocedure. </p>
                         
                      </td>
                   </tr>
@@ -22101,42 +22157,13 @@
                         
                      </td>
                   </tr>
-               </tbody>
-            </table>
-            
-         </section>
-         <section id="detail_class_Model_Beschrijfmethode">
-            <h3>  Beschrijfmethode</h3>
-            
-            <table style="width: 100%;" class="list">
-               <colgroup></colgroup>
-               <tbody>
                   <tr>
+                     <td>ISO14235v1998</td>
                      <td></td>
-                  </tr>
-               </tbody>
-            </table>
-            
-            <table style="width: 100%;" class="list">
-               <colgroup style="width: 20%;"></colgroup>
-               <colgroup style="width: 5%;"></colgroup>
-               <colgroup style="width: 5%;"></colgroup>
-               <colgroup></colgroup>
-               <tbody>
-                  <tr>
-                     <th>Waarde</th>
-                     <th>IMBRO</th>
-                     <th>IMBRO/A</th>
-                     <th>Omschrijving</th>
-                  </tr>
-                  <tr>
-                     <td>AlterraTD19A</td>
-                     <td>✔</td>
                      <td>✔</td>
                      <td>
                         
-                        <p>Technisch Document 19A van DLO Staring Centrum, nu Wageningen Environmental Research
-                           (Alterra).
+                        <p>ISO 14235:1998 <em>Bodem - Bepaling van organisch koolstof met sulfachrome oxidatie</em> beschrijft de procedure voor het bepalen van het organisch koolstofgehalte. 
                         </p>
                         
                      </td>
@@ -22190,6 +22217,46 @@
                      <td>
                         
                         <p>De monsters zijn beschreven in het veld, direct na monstername.</p>
+                        
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+            
+         </section>
+         <section id="detail_class_Model_Beschrijfmethode">
+            <h3>  Beschrijfmethode</h3>
+            
+            <table style="width: 100%;" class="list">
+               <colgroup></colgroup>
+               <tbody>
+                  <tr>
+                     <td></td>
+                  </tr>
+               </tbody>
+            </table>
+            
+            <table style="width: 100%;" class="list">
+               <colgroup style="width: 20%;"></colgroup>
+               <colgroup style="width: 5%;"></colgroup>
+               <colgroup style="width: 5%;"></colgroup>
+               <colgroup></colgroup>
+               <tbody>
+                  <tr>
+                     <th>Waarde</th>
+                     <th>IMBRO</th>
+                     <th>IMBRO/A</th>
+                     <th>Omschrijving</th>
+                  </tr>
+                  <tr>
+                     <td>AlterraTD19A</td>
+                     <td>✔</td>
+                     <td>✔</td>
+                     <td>
+                        
+                        <p>Technisch Document 19A van DLO Staring Centrum, nu Wageningen Environmental Research
+                           (Alterra).
+                        </p>
                         
                      </td>
                   </tr>
