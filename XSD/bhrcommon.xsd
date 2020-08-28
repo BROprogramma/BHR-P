@@ -619,7 +619,7 @@
   <complexType name="PermeabilityType">
     <simpleContent>
       <restriction base="gml:MeasureType">
-        <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m/24h"/>
+        <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m/d"/>
       </restriction>
     </simpleContent>
   </complexType>
