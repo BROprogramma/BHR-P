@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registrationRequest
+  xmlns="http://www.broservices.nl/xsd/isbhr/2.0"
+  xmlns:bhrcom="http://www.broservices.nl/xsd/bhrcommon/2.0" 
+  xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" 
+  xmlns:om="http://www.opengis.net/om/2.0" 
+  xmlns:gml="http://www.opengis.net/gml/3.2" 
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.broservices.nl/xsd/isbhr/2.0 ../../XSD/isbhr-messages.xsd">
+  <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de innamewebservice.
+       Het is niet gevalideerd door de innamewebservice en is vaktechnisch/inhoudelijk niet voorbeeldig.
+  xsi:schemaLocation="http://www.broservices.nl/xsd/isbhr/2.0 https://schema.broservices.nl/xsd/isbhr/2.0/isbhr-messages.xsd">
+  -->
+  <brocom:requestReference>levering-object12</brocom:requestReference>
+  <brocom:deliveryAccountableParty>52766179</brocom:deliveryAccountableParty>
+  <brocom:qualityRegime>IMBRO</brocom:qualityRegime>
+  <sourceDocument>
+    <BHR_P gml:id="id-1">
+      <objectIdAccountableParty>97166725</objectIdAccountableParty>
+      <deliveryContext codeSpace="urn:bro:bhr:DeliveryContext">publiekeTaak</deliveryContext>
+      <surveyPurpose codeSpace="urn:bro:bhr:SurveyPurpose">bodemkaartNederland</surveyPurpose>
+      <discipline codeSpace="urn:bro:bhr:Discipline">bodemkunde</discipline>
+      <researchReportDate>
+        <brocom:date>2015-08-23</brocom:date>
+      </researchReportDate>
+      <siteCharacteristicDetermined>nee</siteCharacteristicDetermined>
+      <litterLayerInvestigated>nee</litterLayerInvestigated>
+      <deliveredLocation>
+        <bhrcom:location gml:id="id-2" srsName="urn:ogc:def:crs:EPSG::28992">
+          <gml:pos>134750.000 477800.000</gml:pos>
+        </bhrcom:location>
+        <bhrcom:horizontalPositioningDate>
+          <brocom:date>2015-08-23</brocom:date>
+        </bhrcom:horizontalPositioningDate>
+        <bhrcom:horizontalPositioningMethod codeSpace="urn:bro:bhr:HorizontalPositioningMethod">GPS200tot1000cm</bhrcom:horizontalPositioningMethod>
+      </deliveredLocation>
+      <deliveredVerticalPosition>
+        <bhrcom:localVerticalReferencePoint codeSpace="urn:bro:bhr:LocalVerticalReferencePoint">maaiveld</bhrcom:localVerticalReferencePoint>
+        <bhrcom:offset uom="m">1.303</bhrcom:offset>
+        <bhrcom:verticalDatum codeSpace="urn:bro:bhr:VerticalDatum">NAP</bhrcom:verticalDatum>
+        <bhrcom:verticalPositioningDate>
+          <brocom:date>2015-08-23</brocom:date>
+        </bhrcom:verticalPositioningDate>
+        <bhrcom:verticalPositioningMethod codeSpace="urn:bro:bhr:VerticalPositioningMethod">AHN3</bhrcom:verticalPositioningMethod>
+      </deliveredVerticalPosition>
+      <boring>
+        <bhrcom:boringStartDate>
+          <brocom:date>2015-08-23</brocom:date>
+        </bhrcom:boringStartDate>
+        <bhrcom:boringEndDate>
+          <brocom:date>2015-08-23</brocom:date>
+        </bhrcom:boringEndDate>
+        <bhrcom:casingUsed>nee</bhrcom:casingUsed>
+        <bhrcom:flushingMedium codeSpace="urn:bro:bhr:FlushingMedium">geen</bhrcom:flushingMedium>
+        <bhrcom:stopCriterion codeSpace="urn:bro:bhr:StopCriterion">einddiepte</bhrcom:stopCriterion>
+        <bhrcom:trajectoryRemoved>nee</bhrcom:trajectoryRemoved>
+        <bhrcom:boringProcedure>
+          <bhrcom:boringStandard codeSpace="urn:bro:bhr:BoringStandard">geen</bhrcom:boringStandard>
+        </bhrcom:boringProcedure>
+        <bhrcom:boredTrajectory>
+          <bhrcom:beginDepth uom="m">0</bhrcom:beginDepth>
+          <bhrcom:endDepth uom="m">49.80</bhrcom:endDepth>
+        </bhrcom:boredTrajectory>
+        <bhrcom:boringTool>
+          <bhrcom:boringToolType codeSpace="urn:bro:bhr:BoringToolType">edelmanboor</bhrcom:boringToolType>
+          <bhrcom:boringToolDiameter uom="mm">70</bhrcom:boringToolDiameter>
+          <bhrcom:boredInterval>
+            <bhrcom:beginDepth uom="m">0</bhrcom:beginDepth>
+            <bhrcom:endDepth uom="m">49.80</bhrcom:endDepth>
+          </bhrcom:boredInterval>
+        </bhrcom:boringTool>
+      </boring>
+    </BHR_P>
+  </sourceDocument>
+</registrationRequest>

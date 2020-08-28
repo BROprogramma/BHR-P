@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<intakeResponse
+  xmlns="http://www.broservices.nl/xsd/isbhr/2.0" 
+  xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.broservices.nl/xsd/isbhr/2.0 ../../XSD/isbhr-messages.xsd">
+  <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de innamewebservice.
+       Het is niet gevalideerd door de innamewebservice en is vaktechnisch/inhoudelijk niet voorbeeldig.
+  xsi:schemaLocation="http://www.broservices.nl/xsd/isbhr/2.0 https://schema.broservices.nl/xsd/isbhr/2.0/isbhr-messages.xsd">
+  -->
+  <brocom:responseType>rejection</brocom:responseType>
+  <brocom:requestReference>levering-object12</brocom:requestReference>
+  <brocom:transactionId>BHR-000000001664</brocom:transactionId>
+  <brocom:objectIdAccountableParty>97166725</brocom:objectIdAccountableParty>
+  <brocom:rejectionTime>2017-06-24T14:34:19+01:00</brocom:rejectionTime>
+  <brocom:rejectionReason>Er zijn 1 of meer fouten geconstateerd in het brondocument.</brocom:rejectionReason>
+  <brocom:sourceDocumentError>
+    <brocom:sequenceNumber>1</brocom:sequenceNumber>
+    <brocom:specification>Boormonsterbeschrijving (BoreholeSampleDescription) ontbreekt: Booronderzoek.boormonsters beschreven (BoreholeResearch.boreholeSamplesDescribed) = ja bepaalt dat het aanwezig moet zijn.</brocom:specification>
+  </brocom:sourceDocumentError>
+</intakeResponse>
