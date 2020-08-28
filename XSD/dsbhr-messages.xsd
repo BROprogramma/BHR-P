@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" xmlns:bhrcom="http://www.broservices.nl/xsd/bhrcommon/2.0" xmlns:msg="http://www.broservices.nl/xsd/dsbhr/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" targetNamespace="http://www.broservices.nl/xsd/dsbhr/2.0" elementFormDefault="qualified" version="1.9.0">
+  <!-- importeer datatypes -->
+  <!--
+  <import namespace="http://www.broservices.nl/xsd/bhrcommon/2.0" schemaLocation="https://schema.broservices.nl/xsd/bhrcommon/2.0/bhrcommon.xsd"/>
+  <import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
+  -->
+  <import namespace="http://www.broservices.nl/xsd/bhrcommon/2.0" schemaLocation="bhrcommon.xsd"/>
+  <import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
+  <!--
+    uitgifteverzoek met BRO-ID, bericht van verwerking of bericht van een afwijzing
+    -->
+  <element name="dispatchDataRequest" type="brocom:DispatchDataRequestType"/>
+  <element name="dispatchDataResponse" type="msg:DispatchDataResponseType"/>
+  <!--
+    uitgifteverzoek met criteria, bericht van verwerking of bericht van afwijzing
+    -->
+  <element name="dispatchCharacteristicsRequest" type="msg:DispatchCharacteristicsRequestType"/>
+  <element name="dispatchCharacteristicsResponse" type="msg:DispatchCharacteristicsResponseType"/>
+  <element name="parseFault" type="brocom:ParseFaultType"/>
+  <!-- uitgiftedocumenten -->
+  <element name="BHR_O" type="msg:BoreholeResearchType" substitutionGroup="brocom:RegistrationObject"/>
+  <element name="BHR_O_DP" type="msg:BoreholeResearchType" substitutionGroup="brocom:RegistrationObject"/>
+  <element name="BHR_C" type="msg:CharacteristicsType" substitutionGroup="brocom:AbstractCharacteristics"/>
+  <complexType name="DispatchDataResponseType">
+    <complexContent>
+      <extension base="brocom:DispatchResponseType">
+        <sequence>
+          <element name="dispatchDocument" type="brocom:AbstractRegistrationObjectPropertyType" minOccurs="0" maxOccurs="1"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="DispatchCharacteristicsRequestType">
+    <sequence>
+      <element name="requestReference" type="string" minOccurs="1" maxOccurs="1"/>
+      <element name="criteria" type="msg:CriteriaSetType" minOccurs="1" maxOccurs="1"/>
+    </sequence>
+  </complexType>
+  <complexType name="DispatchCharacteristicsResponseType">
+    <complexContent>
+      <extension base="brocom:DispatchResponseType">
+        <sequence>
+          <element name="numberOfDocuments" type="integer" minOccurs="0" maxOccurs="1"/>
+          <element name="dispatchDocument" type="brocom:AbstractRegistrationObjectPropertyType" minOccurs="0" maxOccurs="unbounded"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="CriteriaSetType">
+    <complexContent>
+      <extension base="brocom:CriteriaSetType">
+        <sequence>
+          <element name="researchReportPeriod" type="brocom:DatePeriodType" minOccurs="0" maxOccurs="1"/>
+          <element name="fieldworkPeriod" type="brocom:DatePeriodType" minOccurs="0" maxOccurs="1"/>
+          <element name="depthInterval" type="msg:VerticalPositionRangeType" minOccurs="0" maxOccurs="1"/>
+          <element name="boreholeSamplesDescribed" type="brocom:IndicationYesNoEnumeration" minOccurs="0" maxOccurs="1"/>
+          <element name="boreholeSamplesAnalyzed" type="brocom:IndicationYesNoEnumeration" minOccurs="0" maxOccurs="1"/>
+          <element name="boreholeSamplesPhotographed" type="brocom:IndicationYesNoEnumeration" minOccurs="0" maxOccurs="1"/>
+          <element name="fractionDistributionDetermined" type="brocom:IndicationYesNoEnumeration" minOccurs="0" maxOccurs="1"/>
+          <element name="toolUsed" type="bhrcom:BoringToolTypeType" minOccurs="0" maxOccurs="1"/>
+          <element name="discipline" type="bhrcom:DisciplineType" minOccurs="0" maxOccurs="1"/>
+          <element name="descriptionCompletionPeriod" type="brocom:DatePeriodType" minOccurs="0" maxOccurs="1"/>
+          <element name="analysisReportPeriod" type="brocom:DatePeriodType" minOccurs="0" maxOccurs="1"/>
+          <element name="analysisType" type="bhrcom:AnalysisTypeType" minOccurs="0" maxOccurs="1"/>
+          <element name="characteristicsModelled" type="brocom:IndicationYesNoEnumeration" minOccurs="0" maxOccurs="1"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="CharacteristicsType">
+    <complexContent>
+      <extension base="brocom:AbstractCharacteristicsType">
+        <sequence>
+          <element name="localVerticalReferencePoint" type="bhrcom:LocalVerticalReferencePointType" minOccurs="1" maxOccurs="1"/>
+          <element name="offset" type="bhrcom:OffsetType" nillable="true" minOccurs="1" maxOccurs="1"/>
+          <element name="verticalDatum" type="bhrcom:VerticalDatumType" minOccurs="1" maxOccurs="1"/>
+          <element name="researchReportDate" type="brocom:PartialDateType" minOccurs="0" maxOccurs="1"/>
+          <element name="boringStartDate" type="brocom:PartialDateType" minOccurs="1" maxOccurs="1"/>
+          <element name="boringEndDate" type="brocom:PartialDateType" minOccurs="1" maxOccurs="1"/>
+          <element name="beginDepth" type="bhrcom:BoringDepthType" minOccurs="1" maxOccurs="1"/>
+          <element name="endDepth" type="bhrcom:BoringDepthType" minOccurs="1" maxOccurs="1"/>
+          <element name="surveyPurpose" type="bhrcom:SurveyPurposeType" minOccurs="1" maxOccurs="1"/>
+          <element name="boreholeSamplesDescribed" type="brocom:IndicationYesNoEnumeration" minOccurs="1" maxOccurs="1"/>
+          <element name="boreholeSamplesAnalyzed" type="brocom:IndicationYesNoEnumeration" minOccurs="1" maxOccurs="1"/>
+          <element name="boreholeSamplesPhotographed" type="brocom:IndicationYesNoEnumeration" minOccurs="1" maxOccurs="1"/>
+          <element name="fractionDistributionDetermined" type="brocom:IndicationYesNoEnumeration" minOccurs="1" maxOccurs="1"/>
+          <element name="discipline" type="bhrcom:DisciplineType" minOccurs="1" maxOccurs="1"/>
+          <element name="boringToolTypeOverview" type="msg:BoringToolTypeOverviewType" minOccurs="1" maxOccurs="1"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="BoreholeResearchType">
+    <complexContent>
+      <extension base="brocom:RegistrationObjectType">
+        <sequence>
+          <element name="deliveryContext" type="bhrcom:DeliveryContextType" minOccurs="1" maxOccurs="1"/>
+          <element name="surveyPurpose" type="bhrcom:SurveyPurposeType" minOccurs="1" maxOccurs="1"/>
+          <element name="discipline" type="bhrcom:DisciplineType" minOccurs="1" maxOccurs="1"/>
+          <element name="researchReportDate" type="brocom:PartialDateType" minOccurs="0" maxOccurs="1"/>
+          <element name="siteCharacteristicDetermined" type="brocom:IndicationYesNoUnknownEnumeration" minOccurs="1" maxOccurs="1"/>
+          <element name="litterLayerInvestigated" type="brocom:IndicationYesNoEnumeration" minOccurs="1" maxOccurs="1"/>
+          <element name="researchOperator" type="brocom:OrganizationType" minOccurs="0" maxOccurs="1"/>
+          <element name="registrationHistory" type="brocom:RegistrationHistoryType" minOccurs="1" maxOccurs="1"/>
+          <element name="reportHistory" type="msg:ReportHistoryType" minOccurs="1" maxOccurs="1"/>
+          <element name="standardizedLocation" type="brocom:StandardizedLocationType" minOccurs="1" maxOccurs="1"/>
+          <element name="deliveredLocation" type="bhrcom:DeliveredLocationType" minOccurs="1" maxOccurs="1"/>
+          <element name="deliveredVerticalPosition" type="bhrcom:DeliveredVerticalPositionType" minOccurs="1" maxOccurs="1"/>
+          <element name="boring" type="bhrcom:BoringType" minOccurs="1" maxOccurs="1"/>
+          <element name="siteCharacteristic" type="bhrcom:SiteCharacteristicType" minOccurs="0" maxOccurs="1"/>
+          <element name="boreholeSampleDescription" type="bhrcom:BoreholeSampleDescriptionType" minOccurs="0" maxOccurs="1"/>
+          <element name="boreholeSampleAnalysis" type="bhrcom:BoreholeSampleAnalysisType" minOccurs="0" maxOccurs="1"/>
+        </sequence>
+      </extension>
+    </complexContent>
+  </complexType>
+  <complexType name="IntermediateEventType">
+    <sequence>
+      <element name="eventName" type="msg:EventNameType" minOccurs="1" maxOccurs="1"/>
+      <element name="eventDate" type="brocom:PartialDateType" minOccurs="1" maxOccurs="1"/>
+    </sequence>
+  </complexType>
+  <complexType name="ReportHistoryType">
+    <sequence>
+      <element name="reportStartDate" type="brocom:PartialDateType" minOccurs="1" maxOccurs="1"/>
+      <element name="reportEndDate" type="brocom:PartialDateType" minOccurs="0" maxOccurs="1"/>
+      <element name="intermediateEvent" type="msg:IntermediateEventType" minOccurs="0" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+  <complexType name="BoringToolTypeOverviewType">
+    <sequence>
+      <element name="boringToolType" type="bhrcom:BoringToolType" minOccurs="1" maxOccurs="unbounded"/>
+    </sequence>
+  </complexType>
+  <complexType name="VerticalPositionRangeType">
+    <sequence>
+      <element name="startDepth" type="msg:VerticalPositionType" minOccurs="1" maxOccurs="1"/>
+      <element name="endDepth" type="msg:VerticalPositionType" minOccurs="1" maxOccurs="1"/>
+    </sequence>
+  </complexType>
+  <complexType name="VerticalPositionType">
+    <simpleContent>
+      <restriction base="gml:MeasureType">
+        <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+  <complexType name="EventNameType">
+    <simpleContent>
+      <restriction base="gml:CodeWithAuthorityType">
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:EventName"/>
+      </restriction>
+    </simpleContent>
+  </complexType>
+</schema>
