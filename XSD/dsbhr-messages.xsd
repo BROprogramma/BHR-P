@@ -112,7 +112,7 @@
           <element name="boring" type="bhrcom:BoringType" minOccurs="1" maxOccurs="1"/>
           <element name="siteCharacteristic" type="bhrcom:SiteCharacteristicType" minOccurs="0" maxOccurs="1"/>
           <element name="boreholeSampleDescription" type="bhrcom:BoreholeSampleDescriptionType" minOccurs="0" maxOccurs="1"/>
-          <element name="boreholeSampleAnalysis" type="bhrcom:BoreholeSampleAnalysisType" minOccurs="0" maxOccurs="1"/>
+          <element name="boreholeSampleAnalysis" type="bhrcom:BoreholeSampleAnalysisPropertyType" minOccurs="0" maxOccurs="1"/>
         </sequence>
       </extension>
     </complexContent>

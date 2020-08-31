@@ -659,6 +659,14 @@
       </restriction>
     </simpleContent>
   </complexType>
+  <element name="BoreholeSampleAnalysis"
+      type="bhrcom:BoreholeSampleAnalysisType"
+      substitutionGroup="gml:AbstractFeature">
+    <annotation>
+      <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het deel van het wandonderzoek dat betrekking heeft op uitvoeren van metingen aan monsters.
+        Explanation: De analyse richt zich in de huidige praktijk alleen op het analyseren van monsters die uit de strooisellaag of de lagen die uit grond bestaan zijn genomen. Lagen die uit bijzonder materiaal of uit gesteente bestaan worden niet onderzocht. Het op basis van hydrofysische metingen modelleren van eigenschappen zoals de waterretentiekarakteristiek, is onderdeel van de wandmonsteranalyse.</documentation>
+    </annotation>
+  </element>
   <complexType name="BoreholeSampleAnalysisType">
     <complexContent>
       <extension base="gml:AbstractFeatureType">
@@ -705,6 +713,11 @@
         </sequence>
       </extension>
     </complexContent>
+  </complexType>
+  <complexType name="BoreholeSampleAnalysisPropertyType">
+    <sequence minOccurs="1">
+      <element ref="bhrcom:BoreholeSampleAnalysis"/>
+    </sequence>
   </complexType>
   <element name="InvestigatedInterval" type="bhrcom:InvestigatedIntervalType" substitutionGroup="gml:AbstractFeature">
     <annotation>
