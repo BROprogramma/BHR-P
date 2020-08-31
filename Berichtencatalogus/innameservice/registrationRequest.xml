@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <registrationRequest
-  xmlns="http://www.broservices.nl/xsd/isbhr/2.0"
-  xmlns:bhrcom="http://www.broservices.nl/xsd/bhrcommon/2.0" 
-  xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" 
-  xmlns:gml="http://www.opengis.net/gml/3.2" 
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.broservices.nl/xsd/isbhr/2.0 ../../XSD/isbhr-messages.xsd">
+        xmlns="http://www.broservices.nl/xsd/isbhr/2.0"
+        xmlns:bhrcom="http://www.broservices.nl/xsd/bhrcommon/2.0"
+        xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+        xmlns:om="http://www.opengis.net/om/2.0"
+        xmlns:gml="http://www.opengis.net/gml/3.2"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.broservices.nl/xsd/isbhr/2.0 ../../XSD/isbhr-messages.xsd">
   <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de innamewebservice.
        Het is niet gevalideerd door de innamewebservice en is vaktechnisch/inhoudelijk niet voorbeeldig.
-  xsi:schemaLocation="http://www.broservices.nl/xsd/isbhr/2.0 https://schema.broservices.nl/xsd/isbhr/2.0/isbhr-messages.xsd">
+        xsi:schemaLocation="http://www.broservices.nl/xsd/isbhr/2.0 https://schema.broservices.nl/xsd/isbhr/2.0/isbhr-messages.xsd">
   -->
   <brocom:requestReference>levering-object12</brocom:requestReference>
   <brocom:deliveryAccountableParty>52766179</brocom:deliveryAccountableParty>
@@ -69,6 +71,66 @@
           </bhrcom:boredInterval>
         </bhrcom:boringTool>
       </boring>
+      <boreholeSampleDescription gml:id="id-3">
+        <om:phenomenonTime>
+          <gml:TimeInstant gml:id="id-4" frame="#ISO-8601">
+            <gml:timePosition frame="#ISO-8601">2015-08-23</gml:timePosition>
+          </gml:TimeInstant>
+        </om:phenomenonTime>
+        <om:resultTime xlink:type="simple" xlink:href="id-4">
+          <gml:TimeInstant gml:id="id-5" frame="#ISO-8601">
+            <gml:timePosition frame="#ISO-8601">2015-08-23</gml:timePosition>
+          </gml:TimeInstant>
+        </om:resultTime>
+        <om:procedure nilReason="inapplicable"/>
+        <om:observedProperty nilReason="inapplicable"/>
+        <om:featureOfInterest nilReason="inapplicable"/>
+        <bhrcom:result>
+          <bhrcom:sampleQuality codeSpace="urn:bro:bhr:SampleQuality">?</bhrcom:sampleQuality>
+          <bhrcom:rootPenetrableDepthReached>nee</bhrcom:rootPenetrableDepthReached>
+          <bhrcom:soilLayer>
+            <bhrcom:upperBoundary uom="m">0</bhrcom:upperBoundary>
+            <bhrcom:lowerBoundary uom="m">6</bhrcom:lowerBoundary>
+            <bhrcom:anthropogenic>ja</bhrcom:anthropogenic>
+            <bhrcom:numberOfLayerComponents>2</bhrcom:numberOfLayerComponents>
+            <bhrcom:layerComponent>
+              <bhrcom:volumePercentage uom="%">70</bhrcom:volumePercentage>
+              <bhrcom:horizonCode codeSpace="urn:bro:bhr:HorizonCode">Oh</bhrcom:horizonCode>
+              <bhrcom:saturatedPermeability uom="m/d">1.23</bhrcom:saturatedPermeability>
+            </bhrcom:layerComponent>
+            <bhrcom:layerComponent>
+              <bhrcom:volumePercentage uom="%">30</bhrcom:volumePercentage>
+              <bhrcom:horizonCode codeSpace="urn:bro:bhr:HorizonCode">Oh</bhrcom:horizonCode>
+            </bhrcom:layerComponent>
+          </bhrcom:soilLayer>
+          <bhrcom:soilLayer>
+            <bhrcom:upperBoundary uom="m">6</bhrcom:upperBoundary>
+            <bhrcom:lowerBoundary uom="m">50</bhrcom:lowerBoundary>
+            <bhrcom:anthropogenic>nee</bhrcom:anthropogenic>
+            <bhrcom:numberOfLayerComponents>1</bhrcom:numberOfLayerComponents>
+            <bhrcom:layerComponent>
+              <bhrcom:depositionalCharacteristic codeSpace="urn:bro:bhr:DepositionalCharacteristic">fluviatielRijnHoloceen</bhrcom:depositionalCharacteristic>
+              <bhrcom:horizonCode codeSpace="urn:bro:bhr:HorizonCode">Oh</bhrcom:horizonCode>
+            </bhrcom:layerComponent>
+          </bhrcom:soilLayer>
+        </bhrcom:result>
+        <bhrcom:descriptionMethod codeSpace="urn:bro:bhr:DescriptionMethod">AlterraTD19A</bhrcom:descriptionMethod>
+        <bhrcom:descriptionLocation codeSpace="urn:bro:bhr:DescriptionLocation">veld</bhrcom:descriptionLocation>
+        <bhrcom:fractionDistributionDetermined>nee</bhrcom:fractionDistributionDetermined>
+        <bhrcom:lowerBoundarySandFraction codeSpace="urn:bro:bhr:LowerBoundarySandFraction">5</bhrcom:lowerBoundarySandFraction>
+        <bhrcom:soilClassification>
+          <bhrcom:codeGroup codeSpace="urn:bro:bhr:CodeGroup">kleigrond</bhrcom:codeGroup>
+          <bhrcom:classificationCode>eR4w321bp</bhrcom:classificationCode>
+          <bhrcom:featureTop codeSpace="urn:bro:bhr:FeatureTop">geen</bhrcom:featureTop>
+          <bhrcom:soilClass codeSpace="urn:bro:bhr:SoilClass">poldervaaggrondZeeklei</bhrcom:soilClass>
+          <bhrcom:reworkingClass codeSpace="urn:bro:bhr:ReworkingClass">geen</bhrcom:reworkingClass>
+          <bhrcom:groundwaterTableClass codeSpace="urn:bro:bhr:GroundwaterTableClass">VIo</bhrcom:groundwaterTableClass>
+          <bhrcom:featureSite codeSpace="urn:bro:bhr:FeatureSite">geen</bhrcom:featureSite>
+          <bhrcom:featureBottom>
+            <bhrcom:feature codeSpace="urn:bro:bhr:Feature">zandPleistoceen</bhrcom:feature>
+          </bhrcom:featureBottom>
+        </bhrcom:soilClassification>
+      </boreholeSampleDescription>
     </BHR_P>
   </sourceDocument>
 </registrationRequest>
