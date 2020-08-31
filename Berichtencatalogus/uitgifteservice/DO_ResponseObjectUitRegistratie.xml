@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dispatchDataResponse
-     xmlns="http://www.broservices.nl/xsd/dsbhr/2.0"
-     xmlns:xlink="http://www.w3.org/1999/xlink"
-     xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-     xmlns:bhrcom="http://www.broservices.nl/xsd/bhrcommon/2.0"
-     xmlns:om="http://www.opengis.net/om/2.0"
-     xmlns:sampling="http://www.opengis.net/sampling/2.0" 
-     xmlns:dsbhr="http://www.broservices.nl/xsd/dsbhr/2.0"
-     xmlns:gml="http://www.opengis.net/gml/3.2"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr/2.0 ../../XSD/dsbhr-messages.xsd"
-   >
-   <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de uitgiftewebservice.
-        Het is niet gevalideerd door de uitgiftewebservice en is vaktechnisch/inhoudelijk niet voorbeeldig.
-     xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr/2.0 https://schema.broservices.nl/xsd/dsbhr/2.0/dsbhr-messages.xsd"
-   -->
+        xmlns="http://www.broservices.nl/xsd/dsbhr/2.0"
+        xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+        xmlns:gml="http://www.opengis.net/gml/3.2"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr/2.0 ../../XSD/dsbhr-messages.xsd"
+>
+  <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de uitgiftewebservice.
+       Het is niet gevalideerd door de uitgiftewebservice en is vaktechnisch/inhoudelijk niet voorbeeldig.
+        xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr/2.0 https://schema.broservices.nl/xsd/dsbhr/2.0/dsbhr-messages.xsd"
+  -->
   <brocom:responseType>dispatch</brocom:responseType>
   <brocom:requestReference>afname1-26052015</brocom:requestReference>
   <brocom:dispatchTime>2017-03-02T12:00:00</brocom:dispatchTime>

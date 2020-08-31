@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <intakeResponse
-  xmlns="http://www.broservices.nl/xsd/isbhr/2.0" 
-  xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" 
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.broservices.nl/xsd/isbhr/2.0 ../../XSD/isbhr-messages.xsd">
+        xmlns="http://www.broservices.nl/xsd/isbhr/2.0" 
+        xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.broservices.nl/xsd/isbhr/2.0 ../../XSD/isbhr-messages.xsd">
   <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de innamewebservice.
        Het is niet gevalideerd door de innamewebservice en is vaktechnisch/inhoudelijk niet voorbeeldig.
-  xsi:schemaLocation="http://www.broservices.nl/xsd/isbhr/2.0 https://schema.broservices.nl/xsd/isbhr/2.0/isbhr-messages.xsd">
+        xsi:schemaLocation="http://www.broservices.nl/xsd/isbhr/2.0 https://schema.broservices.nl/xsd/isbhr/2.0/isbhr-messages.xsd">
   -->
   <brocom:responseType>rejection</brocom:responseType>
   <brocom:requestReference>levering-object12</brocom:requestReference>

@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope 
-  xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-  xmlns:xlink="http://www.w3.org/1999/xlink" 
-  xmlns:gml="http://www.opengis.net/gml/3.2" 
-  xmlns:om="http://www.opengis.net/om/2.0" 
-  xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" 
-  xmlns:bhrcommon="http://www.broservices.nl/xsd/bhrcommon/2.0" 
-  xmlns:isbhr="http://www.broservices.nl/xsd/isbhr/2.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.broservices.nl/xsd/isbhr/2.0 ../../XSD/isbhr-messages.xsd 
-    http://schemas.xmlsoap.org/soap/envelope/ http://schemas.xmlsoap.org/soap/envelope/">
+        xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+        xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" 
+        xmlns:isbhr="http://www.broservices.nl/xsd/isbhr/2.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.broservices.nl/xsd/isbhr/2.0 ../../XSD/isbhr-messages.xsd 
+        http://schemas.xmlsoap.org/soap/envelope/ http://schemas.xmlsoap.org/soap/envelope/">
   <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de innamewebservice.
        Het is niet gevalideerd door de innamewebservice en is vaktechnisch/inhoudelijk niet voorbeeldig.
-  xsi:schemaLocation="https://schema.broservices.nl/xsd/isbhr/1.1 http://www.broservices.nl/xsd/isbhr/1.1/isbhr-messages.xsd
+        xsi:schemaLocation="http://www.broservices.nl/xsd/isbhr/2.0 http://www.broservices.nl/xsd/isbhr/1.1/isbhr-messages.xsd
   -->
   <soap:Body>
     <soap:Fault>
