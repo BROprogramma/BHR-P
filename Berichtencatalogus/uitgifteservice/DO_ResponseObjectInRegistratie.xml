@@ -19,7 +19,7 @@
     <brocom:requestReference>req:1224314</brocom:requestReference>
     <brocom:dispatchTime>2017-03-10T09:37:01+01:00</brocom:dispatchTime>
     <dispatchDocument>
-        <BHR_O gml:id="BRO_0001">
+        <BHR_O_DP gml:id="BRO_0001">
             <brocom:broId>BHR000000003950</brocom:broId>
             <brocom:deliveryAccountableParty>52766179</brocom:deliveryAccountableParty>
             <brocom:objectIdAccountableParty>objectId</brocom:objectIdAccountableParty>
@@ -316,6 +316,6 @@
                     </bhrcom:investigatedInterval>
                 </bhrcom:BoreholeSampleAnalysis>
             </boreholeSampleAnalysis>
-        </BHR_O>
+        </BHR_O_DP>
     </dispatchDocument>
 </dispatchDataResponse>
