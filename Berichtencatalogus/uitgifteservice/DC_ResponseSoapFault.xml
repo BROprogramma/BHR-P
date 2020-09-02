@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <soap:Envelope 
-    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://schemas.xmlsoap.org/soap/envelope/ http://schemas.xmlsoap.org/soap/envelope/">
-  <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de uitgiftewebservice.
-       Het is niet gevalideerd door de uitgiftewebservice en is vaktechnisch/inhoudelijk niet voorbeeldig.
-  -->
-  <soap:Body>
-    <soap:Fault>
-      <faultcode>soap:Client</faultcode>
-      <faultstring>Unmarshalling Error: Unexpected character '/' (code 47) in end tag Expected '>'. at [row,col {unknown-source}]: [7,42]</faultstring>
-    </soap:Fault>
-  </soap:Body>
+        xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://schemas.xmlsoap.org/soap/envelope/ http://schemas.xmlsoap.org/soap/envelope/"
+>
+    <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de uitgiftewebservice.
+         Het is niet gevalideerd door de uitgiftewebservice en is vaktechnisch/inhoudelijk niet voorbeeldig.
+    -->
+    <soap:Body>
+        <soap:Fault>
+            <faultcode>soap:Client</faultcode>
+            <faultstring>Unmarshalling Error: Unexpected character '/' (code 47) in end tag Expected '>'. at [row,col {unknown-source}]: [7,42]</faultstring>
+        </soap:Fault>
+    </soap:Body>
 </soap:Envelope>

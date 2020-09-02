@@ -6,18 +6,18 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr/2.0 ../../XSD/dsbhr-messages.xsd"
 >
-  <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de uitgiftewebservice.
-       Het is niet gevalideerd door de uitgiftewebservice en is vaktechnisch/inhoudelijk niet voorbeeldig.
+    <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de uitgiftewebservice.
+         Het is niet gevalideerd door de uitgiftewebservice en is vaktechnisch/inhoudelijk niet voorbeeldig.
         xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr/2.0 https://schema.broservices.nl/xsd/dsbhr/2.0/dsbhr-messages.xsd"
-  -->
-  <brocom:responseType>dispatch</brocom:responseType>
-  <brocom:requestReference>afname1-26052015</brocom:requestReference>
-  <brocom:dispatchTime>2017-03-02T12:00:00</brocom:dispatchTime>
-  <dispatchDocument>
-    <brocom:BRO_DO gml:id="BHR000000000666">
-      <brocom:broId>BHR000000000666</brocom:broId>
-      <brocom:deregistered>ja</brocom:deregistered>
-      <brocom:deregistrationTime>2017-02-01T13:02:41</brocom:deregistrationTime>
-    </brocom:BRO_DO>
-  </dispatchDocument>
+    -->
+    <brocom:responseType>dispatch</brocom:responseType>
+    <brocom:requestReference>afname1-26052015</brocom:requestReference>
+    <brocom:dispatchTime>2017-03-02T11:42:51+01:00</brocom:dispatchTime>
+    <dispatchDocument>
+        <brocom:BRO_DO gml:id="id_0001">
+            <brocom:broId>BHR000000000666</brocom:broId>
+            <brocom:deregistered>ja</brocom:deregistered>
+            <brocom:deregistrationTime>2017-03-02T11:27:04+01:00</brocom:deregistrationTime>
+        </brocom:BRO_DO>
+    </dispatchDocument>
 </dispatchDataResponse>

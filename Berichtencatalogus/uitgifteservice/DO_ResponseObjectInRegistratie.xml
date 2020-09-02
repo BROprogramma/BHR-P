@@ -17,9 +17,9 @@
     -->
     <brocom:responseType>dispatch</brocom:responseType>
     <brocom:requestReference>req:1224314</brocom:requestReference>
-    <brocom:dispatchTime>2017-03-10T09:37:01+01:00</brocom:dispatchTime>
+    <brocom:dispatchTime>2020-11-10T09:09:43+01:00</brocom:dispatchTime>
     <dispatchDocument>
-        <BHR_O gml:id="BRO_0001">
+        <BHR_O gml:id="id_0001">
             <brocom:broId>BHR000000003950</brocom:broId>
             <brocom:deliveryAccountableParty>52766179</brocom:deliveryAccountableParty>
             <brocom:objectIdAccountableParty>objectId</brocom:objectIdAccountableParty>
@@ -54,13 +54,13 @@
                 </reportEndDate>
             </reportHistory>
             <standardizedLocation>
-                <brocom:location srsName="urn:ogc:def:crs:EPSG::4258" gml:id="BRO_0002">
+                <brocom:location srsName="urn:ogc:def:crs:EPSG::4258" gml:id="id_0002">
                     <gml:pos>52.287820210 5.090415500</gml:pos>
                 </brocom:location>
                 <brocom:coordinateTransformation codeSpace="urn:bro:CoordinateTransformation">RDNAPTRANS2008</brocom:coordinateTransformation>
             </standardizedLocation>
             <deliveredLocation>
-                <bhrcom:location srsName="urn:ogc:def:crs:EPSG::28992" gml:id="BRO_0003">
+                <bhrcom:location srsName="urn:ogc:def:crs:EPSG::28992" gml:id="id_0003">
                     <gml:pos>134750.000 477800.000</gml:pos>
                 </bhrcom:location>
                 <bhrcom:horizontalPositioningDate>
@@ -126,14 +126,14 @@
                 <bhrcom:landUse codeSpace="urn:bro:bhr:LandUse">tuinbouw</bhrcom:landUse>
                 <bhrcom:drained>ja</bhrcom:drained>
             </siteCharacteristic>
-            <boreholeSampleDescription gml:id="BRO_0004">
-                <om:phenomenonTime xlink:type="simple">
-                    <gml:TimeInstant gml:id="BRO_0005">
+            <boreholeSampleDescription gml:id="id_0004">
+                <om:phenomenonTime>
+                    <gml:TimeInstant gml:id="id_0005">
                         <gml:timePosition indeterminatePosition="unknown" />
                     </gml:TimeInstant>
                 </om:phenomenonTime>
-                <om:resultTime xlink:type="simple">
-                    <gml:TimeInstant gml:id="BRO_0006">
+                <om:resultTime>
+                    <gml:TimeInstant gml:id="id_0006">
                         <gml:timePosition indeterminatePosition="unknown" />
                     </gml:TimeInstant>
                 </om:resultTime>
@@ -194,7 +194,7 @@
                 </bhrcom:soilClassification>
             </boreholeSampleDescription>
             <boreholeSampleAnalysis>
-                <bhrcom:BoreholeSampleAnalysis gml:id="id-6">
+                <bhrcom:BoreholeSampleAnalysis gml:id="id_0007">
                     <bhrcom:analysisReportDate>
                         <!--You have a CHOICE of the next 4 items at this level-->
                         <!--
@@ -218,20 +218,20 @@
                     </bhrcom:analysisOperator>
                     <!--1 or more repetitions:-->
                     <bhrcom:investigatedInterval>
-                        <bhrcom:InvestigatedInterval gml:id="id-7">
+                        <bhrcom:InvestigatedInterval gml:id="id_0008">
                             <bhrcom:beginDepth uom="m">0.00</bhrcom:beginDepth>
                             <bhrcom:endDepth uom="m">25.00</bhrcom:endDepth>
                             <bhrcom:locationSpecific>ja</bhrcom:locationSpecific>
                             <bhrcom:characteristicModelled>nee</bhrcom:characteristicModelled>
                             <bhrcom:pHDetermination>
-                                <srcom:PHDetermination gml:id="id-8">
+                                <srcom:PHDetermination gml:id="id_0009">
                                     <srcom:determinationProcedure codeSpace="urn:bro:sr:DeterminationProcedure">ISO10390v2005</srcom:determinationProcedure>
                                     <srcom:determinationMethod codeSpace="urn:bro:sr:DeterminationMethod">zuurgraadKCl</srcom:determinationMethod>
                                     <srcom:pH uom="1">7.4</srcom:pH>
                                 </srcom:PHDetermination>
                             </bhrcom:pHDetermination>
                             <bhrcom:particleSizeDistributionDetermination>
-                                <srcom:ParticleSizeDistributionDetermination gml:id="id-9">
+                                <srcom:ParticleSizeDistributionDetermination gml:id="id_0010">
                                     <srcom:determinationProcedure codeSpace="urn:bro:sr:DeterminationProcedure">onbekend</srcom:determinationProcedure>
                                     <srcom:determinationMethod codeSpace="urn:bro:sr:DeterminationMethod">onbekend</srcom:determinationMethod>
                                     <srcom:particleSizeDistributionStandardised>nee</srcom:particleSizeDistributionStandardised>
@@ -286,13 +286,13 @@
                         </bhrcom:InvestigatedInterval>
                     </bhrcom:investigatedInterval>
                     <bhrcom:investigatedInterval>
-                        <bhrcom:InvestigatedInterval gml:id="id-10">
+                        <bhrcom:InvestigatedInterval gml:id="id_0011">
                             <bhrcom:beginDepth uom="m">10.00</bhrcom:beginDepth>
                             <bhrcom:endDepth uom="m">20.00</bhrcom:endDepth>
                             <bhrcom:locationSpecific>ja</bhrcom:locationSpecific>
                             <bhrcom:characteristicModelled>nee</bhrcom:characteristicModelled>
                             <bhrcom:shrinkageDetermination>
-                                <srcom:ShrinkageDetermination gml:id="id-11">
+                                <srcom:ShrinkageDetermination gml:id="id_0012">
                                     <srcom:determinationProcedure codeSpace="urn:bro:sr:DeterminationProcedure">bronswijk1986</srcom:determinationProcedure>
                                     <srcom:determinationMethod codeSpace="urn:bro:sr:DeterminationMethod">schuifmaat</srcom:determinationMethod>
                                     <srcom:disturbed>nee</srcom:disturbed>

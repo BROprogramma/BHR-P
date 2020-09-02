@@ -7,58 +7,65 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr/2.0 ../../XSD/dsbhr-messages.xsd"
 >
-  <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de uitgiftewebservice.
-       Het is niet gevalideerd door de uitgiftewebservice en is vaktechnisch/inhoudelijk niet voorbeeldig.
-        xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr/2.0 https://schema.broservices.nl/xsd/dsbhr/2.0/dsbhr-messages.xsd"
-  -->
-  <brocom:responseType>dispatch</brocom:responseType>
-  <brocom:requestReference>101</brocom:requestReference>
-  <brocom:dispatchTime>2017-03-10T09:09:43+01:00</brocom:dispatchTime>
-  <numberOfDocuments>1</numberOfDocuments>
-  <dispatchDocument>
-    <BHR_C gml:id="id_0001">
-      <brocom:broId>BHR000000003950</brocom:broId>
-      <brocom:deregistered>nee</brocom:deregistered>
-      <brocom:deliveryAccountableParty>52766179</brocom:deliveryAccountableParty>
-      <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
-      <brocom:objectRegistrationTime>2017-02-23T00:00:00+01:00</brocom:objectRegistrationTime>
-      <brocom:underReview>nee</brocom:underReview>
-      <brocom:standardizedLocation srsName="urn:ogc:def:crs:EPSG::4258" gml:id="id_0002">
-        <gml:pos>52.287820210 5.090415500</gml:pos>
-      </brocom:standardizedLocation>
-      <brocom:deliveredLocation srsName="urn:ogc:def:crs:EPSG::28992" gml:id="id_0003">
-        <gml:pos>134750.000 477800.000</gml:pos>
-      </brocom:deliveredLocation>
-      <localVerticalReferencePoint codeSpace="urn:bro:bhr:LocalVerticalReferencePoint">maaiveld</localVerticalReferencePoint>
-      <offset uom="m">5.000</offset>
-      <verticalDatum codeSpace="urn:bro:bhr:VerticalDatum">NAP</verticalDatum>
-      <researchReportDate>
-        <brocom:date>2015-02-08</brocom:date>
-      </researchReportDate>
-      <boringStartDate>
-        <brocom:date>2015-02-08</brocom:date>
-      </boringStartDate>
-      <boringEndDate>
-        <brocom:date>2015-02-08</brocom:date>
-      </boringEndDate>
-      <beginDepth uom="m">0.80</beginDepth>
-      <endDepth uom="m">5.80</endDepth>
-      <surveyPurpose codeSpace="urn:bro:bhr:SurveyPurpose">bodemfysischOnderzoek</surveyPurpose>
-      <boreholeSamplesDescribed>ja</boreholeSamplesDescribed>
-      <boreholeSamplesAnalyzed>nee</boreholeSamplesAnalyzed>
-      <boreholeSamplesPhotographed>nee</boreholeSamplesPhotographed>
-      <fractionDistributionDetermined>nee</fractionDistributionDetermined>
-      <discipline codeSpace="urn:bro:bhr:Discipline">bodemkunde</discipline>
-      <boringToolTypeOverview>
-        <boringToolType>
-          <bhrcommon:boringToolType codeSpace="urn:bro:bhr:BoringToolType"></bhrcommon:boringToolType>
-          <bhrcommon:boringToolDiameter uom="mm">85</bhrcommon:boringToolDiameter>
-          <bhrcommon:boredInterval>
-            <bhrcommon:beginDepth uom="m">0.80</bhrcommon:beginDepth>
-            <bhrcommon:endDepth uom="m">5.80</bhrcommon:endDepth>
-          </bhrcommon:boredInterval>
-        </boringToolType>
-      </boringToolTypeOverview>
-    </BHR_C>
-  </dispatchDocument>
+    <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de uitgiftewebservice.
+         Het is niet gevalideerd door de uitgiftewebservice en is vaktechnisch/inhoudelijk niet voorbeeldig.
+         xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr/2.0 https://schema.broservices.nl/xsd/dsbhr/2.0/dsbhr-messages.xsd"
+    -->
+    <brocom:responseType>dispatch</brocom:responseType>
+    <brocom:requestReference>101</brocom:requestReference>
+    <brocom:dispatchTime>2017-03-10T09:09:43+01:00</brocom:dispatchTime>
+    <numberOfDocuments>2</numberOfDocuments>
+    <dispatchDocument>
+        <BHR_C gml:id="id_0001">
+            <brocom:broId>BHR000000003950</brocom:broId>
+            <brocom:deregistered>nee</brocom:deregistered>
+            <brocom:deliveryAccountableParty>52766179</brocom:deliveryAccountableParty>
+            <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
+            <brocom:objectRegistrationTime>2017-02-23T00:00:00+01:00</brocom:objectRegistrationTime>
+            <brocom:underReview>nee</brocom:underReview>
+            <brocom:standardizedLocation srsName="urn:ogc:def:crs:EPSG::4258" gml:id="id_0002">
+                <gml:pos>52.287820210 5.090415500</gml:pos>
+            </brocom:standardizedLocation>
+            <brocom:deliveredLocation srsName="urn:ogc:def:crs:EPSG::28992" gml:id="id_0003">
+                <gml:pos>134750.000 477800.000</gml:pos>
+            </brocom:deliveredLocation>
+            <localVerticalReferencePoint codeSpace="urn:bro:bhr:LocalVerticalReferencePoint">maaiveld</localVerticalReferencePoint>
+            <offset uom="m">5.000</offset>
+            <verticalDatum codeSpace="urn:bro:bhr:VerticalDatum">NAP</verticalDatum>
+            <researchReportDate>
+                <brocom:date>2015-02-08</brocom:date>
+            </researchReportDate>
+            <boringStartDate>
+                <brocom:date>2015-02-08</brocom:date>
+            </boringStartDate>
+            <boringEndDate>
+                <brocom:date>2015-02-08</brocom:date>
+            </boringEndDate>
+            <beginDepth uom="m">0.80</beginDepth>
+            <endDepth uom="m">5.80</endDepth>
+            <surveyPurpose codeSpace="urn:bro:bhr:SurveyPurpose">bodemfysischOnderzoek</surveyPurpose>
+            <boreholeSamplesDescribed>ja</boreholeSamplesDescribed>
+            <boreholeSamplesAnalyzed>nee</boreholeSamplesAnalyzed>
+            <boreholeSamplesPhotographed>nee</boreholeSamplesPhotographed>
+            <fractionDistributionDetermined>nee</fractionDistributionDetermined>
+            <discipline codeSpace="urn:bro:bhr:Discipline">bodemkunde</discipline>
+            <boringToolTypeOverview>
+                <boringToolType>
+                    <bhrcommon:boringToolType codeSpace="urn:bro:bhr:BoringToolType"></bhrcommon:boringToolType>
+                    <bhrcommon:boringToolDiameter uom="mm">85</bhrcommon:boringToolDiameter>
+                    <bhrcommon:boredInterval>
+                        <bhrcommon:beginDepth uom="m">0.80</bhrcommon:beginDepth>
+                        <bhrcommon:endDepth uom="m">5.80</bhrcommon:endDepth>
+                    </bhrcommon:boredInterval>
+                </boringToolType>
+            </boringToolTypeOverview>
+        </BHR_C>
+    </dispatchDocument>
+    <dispatchDocument>
+        <brocom:BRO_DO gml:id="id_0004">
+            <brocom:broId>BHR000000000666</brocom:broId>
+            <brocom:deregistered>ja</brocom:deregistered>
+            <brocom:deregistrationTime>2017-02-01T13:02:41</brocom:deregistrationTime>
+        </brocom:BRO_DO>
+    </dispatchDocument>
 </dispatchCharacteristicsResponse>
