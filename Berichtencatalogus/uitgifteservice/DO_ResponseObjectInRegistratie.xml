@@ -73,7 +73,7 @@
             </deliveredLocation>
             <deliveredVerticalPosition>
                 <bhrcom:localVerticalReferencePoint codeSpace="urn:bro:bhr:LocalVerticalReferencePoint">maaiveld</bhrcom:localVerticalReferencePoint>
-                <bhrcom:offset uom="m" xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+                <bhrcom:offset uom="m" xsi:nil="true"/>
                 <bhrcom:verticalDatum codeSpace="urn:bro:bhr:VerticalDatum">NAP</bhrcom:verticalDatum>
                 <bhrcom:verticalPositioningDate>
                     <brocom:date>2015-08-23</brocom:date>
@@ -129,18 +129,18 @@
             <boreholeSampleDescription gml:id="id_0004">
                 <om:phenomenonTime>
                     <gml:TimeInstant gml:id="id_0005">
-                        <gml:timePosition indeterminatePosition="unknown" />
+                        <gml:timePosition indeterminatePosition="unknown"/>
                     </gml:TimeInstant>
                 </om:phenomenonTime>
                 <om:resultTime>
                     <gml:TimeInstant gml:id="id_0006">
-                        <gml:timePosition indeterminatePosition="unknown" />
+                        <gml:timePosition indeterminatePosition="unknown"/>
                     </gml:TimeInstant>
                 </om:resultTime>
-                <om:procedure xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <om:observedProperty xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <om:featureOfInterest xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
-                <bhrcom:result xsi:type="bhrcom:DescriptiveBoreholeLogType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <om:procedure xsi:nil="true"/>
+                <om:observedProperty xsi:nil="true"/>
+                <om:featureOfInterest xsi:nil="true"/>
+                <bhrcom:result xsi:type="bhrcom:DescriptiveBoreholeLogType">
                     <bhrcom:sampleQuality codeSpace="urn:bro:bhr:SampleQuality">ongeroerd</bhrcom:sampleQuality>
                     <bhrcom:rootPenetrableDepthReached>ja</bhrcom:rootPenetrableDepthReached>
                     <bhrcom:rootPenetrableDepth uom="m">1.00</bhrcom:rootPenetrableDepth>
