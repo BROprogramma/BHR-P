@@ -9,14 +9,7 @@
   <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
   <import namespace="http://www.opengis.net/om/2.0" schemaLocation="om-profile.xsd"/>
   <!-- Import voor srcom. De inhoud is letterlijk hetzelfde als bij SFR.
-    Keuze maken of dit een lokale kopie is van het XSD-bestand srcom.xsd.
-    Of dat het XSD-bestand srcom.xsd rechtstreeks uit de schemalocation van SFR wordt opgehaald.
-    Of dat het XSD-bestand srcom.xsd wordt gepublicceerd op het niveau van het SR-domein in plaats van op het niveau van de registratieobjecten SFR en BHR-P
-    Wat mij betreft heeft het laatste de voorkeur, want dit geeft een single point of truth.
-    Maar dit vereist een nieuwe projectstructuur.
-    Voorlopig gekozen voor één gemeenschappelijk XSD-bestand in de schemalocation van SFR.
-    <import namespace="http://www.broservices.nl/xsd/srcommon/1.0" schemaLocation="https://schema.broservices.nl/xsd/bhrcommon/2.0/srcommon.xsd"/>
-    <import namespace="http://www.broservices.nl/xsd/srcommon/1.0" schemaLocation="https://schema.broservices.nl/xsd/sfrcommon/2.0/srcommon.xsd"/>
+    Nadat SFR in productie is genomen, kan dit bestand gedownload worden van onderstaande schemalocation.
     <import namespace="http://www.broservices.nl/xsd/srcommon/1.0" schemaLocation="https://schema.broservices.nl/xsd/srcommon/1.0/srcommon.xsd"/>
     -->
   <import namespace="http://www.broservices.nl/xsd/srcommon/1.0" schemaLocation="srcommon.xsd"/>
