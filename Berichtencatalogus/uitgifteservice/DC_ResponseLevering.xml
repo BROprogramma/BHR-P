@@ -5,11 +5,10 @@
         xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
         xmlns:gml="http://www.opengis.net/gml/3.2" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr/2.0 ../../XSD/dsbhr-messages.xsd"
->
+        xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr/2.0 https://schema.broservices.nl/xsd/dsbhr/2.0/dsbhr-messages.xsd"
+    >
     <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de uitgiftewebservice.
          Het is niet gevalideerd door de uitgiftewebservice en is vaktechnisch/inhoudelijk niet voorbeeldig.
-         xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr/2.0 https://schema.broservices.nl/xsd/dsbhr/2.0/dsbhr-messages.xsd"
     -->
     <brocom:responseType>dispatch</brocom:responseType>
     <brocom:requestReference>101</brocom:requestReference>
@@ -50,14 +49,8 @@
             <fractionDistributionDetermined>nee</fractionDistributionDetermined>
             <discipline codeSpace="urn:bro:bhr:Discipline">bodemkunde</discipline>
             <boringToolTypeOverview>
-                <boringToolType>
-                    <bhrcommon:boringToolType codeSpace="urn:bro:bhr:BoringToolType"></bhrcommon:boringToolType>
-                    <bhrcommon:boringToolDiameter uom="mm">85</bhrcommon:boringToolDiameter>
-                    <bhrcommon:boredInterval>
-                        <bhrcommon:beginDepth uom="m">0.80</bhrcommon:beginDepth>
-                        <bhrcommon:endDepth uom="m">5.80</bhrcommon:endDepth>
-                    </bhrcommon:boredInterval>
-                </boringToolType>
+                <boringToolType codeSpace="urn:bro:bhr:BoringToolType">edelmanboor</boringToolType>
+                <boringToolType codeSpace="urn:bro:bhr:BoringToolType">zuigerboor</boringToolType>
             </boringToolTypeOverview>
         </BHR_C>
     </dispatchDocument>
