@@ -1,8 +1,8 @@
 var respecConfig = {
-  specStatus: "GN-VV",
+  specStatus: "GN-WV",
   specType: "IM",
   //canonicalURI: "WV",
-  publishDate: "2020-03-25",
+  //publishDate: "2020-03-25",
   maxTocLevel: 4,
   editors: [
     {
@@ -13,8 +13,8 @@ var respecConfig = {
   shortName: "BHR-P",
   pubDomain: "bro",
   github: "https://github.com/BROprogramma/BHR-P",
-  previousPublishDate: "2017-06-27",
-  previousStatus: "GN-DEF",
+  previousPublishDate: "2020-03-25",
+  previousStatus: "GN-VV",
   //localBiblio: {
   //  "ISO19136": {
   //    "href": "https://www.iso.org/standard/32554.html",
