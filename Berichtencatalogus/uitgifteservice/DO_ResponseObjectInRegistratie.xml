@@ -103,8 +103,8 @@
                     <bhrcom:beginDepth uom="m">0.00</bhrcom:beginDepth>
                     <bhrcom:endDepth uom="m">0.80</bhrcom:endDepth>
                     <bhrcom:removedLayer>
-                        <bhrcom:upperBoundary uom="m">12.4</bhrcom:upperBoundary>
-                        <bhrcom:lowerBoundary uom="m">18.6</bhrcom:lowerBoundary>
+                        <bhrcom:upperBoundary uom="m">12.400</bhrcom:upperBoundary>
+                        <bhrcom:lowerBoundary uom="m">18.600</bhrcom:lowerBoundary>
                         <bhrcom:removedMaterial codeSpace="urn:bro:bhr:RemovedMaterial">puin</bhrcom:removedMaterial>
                     </bhrcom:removedLayer>
                 </bhrcom:removedTrajectory>
@@ -147,15 +147,15 @@
                     <bhrcom:meanHighestGroundwaterLevel uom="m">0.50</bhrcom:meanHighestGroundwaterLevel>
                     <bhrcom:meanLowestGroundwaterLevel uom="m">1.30</bhrcom:meanLowestGroundwaterLevel>
                     <bhrcom:litterLayer>
-                        <bhrcom:upperBoundary uom="m">1.50</bhrcom:upperBoundary>
-                        <bhrcom:lowerBoundary uom="m">1.75</bhrcom:lowerBoundary>
+                        <bhrcom:upperBoundary uom="m">1.500</bhrcom:upperBoundary>
+                        <bhrcom:lowerBoundary uom="m">1.750</bhrcom:lowerBoundary>
                         <bhrcom:horizonCode codeSpace="urn:bro:bhr:HorizonCode">Bhe</bhrcom:horizonCode>
                         <bhrcom:litterType codeSpace="urn:bro:bhr:LitterType">naaldstrooisel</bhrcom:litterType>
                         <bhrcom:organicMatterContent uom="%">10</bhrcom:organicMatterContent>
                     </bhrcom:litterLayer>
                     <bhrcom:soilLayer>
-                        <bhrcom:upperBoundary uom="m">1.50</bhrcom:upperBoundary>
-                        <bhrcom:lowerBoundary uom="m">1.75</bhrcom:lowerBoundary>
+                        <bhrcom:upperBoundary uom="m">1.500</bhrcom:upperBoundary>
+                        <bhrcom:lowerBoundary uom="m">1.750</bhrcom:lowerBoundary>
                         <bhrcom:anthropogenic>ja</bhrcom:anthropogenic>
                         <bhrcom:numberOfLayerComponents>1</bhrcom:numberOfLayerComponents>
                         <bhrcom:layerComponent>
@@ -169,8 +169,8 @@
                         </bhrcom:layerComponent>
                     </bhrcom:soilLayer>
                     <bhrcom:consolidatedRockLayer>
-                        <bhrcom:upperBoundary uom="m">1.75</bhrcom:upperBoundary>
-                        <bhrcom:lowerBoundary uom="m">5.80</bhrcom:lowerBoundary>
+                        <bhrcom:upperBoundary uom="m">1.750</bhrcom:upperBoundary>
+                        <bhrcom:lowerBoundary uom="m">5.800</bhrcom:lowerBoundary>
                         <bhrcom:horizonCode codeSpace="urn:bro:bhr:HorizonCode">Ru</bhrcom:horizonCode>
                         <bhrcom:rockType codeSpace="urn:bro:bhr:RockType">kalksteen</bhrcom:rockType>
                     </bhrcom:consolidatedRockLayer>
