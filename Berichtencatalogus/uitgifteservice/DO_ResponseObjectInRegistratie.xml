@@ -1,326 +1,333 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dispatchDataResponse
-        xmlns="http://www.broservices.nl/xsd/dsbhr/2.0"
-        xmlns:bhrcom="http://www.broservices.nl/xsd/bhrcommon/2.0"
-        xmlns:srcom="http://www.broservices.nl/xsd/srcommon/1.0"
-        xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
-        xmlns:om="http://www.opengis.net/om/2.0"
-        xmlns:swe="http://www.opengis.net/swe/2.0"
-        xmlns:gml="http://www.opengis.net/gml/3.2"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
+<soap:Envelope 
+        xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr/2.0 https://schema.broservices.nl/xsd/dsbhr/2.0/dsbhr-messages.xsd"
-    >
-    <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de uitgiftewebservice.
-         Het is niet gevalideerd door de uitgiftewebservice en is vaktechnisch/inhoudelijk niet voorbeeldig.
-    -->
-    <brocom:responseType>dispatch</brocom:responseType>
-    <brocom:requestReference>req:1224314</brocom:requestReference>
-    <brocom:dispatchTime>2020-11-10T09:09:43+01:00</brocom:dispatchTime>
-    <dispatchDocument>
-        <BHR_O_DP gml:id="id_0001">
-            <brocom:broId>BHR000000003950</brocom:broId>
-            <brocom:deliveryAccountableParty>52766179</brocom:deliveryAccountableParty>
-            <brocom:objectIdAccountableParty>objectId</brocom:objectIdAccountableParty>
-            <brocom:deliveryResponsibleParty>27376655</brocom:deliveryResponsibleParty>
-            <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
-            <deliveryContext codeSpace="urn:bro:bhr:DeliveryContext">publiekeTaak</deliveryContext>
-            <surveyPurpose codeSpace="urn:bro:bhr:SurveyPurpose">bodemfysischOnderzoek</surveyPurpose>
-            <discipline codeSpace="urn:bro:bhr:Discipline">bodemkunde</discipline>
-            <researchReportDate>
-                <brocom:date>2020-08-31</brocom:date>
-            </researchReportDate>
-            <siteCharacteristicDetermined>ja</siteCharacteristicDetermined>
-            <litterLayerInvestigated>nee</litterLayerInvestigated>
-            <researchOperator>
-                <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
-            </researchOperator>
-            <registrationHistory>
-                <brocom:objectRegistrationTime>2017-02-23T09:37:19+01:00</brocom:objectRegistrationTime>
-                <brocom:registrationStatus codeSpace="urn:bro:RegistrationStatus">voltooid</brocom:registrationStatus>
-                <brocom:corrected>ja</brocom:corrected>
-                <brocom:latestCorrectionTime>2020-08-31T16:39:52+02:00</brocom:latestCorrectionTime>
-                <brocom:underReview>nee</brocom:underReview>
-                <brocom:deregistered>nee</brocom:deregistered>
-                <brocom:reregistered>nee</brocom:reregistered>
-            </registrationHistory>
-            <reportHistory>
-                <reportStartDate>
-                    <brocom:date>2015-08-23</brocom:date>
-                </reportStartDate>
-                <reportEndDate>
-                    <brocom:date>2020-08-31</brocom:date>
-                </reportEndDate>
-            </reportHistory>
-            <standardizedLocation>
-                <brocom:location srsName="urn:ogc:def:crs:EPSG::4258" gml:id="id_0002">
-                    <gml:pos>52.287820210 5.090415500</gml:pos>
-                </brocom:location>
-                <brocom:coordinateTransformation codeSpace="urn:bro:CoordinateTransformation">RDNAPTRANS2008</brocom:coordinateTransformation>
-            </standardizedLocation>
-            <deliveredLocation>
-                <bhrcom:location srsName="urn:ogc:def:crs:EPSG::28992" gml:id="id_0003">
-                    <gml:pos>134750.000 477800.000</gml:pos>
-                </bhrcom:location>
-                <bhrcom:horizontalPositioningDate>
-                    <brocom:date>2015-08-23</brocom:date>
-                </bhrcom:horizontalPositioningDate>
-                <bhrcom:horizontalPositioningMethod codeSpace="urn:bro:bhr:HorizontalPositioningMethod">GPS200_1000cm</bhrcom:horizontalPositioningMethod>
-                <bhrcom:horizontalPositioningOperator>
-                    <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
-                </bhrcom:horizontalPositioningOperator>
-            </deliveredLocation>
-            <deliveredVerticalPosition>
-                <bhrcom:localVerticalReferencePoint codeSpace="urn:bro:bhr:LocalVerticalReferencePoint">maaiveld</bhrcom:localVerticalReferencePoint>
-                <bhrcom:offset uom="m" xsi:nil="true"/>
-                <bhrcom:verticalDatum codeSpace="urn:bro:bhr:VerticalDatum">NAP</bhrcom:verticalDatum>
-                <bhrcom:verticalPositioningDate>
-                    <brocom:date>2015-08-23</brocom:date>
-                </bhrcom:verticalPositioningDate>
-                <bhrcom:verticalPositioningMethod codeSpace="urn:bro:bhr:VerticalPositioningMethod">AHN10_20cm</bhrcom:verticalPositioningMethod>
-                <bhrcom:verticalPositioningOperator>
-                    <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
-                </bhrcom:verticalPositioningOperator>
-            </deliveredVerticalPosition>
-            <boring>
-                <bhrcom:boringStartDate>
-                    <brocom:date>2015-08-23</brocom:date>
-                </bhrcom:boringStartDate>
-                <bhrcom:boringEndDate>
-                    <brocom:date>2015-08-23</brocom:date>
-                </bhrcom:boringEndDate>
-                <bhrcom:boringOperator>
-                    <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
-                </bhrcom:boringOperator>
-                <bhrcom:casingUsed>nee</bhrcom:casingUsed>
-                <bhrcom:flushingMedium codeSpace="urn:bro:bhr:FlushingMedium">geen</bhrcom:flushingMedium>
-                <bhrcom:stopCriterion codeSpace="urn:bro:bhr:StopCriterion">einddiepte</bhrcom:stopCriterion>
-                <bhrcom:trajectoryRemoved>ja</bhrcom:trajectoryRemoved>
-                <bhrcom:boringProcedure>
-                    <bhrcom:boringStandard codeSpace="urn:bro:bhr:BoringStandard">geen</bhrcom:boringStandard>
-                </bhrcom:boringProcedure>
-                <bhrcom:removedTrajectory>
-                    <bhrcom:beginDepth uom="m">0.00</bhrcom:beginDepth>
-                    <bhrcom:endDepth uom="m">0.80</bhrcom:endDepth>
-                    <bhrcom:removedLayer>
-                        <bhrcom:upperBoundary uom="m">12.400</bhrcom:upperBoundary>
-                        <bhrcom:lowerBoundary uom="m">18.600</bhrcom:lowerBoundary>
-                        <bhrcom:removedMaterial codeSpace="urn:bro:bhr:RemovedMaterial">puin</bhrcom:removedMaterial>
-                    </bhrcom:removedLayer>
-                </bhrcom:removedTrajectory>
-                <bhrcom:boredTrajectory>
-                    <bhrcom:beginDepth uom="m">0.80</bhrcom:beginDepth>
-                    <bhrcom:endDepth uom="m">5.80</bhrcom:endDepth>
-                </bhrcom:boredTrajectory>
-                <bhrcom:boringTool>
-                    <bhrcom:boringToolType codeSpace="urn:bro:bhr:BoringToolType">edelmanboor</bhrcom:boringToolType>
-                    <bhrcom:boringToolDiameter uom="mm">70</bhrcom:boringToolDiameter>
-                    <bhrcom:boredInterval>
-                        <bhrcom:beginDepth uom="m">0</bhrcom:beginDepth>
-                        <bhrcom:endDepth uom="m">49.80</bhrcom:endDepth>
-                    </bhrcom:boredInterval>
-                </bhrcom:boringTool>
-            </boring>
-            <siteCharacteristic>
-                <bhrcom:landUse codeSpace="urn:bro:bhr:LandUse">tuinbouw</bhrcom:landUse>
-                <bhrcom:drained>ja</bhrcom:drained>
-            </siteCharacteristic>
-            <boreholeSampleDescription gml:id="id_0004">
-                <om:phenomenonTime>
-                    <gml:TimeInstant gml:id="id_0005">
-                        <gml:timePosition indeterminatePosition="unknown"/>
-                    </gml:TimeInstant>
-                </om:phenomenonTime>
-                <om:resultTime>
-                    <gml:TimeInstant gml:id="id_0006">
-                        <gml:timePosition indeterminatePosition="unknown"/>
-                    </gml:TimeInstant>
-                </om:resultTime>
-                <om:procedure xsi:nil="true"/>
-                <om:observedProperty xsi:nil="true"/>
-                <om:featureOfInterest xsi:nil="true"/>
-                <bhrcom:result xsi:type="bhrcom:DescriptiveBoreholeLogType">
-                    <bhrcom:sampleQuality codeSpace="urn:bro:bhr:SampleQuality">ongeroerd</bhrcom:sampleQuality>
-                    <bhrcom:rootPenetrableDepthReached>ja</bhrcom:rootPenetrableDepthReached>
-                    <bhrcom:rootPenetrableDepth uom="m">1.00</bhrcom:rootPenetrableDepth>
-                    <bhrcom:meanHighestGroundwaterLevelReached>ja</bhrcom:meanHighestGroundwaterLevelReached>
-                    <bhrcom:meanHighestGroundwaterLevel uom="m">0.50</bhrcom:meanHighestGroundwaterLevel>
-                    <bhrcom:meanLowestGroundwaterLevel uom="m">1.30</bhrcom:meanLowestGroundwaterLevel>
-                    <bhrcom:litterLayer>
-                        <bhrcom:upperBoundary uom="m">1.500</bhrcom:upperBoundary>
-                        <bhrcom:lowerBoundary uom="m">1.750</bhrcom:lowerBoundary>
-                        <bhrcom:horizonCode codeSpace="urn:bro:bhr:HorizonCode">Bhe</bhrcom:horizonCode>
-                        <bhrcom:litterType codeSpace="urn:bro:bhr:LitterType">naaldstrooisel</bhrcom:litterType>
-                        <bhrcom:organicMatterContent uom="%">10</bhrcom:organicMatterContent>
-                    </bhrcom:litterLayer>
-                    <bhrcom:soilLayer>
-                        <bhrcom:upperBoundary uom="m">1.500</bhrcom:upperBoundary>
-                        <bhrcom:lowerBoundary uom="m">1.750</bhrcom:lowerBoundary>
-                        <bhrcom:anthropogenic>ja</bhrcom:anthropogenic>
-                        <bhrcom:numberOfLayerComponents>1</bhrcom:numberOfLayerComponents>
-                        <bhrcom:layerComponent>
-                            <bhrcom:horizonCode codeSpace="urn:bro:bhr:HorizonCode">Bhe</bhrcom:horizonCode>
-                            <bhrcom:soilType>
-                              <bhrcom:standardSoilName codeSpace="urn:bro:bhr:StandardSoilName">grind</bhrcom:standardSoilName>
-                              <bhrcom:soilTypeLoamBased>nee</bhrcom:soilTypeLoamBased>
-                              <bhrcom:pedologicalSoilName codeSpace="urn:bro:bhr:PedologicalSoilName">grind</bhrcom:pedologicalSoilName>
-                              <bhrcom:carbonateClass codeSpace="urn:bro:bhr:CarbonateClass">kalkloos</bhrcom:carbonateClass>
-                            </bhrcom:soilType>
-                        </bhrcom:layerComponent>
-                    </bhrcom:soilLayer>
-                    <bhrcom:consolidatedRockLayer>
-                        <bhrcom:upperBoundary uom="m">1.750</bhrcom:upperBoundary>
-                        <bhrcom:lowerBoundary uom="m">5.800</bhrcom:lowerBoundary>
-                        <bhrcom:horizonCode codeSpace="urn:bro:bhr:HorizonCode">Ru</bhrcom:horizonCode>
-                        <bhrcom:rockType codeSpace="urn:bro:bhr:RockType">kalksteen</bhrcom:rockType>
-                    </bhrcom:consolidatedRockLayer>
-                </bhrcom:result>
-                <bhrcom:descriptionMethod codeSpace="urn:bro:bhr:DescriptionMethod">AlterraTD19A</bhrcom:descriptionMethod>
-                <bhrcom:descriptionLocation codeSpace="urn:bro:bhr:DescriptionLocation">veld</bhrcom:descriptionLocation>
-                <bhrcom:descriptionOperator>
-                    <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
-                </bhrcom:descriptionOperator>
-                <bhrcom:fractionDistributionDetermined>nee</bhrcom:fractionDistributionDetermined>
-                <bhrcom:lowerBoundarySandFraction codeSpace="urn:bro:bhr:LowerBoundarySandFraction">50</bhrcom:lowerBoundarySandFraction>
-                <bhrcom:soilClassification>
-                    <bhrcom:codeGroup codeSpace="urn:bro:bhr:CodeGroup">kleigrond</bhrcom:codeGroup>
-                    <bhrcom:classificationCode>M5p 235a p10 VIo</bhrcom:classificationCode>
-                    <bhrcom:featureTop codeSpace="urn:bro:bhr:FeatureTop">geen</bhrcom:featureTop>
-                    <bhrcom:soilClass codeSpace="urn:bro:bhr:SoilClass">poldervaaggrondZeeklei</bhrcom:soilClass>
-                    <bhrcom:textureClass codeSpace="urn:bro:bhr:TextureClass">zavelZwaar</bhrcom:textureClass>
-                    <bhrcom:textureProfile codeSpace="urn:bro:bhr:TextureProfile">opZand</bhrcom:textureProfile>
-                    <bhrcom:carbonateProfile codeSpace="urn:bro:bhr:CarbonateProfile">kalkarm</bhrcom:carbonateProfile>
-                    <bhrcom:reworkingClass codeSpace="urn:bro:bhr:ReworkingClass">geen</bhrcom:reworkingClass>
-                    <bhrcom:groundwaterTableClass codeSpace="urn:bro:bhr:GroundwaterTableClass">IIa</bhrcom:groundwaterTableClass>
-                    <bhrcom:featureSite codeSpace="urn:bro:bhr:FeatureSite">geen</bhrcom:featureSite>
-                    <bhrcom:featureBottom>
-                        <bhrcom:feature codeSpace="urn:bro:bhr:Feature">zandPleistoceen</bhrcom:feature>
-                    </bhrcom:featureBottom>
-                </bhrcom:soilClassification>
-            </boreholeSampleDescription>
-            <boreholeSampleAnalysis>
-                <bhrcom:BoreholeSampleAnalysis gml:id="id_0007">
-                    <bhrcom:analysisReportDate>
-                        <!--You have a CHOICE of the next 4 items at this level-->
-                        <!--
+        xsi:schemaLocation="http://schemas.xmlsoap.org/soap/envelope/ http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <dispatchDataResponse
+                xmlns="http://www.broservices.nl/xsd/dsbhr/2.0"
+                xmlns:bhrcom="http://www.broservices.nl/xsd/bhrcommon/2.0"
+                xmlns:srcom="http://www.broservices.nl/xsd/srcommon/1.0"
+                xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0"
+                xmlns:om="http://www.opengis.net/om/2.0"
+                xmlns:swe="http://www.opengis.net/swe/2.0"
+                xmlns:gml="http://www.opengis.net/gml/3.2"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.broservices.nl/xsd/dsbhr/2.0 https://schema.broservices.nl/xsd/dsbhr/2.0/dsbhr-messages.xsd"
+            >
+            <!-- Disclaimer: dit voorbeeldbericht valideert tegen de XSD van de uitgiftewebservice.
+                 Het is niet gevalideerd door de uitgiftewebservice en is vaktechnisch/inhoudelijk niet voorbeeldig.
+            -->
+            <brocom:responseType>dispatch</brocom:responseType>
+            <brocom:requestReference>req:1224314</brocom:requestReference>
+            <brocom:dispatchTime>2020-11-10T09:09:43+01:00</brocom:dispatchTime>
+            <dispatchDocument>
+                <BHR_O_DP gml:id="id_0001">
+                    <brocom:broId>BHR000000003950</brocom:broId>
+                    <brocom:deliveryAccountableParty>52766179</brocom:deliveryAccountableParty>
+                    <brocom:objectIdAccountableParty>objectId</brocom:objectIdAccountableParty>
+                    <brocom:deliveryResponsibleParty>27376655</brocom:deliveryResponsibleParty>
+                    <brocom:qualityRegime>IMBRO/A</brocom:qualityRegime>
+                    <deliveryContext codeSpace="urn:bro:bhr:DeliveryContext">publiekeTaak</deliveryContext>
+                    <surveyPurpose codeSpace="urn:bro:bhr:SurveyPurpose">bodemfysischOnderzoek</surveyPurpose>
+                    <discipline codeSpace="urn:bro:bhr:Discipline">bodemkunde</discipline>
+                    <researchReportDate>
                         <brocom:date>2020-08-31</brocom:date>
-                        <brocom:yearMonth>2020-08</brocom:yearMonth>
-                        <brocom:year>2020</brocom:year>
-                        <brocom:voidReason>onbekend</brocom:voidReason>
-                         -->
-                        <brocom:date>2020-08-31</brocom:date>
-                    </bhrcom:analysisReportDate>
-                    <bhrcom:analysisType codeSpace="urn:bro:bhr:AnalysisType">nietGespecificeerd</bhrcom:analysisType>
-                    <bhrcom:locationSpecific>ja</bhrcom:locationSpecific>
-                    <!--Optional:-->
-                    <bhrcom:analysisOperator>
-                        <!--You have a CHOICE of the next 2 items at this level-->
-                        <!--
+                    </researchReportDate>
+                    <siteCharacteristicDetermined>ja</siteCharacteristicDetermined>
+                    <litterLayerInvestigated>nee</litterLayerInvestigated>
+                    <researchOperator>
                         <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
-                        <brocom:europeanCompanyRegistrationNumber>DER2507_R2</brocom:europeanCompanyRegistrationNumber>
-                         -->
-                        <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
-                    </bhrcom:analysisOperator>
-                    <!--1 or more repetitions:-->
-                    <bhrcom:investigatedInterval>
-                        <bhrcom:InvestigatedInterval gml:id="id_0008">
+                    </researchOperator>
+                    <registrationHistory>
+                        <brocom:objectRegistrationTime>2017-02-23T09:37:19+01:00</brocom:objectRegistrationTime>
+                        <brocom:registrationStatus codeSpace="urn:bro:RegistrationStatus">voltooid</brocom:registrationStatus>
+                        <brocom:corrected>ja</brocom:corrected>
+                        <brocom:latestCorrectionTime>2020-08-31T16:39:52+02:00</brocom:latestCorrectionTime>
+                        <brocom:underReview>nee</brocom:underReview>
+                        <brocom:deregistered>nee</brocom:deregistered>
+                        <brocom:reregistered>nee</brocom:reregistered>
+                    </registrationHistory>
+                    <reportHistory>
+                        <reportStartDate>
+                            <brocom:date>2015-08-23</brocom:date>
+                        </reportStartDate>
+                        <reportEndDate>
+                            <brocom:date>2020-08-31</brocom:date>
+                        </reportEndDate>
+                    </reportHistory>
+                    <standardizedLocation>
+                        <brocom:location srsName="urn:ogc:def:crs:EPSG::4258" gml:id="id_0002">
+                            <gml:pos>52.287820210 5.090415500</gml:pos>
+                        </brocom:location>
+                        <brocom:coordinateTransformation codeSpace="urn:bro:CoordinateTransformation">RDNAPTRANS2008</brocom:coordinateTransformation>
+                    </standardizedLocation>
+                    <deliveredLocation>
+                        <bhrcom:location srsName="urn:ogc:def:crs:EPSG::28992" gml:id="id_0003">
+                            <gml:pos>134750.000 477800.000</gml:pos>
+                        </bhrcom:location>
+                        <bhrcom:horizontalPositioningDate>
+                            <brocom:date>2015-08-23</brocom:date>
+                        </bhrcom:horizontalPositioningDate>
+                        <bhrcom:horizontalPositioningMethod codeSpace="urn:bro:bhr:HorizontalPositioningMethod">GPS200_1000cm</bhrcom:horizontalPositioningMethod>
+                        <bhrcom:horizontalPositioningOperator>
+                            <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
+                        </bhrcom:horizontalPositioningOperator>
+                    </deliveredLocation>
+                    <deliveredVerticalPosition>
+                        <bhrcom:localVerticalReferencePoint codeSpace="urn:bro:bhr:LocalVerticalReferencePoint">maaiveld</bhrcom:localVerticalReferencePoint>
+                        <bhrcom:offset uom="m" xsi:nil="true"/>
+                        <bhrcom:verticalDatum codeSpace="urn:bro:bhr:VerticalDatum">NAP</bhrcom:verticalDatum>
+                        <bhrcom:verticalPositioningDate>
+                            <brocom:date>2015-08-23</brocom:date>
+                        </bhrcom:verticalPositioningDate>
+                        <bhrcom:verticalPositioningMethod codeSpace="urn:bro:bhr:VerticalPositioningMethod">AHN10_20cm</bhrcom:verticalPositioningMethod>
+                        <bhrcom:verticalPositioningOperator>
+                            <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
+                        </bhrcom:verticalPositioningOperator>
+                    </deliveredVerticalPosition>
+                    <boring>
+                        <bhrcom:boringStartDate>
+                            <brocom:date>2015-08-23</brocom:date>
+                        </bhrcom:boringStartDate>
+                        <bhrcom:boringEndDate>
+                            <brocom:date>2015-08-23</brocom:date>
+                        </bhrcom:boringEndDate>
+                        <bhrcom:boringOperator>
+                            <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
+                        </bhrcom:boringOperator>
+                        <bhrcom:casingUsed>nee</bhrcom:casingUsed>
+                        <bhrcom:flushingMedium codeSpace="urn:bro:bhr:FlushingMedium">geen</bhrcom:flushingMedium>
+                        <bhrcom:stopCriterion codeSpace="urn:bro:bhr:StopCriterion">einddiepte</bhrcom:stopCriterion>
+                        <bhrcom:trajectoryRemoved>ja</bhrcom:trajectoryRemoved>
+                        <bhrcom:boringProcedure>
+                            <bhrcom:boringStandard codeSpace="urn:bro:bhr:BoringStandard">geen</bhrcom:boringStandard>
+                        </bhrcom:boringProcedure>
+                        <bhrcom:removedTrajectory>
                             <bhrcom:beginDepth uom="m">0.00</bhrcom:beginDepth>
-                            <bhrcom:endDepth uom="m">25.00</bhrcom:endDepth>
+                            <bhrcom:endDepth uom="m">0.80</bhrcom:endDepth>
+                            <bhrcom:removedLayer>
+                                <bhrcom:upperBoundary uom="m">12.4</bhrcom:upperBoundary>
+                                <bhrcom:lowerBoundary uom="m">18.6</bhrcom:lowerBoundary>
+                                <bhrcom:removedMaterial codeSpace="urn:bro:bhr:RemovedMaterial">puin</bhrcom:removedMaterial>
+                            </bhrcom:removedLayer>
+                        </bhrcom:removedTrajectory>
+                        <bhrcom:boredTrajectory>
+                            <bhrcom:beginDepth uom="m">0.80</bhrcom:beginDepth>
+                            <bhrcom:endDepth uom="m">5.80</bhrcom:endDepth>
+                        </bhrcom:boredTrajectory>
+                        <bhrcom:boringTool>
+                            <bhrcom:boringToolType codeSpace="urn:bro:bhr:BoringToolType">edelmanboor</bhrcom:boringToolType>
+                            <bhrcom:boringToolDiameter uom="mm">70</bhrcom:boringToolDiameter>
+                            <bhrcom:boredInterval>
+                                <bhrcom:beginDepth uom="m">0</bhrcom:beginDepth>
+                                <bhrcom:endDepth uom="m">49.80</bhrcom:endDepth>
+                            </bhrcom:boredInterval>
+                        </bhrcom:boringTool>
+                    </boring>
+                    <siteCharacteristic>
+                        <bhrcom:landUse codeSpace="urn:bro:bhr:LandUse">tuinbouw</bhrcom:landUse>
+                        <bhrcom:drained>ja</bhrcom:drained>
+                    </siteCharacteristic>
+                    <boreholeSampleDescription gml:id="id_0004">
+                        <om:phenomenonTime>
+                            <gml:TimeInstant gml:id="id_0005">
+                                <gml:timePosition indeterminatePosition="unknown"/>
+                            </gml:TimeInstant>
+                        </om:phenomenonTime>
+                        <om:resultTime>
+                            <gml:TimeInstant gml:id="id_0006">
+                                <gml:timePosition indeterminatePosition="unknown"/>
+                            </gml:TimeInstant>
+                        </om:resultTime>
+                        <om:procedure xsi:nil="true"/>
+                        <om:observedProperty xsi:nil="true"/>
+                        <om:featureOfInterest xsi:nil="true"/>
+                        <bhrcom:result xsi:type="bhrcom:DescriptiveBoreholeLogType">
+                            <bhrcom:sampleQuality codeSpace="urn:bro:bhr:SampleQuality">ongeroerd</bhrcom:sampleQuality>
+                            <bhrcom:rootPenetrableDepthReached>ja</bhrcom:rootPenetrableDepthReached>
+                            <bhrcom:rootPenetrableDepth uom="m">1.00</bhrcom:rootPenetrableDepth>
+                            <bhrcom:meanHighestGroundwaterLevelReached>ja</bhrcom:meanHighestGroundwaterLevelReached>
+                            <bhrcom:meanHighestGroundwaterLevel uom="m">0.50</bhrcom:meanHighestGroundwaterLevel>
+                            <bhrcom:meanLowestGroundwaterLevel uom="m">1.30</bhrcom:meanLowestGroundwaterLevel>
+                            <bhrcom:litterLayer>
+                                <bhrcom:upperBoundary uom="m">1.50</bhrcom:upperBoundary>
+                                <bhrcom:lowerBoundary uom="m">1.75</bhrcom:lowerBoundary>
+                                <bhrcom:horizonCode codeSpace="urn:bro:bhr:HorizonCode">Bhe</bhrcom:horizonCode>
+                                <bhrcom:litterType codeSpace="urn:bro:bhr:LitterType">naaldstrooisel</bhrcom:litterType>
+                                <bhrcom:organicMatterContent uom="%">10</bhrcom:organicMatterContent>
+                            </bhrcom:litterLayer>
+                            <bhrcom:soilLayer>
+                                <bhrcom:upperBoundary uom="m">1.50</bhrcom:upperBoundary>
+                                <bhrcom:lowerBoundary uom="m">1.75</bhrcom:lowerBoundary>
+                                <bhrcom:anthropogenic>ja</bhrcom:anthropogenic>
+                                <bhrcom:numberOfLayerComponents>1</bhrcom:numberOfLayerComponents>
+                                <bhrcom:layerComponent>
+                                    <bhrcom:horizonCode codeSpace="urn:bro:bhr:HorizonCode">Bhe</bhrcom:horizonCode>
+                                    <bhrcom:soilType>
+                                      <bhrcom:standardSoilName codeSpace="urn:bro:bhr:StandardSoilName">grind</bhrcom:standardSoilName>
+                                      <bhrcom:soilTypeLoamBased>nee</bhrcom:soilTypeLoamBased>
+                                      <bhrcom:pedologicalSoilName codeSpace="urn:bro:bhr:PedologicalSoilName">grind</bhrcom:pedologicalSoilName>
+                                      <bhrcom:carbonateClass codeSpace="urn:bro:bhr:CarbonateClass">kalkloos</bhrcom:carbonateClass>
+                                    </bhrcom:soilType>
+                                </bhrcom:layerComponent>
+                            </bhrcom:soilLayer>
+                            <bhrcom:consolidatedRockLayer>
+                                <bhrcom:upperBoundary uom="m">1.75</bhrcom:upperBoundary>
+                                <bhrcom:lowerBoundary uom="m">5.80</bhrcom:lowerBoundary>
+                                <bhrcom:horizonCode codeSpace="urn:bro:bhr:HorizonCode">Ru</bhrcom:horizonCode>
+                                <bhrcom:rockType codeSpace="urn:bro:bhr:RockType">kalksteen</bhrcom:rockType>
+                            </bhrcom:consolidatedRockLayer>
+                        </bhrcom:result>
+                        <bhrcom:descriptionMethod codeSpace="urn:bro:bhr:DescriptionMethod">AlterraTD19A</bhrcom:descriptionMethod>
+                        <bhrcom:descriptionLocation codeSpace="urn:bro:bhr:DescriptionLocation">veld</bhrcom:descriptionLocation>
+                        <bhrcom:descriptionOperator>
+                            <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
+                        </bhrcom:descriptionOperator>
+                        <bhrcom:fractionDistributionDetermined>nee</bhrcom:fractionDistributionDetermined>
+                        <bhrcom:lowerBoundarySandFraction codeSpace="urn:bro:bhr:LowerBoundarySandFraction">50</bhrcom:lowerBoundarySandFraction>
+                        <bhrcom:soilClassification>
+                            <bhrcom:codeGroup codeSpace="urn:bro:bhr:CodeGroup">kleigrond</bhrcom:codeGroup>
+                            <bhrcom:classificationCode>M5p 235a p10 VIo</bhrcom:classificationCode>
+                            <bhrcom:featureTop codeSpace="urn:bro:bhr:FeatureTop">geen</bhrcom:featureTop>
+                            <bhrcom:soilClass codeSpace="urn:bro:bhr:SoilClass">poldervaaggrondZeeklei</bhrcom:soilClass>
+                            <bhrcom:textureClass codeSpace="urn:bro:bhr:TextureClass">zavelZwaar</bhrcom:textureClass>
+                            <bhrcom:textureProfile codeSpace="urn:bro:bhr:TextureProfile">opZand</bhrcom:textureProfile>
+                            <bhrcom:carbonateProfile codeSpace="urn:bro:bhr:CarbonateProfile">kalkarm</bhrcom:carbonateProfile>
+                            <bhrcom:reworkingClass codeSpace="urn:bro:bhr:ReworkingClass">geen</bhrcom:reworkingClass>
+                            <bhrcom:groundwaterTableClass codeSpace="urn:bro:bhr:GroundwaterTableClass">IIa</bhrcom:groundwaterTableClass>
+                            <bhrcom:featureSite codeSpace="urn:bro:bhr:FeatureSite">geen</bhrcom:featureSite>
+                            <bhrcom:featureBottom>
+                                <bhrcom:feature codeSpace="urn:bro:bhr:Feature">zandPleistoceen</bhrcom:feature>
+                            </bhrcom:featureBottom>
+                        </bhrcom:soilClassification>
+                    </boreholeSampleDescription>
+                    <boreholeSampleAnalysis>
+                        <bhrcom:BoreholeSampleAnalysis gml:id="id_0007">
+                            <bhrcom:analysisReportDate>
+                                <!--You have a CHOICE of the next 4 items at this level-->
+                                <!--
+                                <brocom:date>2020-08-31</brocom:date>
+                                <brocom:yearMonth>2020-08</brocom:yearMonth>
+                                <brocom:year>2020</brocom:year>
+                                <brocom:voidReason>onbekend</brocom:voidReason>
+                                 -->
+                                <brocom:date>2020-08-31</brocom:date>
+                            </bhrcom:analysisReportDate>
+                            <bhrcom:analysisType codeSpace="urn:bro:bhr:AnalysisType">nietGespecificeerd</bhrcom:analysisType>
                             <bhrcom:locationSpecific>ja</bhrcom:locationSpecific>
-                            <bhrcom:characteristicModelled>nee</bhrcom:characteristicModelled>
-                            <bhrcom:pHDetermination>
-                                <srcom:PHDetermination gml:id="id_0009">
-                                    <srcom:determinationProcedure codeSpace="urn:bro:sr:DeterminationProcedure">ISO10390v2005</srcom:determinationProcedure>
-                                    <srcom:determinationMethod codeSpace="urn:bro:sr:DeterminationMethod">zuurgraadKCl</srcom:determinationMethod>
-                                    <srcom:pH uom="1">7.4</srcom:pH>
-                                </srcom:PHDetermination>
-                            </bhrcom:pHDetermination>
-                            <bhrcom:particleSizeDistributionDetermination>
-                                <srcom:ParticleSizeDistributionDetermination gml:id="id_0010">
-                                    <srcom:determinationProcedure codeSpace="urn:bro:sr:DeterminationProcedure">onbekend</srcom:determinationProcedure>
-                                    <srcom:determinationMethod codeSpace="urn:bro:sr:DeterminationMethod">onbekend</srcom:determinationMethod>
-                                    <srcom:particleSizeDistributionStandardised>nee</srcom:particleSizeDistributionStandardised>
-                                    <!-- optional
-                                    <srcom:fractionDistribution codeSpace=""></srcom:fractionDistribution>
-                                    -->
-                                    <!-- optional -->
-                                    <srcom:performanceIrregularity codeSpace="urn:bro:sr:PerformanceIrregularity">todo</srcom:performanceIrregularity>
-                                    <srcom:dispersionMethod codeSpace="urn:bro:sr:DispersionMethod">todo</srcom:dispersionMethod>
-                                    <srcom:nonStandardisedFraction>
-                                        <srcom:lowerBoundary uom="um">2</srcom:lowerBoundary>
-                                        <srcom:upperBoundary uom="um">0</srcom:upperBoundary>
-                                        <srcom:proportion uom="%">14.5</srcom:proportion>
-                                    </srcom:nonStandardisedFraction>
-                                    <srcom:nonStandardisedFraction>
-                                        <srcom:lowerBoundary uom="um">300</srcom:lowerBoundary>
-                                        <srcom:upperBoundary uom="um">0</srcom:upperBoundary>
-                                        <srcom:proportion uom="%">0.3</srcom:proportion>
-                                    </srcom:nonStandardisedFraction>
-                                    <srcom:nonStandardisedFraction>
-                                        <srcom:lowerBoundary uom="um">16</srcom:lowerBoundary>
-                                        <srcom:upperBoundary uom="um">2</srcom:upperBoundary>
-                                        <srcom:proportion uom="%">5.3</srcom:proportion>
-                                    </srcom:nonStandardisedFraction>
-                                    <srcom:nonStandardisedFraction>
-                                        <srcom:lowerBoundary uom="um">50</srcom:lowerBoundary>
-                                        <srcom:upperBoundary uom="um">16</srcom:upperBoundary>
-                                        <srcom:proportion uom="%">21.3</srcom:proportion>
-                                    </srcom:nonStandardisedFraction>
-                                    <srcom:nonStandardisedFraction>
-                                        <srcom:lowerBoundary uom="um">105</srcom:lowerBoundary>
-                                        <srcom:upperBoundary uom="um">50</srcom:upperBoundary>
-                                        <srcom:proportion uom="%">35.7</srcom:proportion>
-                                    </srcom:nonStandardisedFraction>
-                                    <srcom:nonStandardisedFraction>
-                                        <srcom:lowerBoundary uom="um">150</srcom:lowerBoundary>
-                                        <srcom:upperBoundary uom="um">105</srcom:upperBoundary>
-                                        <srcom:proportion uom="%">19.3</srcom:proportion>
-                                    </srcom:nonStandardisedFraction>
-                                    <srcom:nonStandardisedFraction>
-                                        <srcom:lowerBoundary uom="um">210</srcom:lowerBoundary>
-                                        <srcom:upperBoundary uom="um">150</srcom:upperBoundary>
-                                        <srcom:proportion uom="%">3.0</srcom:proportion>
-                                    </srcom:nonStandardisedFraction>
-                                    <srcom:nonStandardisedFraction>
-                                        <srcom:lowerBoundary uom="um">300</srcom:lowerBoundary>
-                                        <srcom:upperBoundary uom="um">210</srcom:upperBoundary>
-                                        <srcom:proportion uom="%">0.6</srcom:proportion>
-                                    </srcom:nonStandardisedFraction>
-                                </srcom:ParticleSizeDistributionDetermination>
-                            </bhrcom:particleSizeDistributionDetermination>
-                        </bhrcom:InvestigatedInterval>
-                    </bhrcom:investigatedInterval>
-                    <bhrcom:investigatedInterval>
-                        <bhrcom:InvestigatedInterval gml:id="id_0011">
-                            <bhrcom:beginDepth uom="m">10.00</bhrcom:beginDepth>
-                            <bhrcom:endDepth uom="m">20.00</bhrcom:endDepth>
-                            <bhrcom:locationSpecific>ja</bhrcom:locationSpecific>
-                            <bhrcom:characteristicModelled>nee</bhrcom:characteristicModelled>
-                            <bhrcom:shrinkageDetermination>
-                                <srcom:ShrinkageDetermination gml:id="id_0012">
-                                    <srcom:determinationProcedure codeSpace="urn:bro:sr:DeterminationProcedure">bronswijk1986</srcom:determinationProcedure>
-                                    <srcom:determinationMethod codeSpace="urn:bro:sr:DeterminationMethod">schuifmaat</srcom:determinationMethod>
-                                    <srcom:disturbed>nee</srcom:disturbed>
-                                    <srcom:shrinkage>
-                                        <swe:DataArray id="id_0017">
-                                            <swe:elementCount>
-                                                <swe:Count>
-                                                    <swe:value>14</swe:value>
-                                                </swe:Count>
-                                            </swe:elementCount>
-                                            <swe:elementType name="krimptoestand" xlink:href="https://schema.broservices.nl/xsd/sfrcommon/2.0/meetreeksen/ShrinkageState.xml"/>
-                                            <swe:encoding>
-                                                <swe:TextEncoding collapseWhiteSpaces="true" decimalSeparator="." tokenSeparator="," blockSeparator=";"/>
-                                            </swe:encoding>
-                                            <swe:values>66.4,39.4,NaN,NaN;65.5,38.8,NaN,NaN;64.8,38.4,NaN,NaN;60.8,35.4,NaN,NaN;60.3,35.0,NaN,NaN;58.9,33.4,NaN,NaN;57.4,32.4,NaN,NaN;55.8,30.9,NaN,NaN;53.9,29.0,NaN,NaN;52.8,28.1,NaN,NaN;50.4,26.1,NaN,NaN;49.0,25.2,NaN,NaN;48.5,24.9,NaN,NaN;43.4,23.1,NaN,NaN</swe:values>
-                                        </swe:DataArray>
-                                    </srcom:shrinkage>
-                                </srcom:ShrinkageDetermination>
-                            </bhrcom:shrinkageDetermination>
-                        </bhrcom:InvestigatedInterval>
-                    </bhrcom:investigatedInterval>
-                </bhrcom:BoreholeSampleAnalysis>
-            </boreholeSampleAnalysis>
-        </BHR_O_DP>
-    </dispatchDocument>
-</dispatchDataResponse>
+                            <!--Optional:-->
+                            <bhrcom:analysisOperator>
+                                <!--You have a CHOICE of the next 2 items at this level-->
+                                <!--
+                                <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
+                                <brocom:europeanCompanyRegistrationNumber>DER2507_R2</brocom:europeanCompanyRegistrationNumber>
+                                 -->
+                                <brocom:chamberOfCommerceNumber>27376655</brocom:chamberOfCommerceNumber>
+                            </bhrcom:analysisOperator>
+                            <!--1 or more repetitions:-->
+                            <bhrcom:investigatedInterval>
+                                <bhrcom:InvestigatedInterval gml:id="id_0008">
+                                    <bhrcom:beginDepth uom="m">0.00</bhrcom:beginDepth>
+                                    <bhrcom:endDepth uom="m">25.00</bhrcom:endDepth>
+                                    <bhrcom:locationSpecific>ja</bhrcom:locationSpecific>
+                                    <bhrcom:characteristicModelled>nee</bhrcom:characteristicModelled>
+                                    <bhrcom:pHDetermination>
+                                        <srcom:PHDetermination gml:id="id_0009">
+                                            <srcom:determinationProcedure codeSpace="urn:bro:sr:DeterminationProcedure">ISO10390v2005</srcom:determinationProcedure>
+                                            <srcom:determinationMethod codeSpace="urn:bro:sr:DeterminationMethod">zuurgraadKCl</srcom:determinationMethod>
+                                            <srcom:pH uom="1">7.4</srcom:pH>
+                                        </srcom:PHDetermination>
+                                    </bhrcom:pHDetermination>
+                                    <bhrcom:particleSizeDistributionDetermination>
+                                        <srcom:ParticleSizeDistributionDetermination gml:id="id_0010">
+                                            <srcom:determinationProcedure codeSpace="urn:bro:sr:DeterminationProcedure">onbekend</srcom:determinationProcedure>
+                                            <srcom:determinationMethod codeSpace="urn:bro:sr:DeterminationMethod">onbekend</srcom:determinationMethod>
+                                            <srcom:particleSizeDistributionStandardised>nee</srcom:particleSizeDistributionStandardised>
+                                            <!-- optional
+                                            <srcom:fractionDistribution codeSpace=""></srcom:fractionDistribution>
+                                            -->
+                                            <!-- optional -->
+                                            <srcom:performanceIrregularity codeSpace="urn:bro:sr:PerformanceIrregularity">todo</srcom:performanceIrregularity>
+                                            <srcom:dispersionMethod codeSpace="urn:bro:sr:DispersionMethod">todo</srcom:dispersionMethod>
+                                            <srcom:nonStandardisedFraction>
+                                                <srcom:lowerBoundary uom="um">2</srcom:lowerBoundary>
+                                                <srcom:upperBoundary uom="um">0</srcom:upperBoundary>
+                                                <srcom:proportion uom="%">14.5</srcom:proportion>
+                                            </srcom:nonStandardisedFraction>
+                                            <srcom:nonStandardisedFraction>
+                                                <srcom:lowerBoundary uom="um">300</srcom:lowerBoundary>
+                                                <srcom:upperBoundary uom="um">0</srcom:upperBoundary>
+                                                <srcom:proportion uom="%">0.3</srcom:proportion>
+                                            </srcom:nonStandardisedFraction>
+                                            <srcom:nonStandardisedFraction>
+                                                <srcom:lowerBoundary uom="um">16</srcom:lowerBoundary>
+                                                <srcom:upperBoundary uom="um">2</srcom:upperBoundary>
+                                                <srcom:proportion uom="%">5.3</srcom:proportion>
+                                            </srcom:nonStandardisedFraction>
+                                            <srcom:nonStandardisedFraction>
+                                                <srcom:lowerBoundary uom="um">50</srcom:lowerBoundary>
+                                                <srcom:upperBoundary uom="um">16</srcom:upperBoundary>
+                                                <srcom:proportion uom="%">21.3</srcom:proportion>
+                                            </srcom:nonStandardisedFraction>
+                                            <srcom:nonStandardisedFraction>
+                                                <srcom:lowerBoundary uom="um">105</srcom:lowerBoundary>
+                                                <srcom:upperBoundary uom="um">50</srcom:upperBoundary>
+                                                <srcom:proportion uom="%">35.7</srcom:proportion>
+                                            </srcom:nonStandardisedFraction>
+                                            <srcom:nonStandardisedFraction>
+                                                <srcom:lowerBoundary uom="um">150</srcom:lowerBoundary>
+                                                <srcom:upperBoundary uom="um">105</srcom:upperBoundary>
+                                                <srcom:proportion uom="%">19.3</srcom:proportion>
+                                            </srcom:nonStandardisedFraction>
+                                            <srcom:nonStandardisedFraction>
+                                                <srcom:lowerBoundary uom="um">210</srcom:lowerBoundary>
+                                                <srcom:upperBoundary uom="um">150</srcom:upperBoundary>
+                                                <srcom:proportion uom="%">3.0</srcom:proportion>
+                                            </srcom:nonStandardisedFraction>
+                                            <srcom:nonStandardisedFraction>
+                                                <srcom:lowerBoundary uom="um">300</srcom:lowerBoundary>
+                                                <srcom:upperBoundary uom="um">210</srcom:upperBoundary>
+                                                <srcom:proportion uom="%">0.6</srcom:proportion>
+                                            </srcom:nonStandardisedFraction>
+                                        </srcom:ParticleSizeDistributionDetermination>
+                                    </bhrcom:particleSizeDistributionDetermination>
+                                </bhrcom:InvestigatedInterval>
+                            </bhrcom:investigatedInterval>
+                            <bhrcom:investigatedInterval>
+                                <bhrcom:InvestigatedInterval gml:id="id_0011">
+                                    <bhrcom:beginDepth uom="m">10.00</bhrcom:beginDepth>
+                                    <bhrcom:endDepth uom="m">20.00</bhrcom:endDepth>
+                                    <bhrcom:locationSpecific>ja</bhrcom:locationSpecific>
+                                    <bhrcom:characteristicModelled>nee</bhrcom:characteristicModelled>
+                                    <bhrcom:shrinkageDetermination>
+                                        <srcom:ShrinkageDetermination gml:id="id_0012">
+                                            <srcom:determinationProcedure codeSpace="urn:bro:sr:DeterminationProcedure">bronswijk1986</srcom:determinationProcedure>
+                                            <srcom:determinationMethod codeSpace="urn:bro:sr:DeterminationMethod">schuifmaat</srcom:determinationMethod>
+                                            <srcom:disturbed>nee</srcom:disturbed>
+                                            <srcom:shrinkage>
+                                                <swe:DataArray id="id_0017">
+                                                    <swe:elementCount>
+                                                        <swe:Count>
+                                                            <swe:value>14</swe:value>
+                                                        </swe:Count>
+                                                    </swe:elementCount>
+                                                    <swe:elementType name="krimptoestand" xlink:href="https://schema.broservices.nl/xsd/sfrcommon/2.0/meetreeksen/ShrinkageState.xml"/>
+                                                    <swe:encoding>
+                                                        <swe:TextEncoding collapseWhiteSpaces="true" decimalSeparator="." tokenSeparator="," blockSeparator=";"/>
+                                                    </swe:encoding>
+                                                    <swe:values>66.4,39.4,NaN,NaN;65.5,38.8,NaN,NaN;64.8,38.4,NaN,NaN;60.8,35.4,NaN,NaN;60.3,35.0,NaN,NaN;58.9,33.4,NaN,NaN;57.4,32.4,NaN,NaN;55.8,30.9,NaN,NaN;53.9,29.0,NaN,NaN;52.8,28.1,NaN,NaN;50.4,26.1,NaN,NaN;49.0,25.2,NaN,NaN;48.5,24.9,NaN,NaN;43.4,23.1,NaN,NaN</swe:values>
+                                                </swe:DataArray>
+                                            </srcom:shrinkage>
+                                        </srcom:ShrinkageDetermination>
+                                    </bhrcom:shrinkageDetermination>
+                                </bhrcom:InvestigatedInterval>
+                            </bhrcom:investigatedInterval>
+                        </bhrcom:BoreholeSampleAnalysis>
+                    </boreholeSampleAnalysis>
+                </BHR_O_DP>
+            </dispatchDocument>
+        </dispatchDataResponse>
+    </soap:Body>
+</soap:Envelope>
