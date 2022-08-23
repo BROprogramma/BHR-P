@@ -1,9 +1,9 @@
 var respecConfig = {
-  specStatus: "GN-WV",
+  specStatus: "GN-VV",
   specType: "IM",
   subtitle: "Bodemkundige boormonsterbeschrijving en boormonsteranalyse",
   //canonicalURI: "WV",
-  //publishDate: "2020-03-25",
+   publishDate: "2022-07-15",
   maxTocLevel: 4,
  logos: [{
     src: 'https://docs.geostandaarden.nl/bro/gen/logo_minbzk.png',
