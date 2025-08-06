@@ -34,7 +34,7 @@
 		<Waarde>siltKleiarm</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Kleiarm silt, lutumgehalte minder dan 5 % en leemgehalte (lutumgehalte + siltgehalte) groter dan of gelijk aan 50 % (code "13", lutumgehalteklasse). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
+		<Omschrijving>Kleiarm silt, lutumgehalte &lt; 5 % en leemgehalte (lutumgehalte + siltgehalte) groter dan of gelijk aan 50 % (code "13", lutumgehalteklasse). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
 	</Textuurklasse>
 	<Textuurklasse>
 		<Waarde>siltKleiig</Waarde>
@@ -118,7 +118,7 @@
 		<Waarde>zandLeemarmUiterstFijn</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Leemarm uiterst fijn zand, leemgehalte (lutumgehalte + siltgehalte) minder dan 10 % en zandmediaan vanaf 50 tot 105 µm (code "411", zandmediaanklasse + leemgehalteklasse). Van toepassing bij moerige gronden op zand, podzolgronden, kalkloze zandgronden en bij brikgronden waar de toplaag lemig zand is.</Omschrijving>
+		<Omschrijving>Leemarm uiterst fijn zand, leemgehalte (lutumgehalte + siltgehalte) &lt; 10 % en zandmediaan vanaf 50 tot 105 µm (code "411", zandmediaanklasse + leemgehalteklasse). Van toepassing bij moerige gronden op zand, podzolgronden, kalkloze zandgronden en bij brikgronden waar de toplaag lemig zand is.</Omschrijving>
 	</Textuurklasse>
 	<Textuurklasse>
 		<Waarde>zandLeemarmZeerFijn</Waarde>
