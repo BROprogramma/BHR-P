@@ -140,43 +140,43 @@
 	</Landgebruik>
 	<Landgebruik>
 		<Waarde>akker</Waarde>
-		<IMBRO></IMBRO>
+		<IMBRO> </IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Akkerbouw, niet nader gespecificeerd.</Omschrijving>
 	</Landgebruik>
 	<Landgebruik>
 		<Waarde>bos</Waarde>
-		<IMBRO></IMBRO>
+		<IMBRO> </IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Bos, niet nader gespecificeerd.</Omschrijving>
 	</Landgebruik>
 	<Landgebruik>
 		<Waarde>fruitteelt</Waarde>
-		<IMBRO></IMBRO>
+		<IMBRO> </IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Boomgaard, niet nader gespecificeerd.</Omschrijving>
 	</Landgebruik>
 	<Landgebruik>
 		<Waarde>grasland</Waarde>
-		<IMBRO></IMBRO>
+		<IMBRO> </IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Grasland, niet nader gespecificeerd.</Omschrijving>
 	</Landgebruik>
 	<Landgebruik>
 		<Waarde>natuur</Waarde>
-		<IMBRO></IMBRO>
+		<IMBRO> </IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Natuurterrein, niet nader gespecificeerd.</Omschrijving>
 	</Landgebruik>
 	<Landgebruik>
 		<Waarde>onbekend</Waarde>
-		<IMBRO></IMBRO>
+		<IMBRO> </IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Onbekend.</Omschrijving>
 	</Landgebruik>
 	<Landgebruik>
 		<Waarde>tuinbouw</Waarde>
-		<IMBRO></IMBRO>
+		<IMBRO> </IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Tuinbouw, niet nader gespecificeerd.</Omschrijving>
 	</Landgebruik>
