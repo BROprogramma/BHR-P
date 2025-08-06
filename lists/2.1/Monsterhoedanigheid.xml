@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Monsterhoedanigheid>
+		<Waarde>geroerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het opgehaalde materiaal heeft de oorspronkelijke laagopbouw niet voldoende behouden.</Omschrijving>
+	</Monsterhoedanigheid>
+	<Monsterhoedanigheid>
+		<Waarde>geroerdOngeroerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het opgehaalde materiaal heeft voor een deel de oorspronkelijke laagopbouw voldoende behouden en voor een deel niet.</Omschrijving>
+	</Monsterhoedanigheid>
+	<Monsterhoedanigheid>
+		<Waarde>ongeroerd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het opgehaalde materiaal heeft de oorspronkelijke laagopbouw voldoende behouden.</Omschrijving>
+	</Monsterhoedanigheid>
+</domeintabel>

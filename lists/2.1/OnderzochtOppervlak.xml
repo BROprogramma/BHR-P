@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<OnderzochtOppervlak>
+		<Waarde>cirkelStraal5</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het onderzochte oppervlakte beslaat een cirkel om de locatie van de boring met een straal van 5 meter.</Omschrijving>
+	</OnderzochtOppervlak>
+	<OnderzochtOppervlak>
+		<Waarde>vierkantZijde5</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het onderzochte oppervlakte beslaat een vierkant met zijden van 5 meter en met de locatie van de boring in het centrum.</Omschrijving>
+	</OnderzochtOppervlak>
+	<OnderzochtOppervlak>
+		<Waarde>vierkantZijde20</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het onderzochte oppervlakte beslaat een vierkant met zijden van 20 meter en met de locatie van de boring in het centrum.</Omschrijving>
+	</OnderzochtOppervlak>
+	<OnderzochtOppervlak>
+		<Waarde>vierkantZijde35</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Het onderzochte oppervlakte beslaat een vierkant met zijden van 35 meter en met de locatie van de boring in het centrum.</Omschrijving>
+	</OnderzochtOppervlak>
+</domeintabel>
