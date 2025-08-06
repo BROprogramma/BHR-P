@@ -10,18 +10,18 @@
 		<Waarde>zwakHumeus</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Zwak humeus, organische stof maakt minder dan 2,5 % van de massa uit, tenzij de waarde van het attribuut &lt;i&gt;bodemkundige grondsoort &lt;/i&gt;gelijk is aan &lt;i&gt;zeerLichteZavel&lt;/i&gt;, &lt;i&gt;matigLichteZavel&lt;/i&gt;, &lt;i&gt;zwareZavel&lt;/i&gt;, &lt;i&gt;lichteKlei&lt;/i&gt;, &lt;i&gt;matigZwareKlei&lt;/i&gt;, &lt;i&gt;zeerZwareKlei&lt;/i&gt;, &lt;i&gt;SiltigeLeem &lt;/i&gt;of &lt;i&gt;zandigeLeem &lt;/i&gt;is, dan kan het aandeel tot 5 % bedragen.</Omschrijving>
+		<Omschrijving>Zwak humeus, organische stof maakt minder dan 2,5 % van de massa uit, tenzij de waarde van het attribuut <i>bodemkundige grondsoort </i>gelijk is aan <i>zeerLichteZavel</i>, <i>matigLichteZavel</i>, <i>zwareZavel</i>, <i>lichteKlei</i>, <i>matigZwareKlei</i>, <i>zeerZwareKlei</i>, <i>SiltigeLeem </i>of <i>zandigeLeem </i>is, dan kan het aandeel tot 5 % bedragen.</Omschrijving>
 	</OrganischestofGehalteKlasse>
 	<OrganischestofGehalteKlasse>
 		<Waarde>matigHumeus</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Matig humeus. Organische stof maakt tussen 2,5 en 8 % van de massa uit, tenzij de waarde van het attribuut &lt;i&gt;bodemkundige grondsoort &lt;/i&gt;gelijk is aan &lt;i&gt;zeerLichteZavel&lt;/i&gt;, &lt;i&gt;matigLichteZavel&lt;/i&gt;, &lt;i&gt;zwareZavel&lt;/i&gt;, &lt;i&gt;lichteKlei&lt;/i&gt;, &lt;i&gt;matigZwareKlei&lt;/i&gt;, &lt;i&gt;zeerZwareKlei&lt;/i&gt;, &lt;i&gt;SiltigeLeem &lt;/i&gt;of &lt;i&gt;zandigeLeem &lt;/i&gt;is, dan kan het aandeel tot 16 % bedragen. De waarde matigHumeus vervangt de oude waarde ‘humeus’.</Omschrijving>
+		<Omschrijving>Matig humeus. Organische stof maakt tussen 2,5 en 8 % van de massa uit, tenzij de waarde van het attribuut <i>bodemkundige grondsoort </i>gelijk is aan <i>zeerLichteZavel</i>, <i>matigLichteZavel</i>, <i>zwareZavel</i>, <i>lichteKlei</i>, <i>matigZwareKlei</i>, <i>zeerZwareKlei</i>, <i>SiltigeLeem </i>of <i>zandigeLeem </i>is, dan kan het aandeel tot 16 % bedragen. De waarde matigHumeus vervangt de oude waarde ‘humeus’.</Omschrijving>
 	</OrganischestofGehalteKlasse>
 	<OrganischestofGehalteKlasse>
 		<Waarde>sterkHumeus</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Sterk humeus. Organische stof maakt tussen 8 en 16 % van de massa uit, tenzij de waarde van het attribuut &lt;i&gt;bodemkundige grondsoort &lt;/i&gt;gelijk is aan &lt;i&gt;zeerLichteZavel&lt;/i&gt;, &lt;i&gt;matigLichteZavel&lt;/i&gt;, &lt;i&gt;zwareZavel&lt;/i&gt;, &lt;i&gt;lichteKlei&lt;/i&gt;, &lt;i&gt;matigZwareKlei&lt;/i&gt;, &lt;i&gt;zeerZwareKlei&lt;/i&gt;, &lt;i&gt;SiltigeLeem &lt;/i&gt;of &lt;i&gt;zandigeLeem &lt;/i&gt;is, dan kan het aandeel tot 30 % bedragen.</Omschrijving>
+		<Omschrijving>Sterk humeus. Organische stof maakt tussen 8 en 16 % van de massa uit, tenzij de waarde van het attribuut <i>bodemkundige grondsoort </i>gelijk is aan <i>zeerLichteZavel</i>, <i>matigLichteZavel</i>, <i>zwareZavel</i>, <i>lichteKlei</i>, <i>matigZwareKlei</i>, <i>zeerZwareKlei</i>, <i>SiltigeLeem </i>of <i>zandigeLeem </i>is, dan kan het aandeel tot 30 % bedragen.</Omschrijving>
 	</OrganischestofGehalteKlasse>
 </domeintabel>

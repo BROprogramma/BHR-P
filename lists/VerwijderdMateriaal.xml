@@ -34,13 +34,13 @@
 		<Waarde>koolzureKalk</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Voorafgaand aan de bepaling van de korrelgrootteverdeling is de koolzure kalk verwijderd met HCl (0,2 M) en is het gehalte van de verwijderde kalk bepaald (&lt;i&gt;Bepaling kalkgehalte&lt;/i&gt;).</Omschrijving>
+		<Omschrijving>Voorafgaand aan de bepaling van de korrelgrootteverdeling is de koolzure kalk verwijderd met HCl (0,2 M) en is het gehalte van de verwijderde kalk bepaald (<i>Bepaling kalkgehalte</i>).</Omschrijving>
 	</VerwijderdMateriaal>
 	<VerwijderdMateriaal>
 		<Waarde>organischeStof</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Voorafgaand aan de bepaling van de korrelgrootteverdeling is het organische stof verwijderd met H2O2 (20%) en is het gehalte van het verwijderde organische stof bepaald (&lt;i&gt;Bepaling organische stof gehalte&lt;/i&gt;).</Omschrijving>
+		<Omschrijving>Voorafgaand aan de bepaling van de korrelgrootteverdeling is het organische stof verwijderd met H2O2 (20%) en is het gehalte van het verwijderde organische stof bepaald (<i>Bepaling organische stof gehalte</i>).</Omschrijving>
 	</VerwijderdMateriaal>
 	<VerwijderdMateriaal>
 		<Waarde>plantenrestenHoutig</Waarde>
