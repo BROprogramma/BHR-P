@@ -16,13 +16,13 @@
 		<Waarde>kleiZeerZwaar</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Zeer zware klei, lutumgehalte groter dan of gelijk aan 50 % (code "33", kleitextuur). Van toepassing bij kleigronden, moerige gronden op zavel of klei en bij niet-gerijpte minerale gronden.</Omschrijving>
+		<Omschrijving>Zeer zware klei, lutumgehalte &gt;= 50 % (code "33", kleitextuur). Van toepassing bij kleigronden, moerige gronden op zavel of klei en bij niet-gerijpte minerale gronden.</Omschrijving>
 	</Textuurklasse>
 	<Textuurklasse>
 		<Waarde>leemSiltig</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Siltige leem, leemgehalte (lutumgehalte + siltgehalte) groter dan of gelijk aan 85 % (code "82"). Van toepassing bij leemgronden en bij brikgronden waar de toplaag leem is.</Omschrijving>
+		<Omschrijving>Siltige leem, leemgehalte (lutumgehalte + siltgehalte) &gt;= 85 % (code "82"). Van toepassing bij leemgronden en bij brikgronden waar de toplaag leem is.</Omschrijving>
 	</Textuurklasse>
 	<Textuurklasse>
 		<Waarde>leemZandig</Waarde>
@@ -34,85 +34,85 @@
 		<Waarde>siltKleiarm</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Kleiarm silt, lutumgehalte &lt; 5 % en leemgehalte (lutumgehalte + siltgehalte) groter dan of gelijk aan 50 % (code "13", lutumgehalteklasse). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
+		<Omschrijving>Kleiarm silt, lutumgehalte &lt; 5 % en leemgehalte (lutumgehalte + siltgehalte) &gt;= 50 % (code "13", lutumgehalteklasse). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
 	</Textuurklasse>
 	<Textuurklasse>
 		<Waarde>siltKleiig</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Kleiig silt, lutumgehalte vanaf 5 % tot 8 % en leemgehalte (lutumgehalte + siltgehalte) groter dan of gelijk aan 50 % (code "14", lutumgehalteklasse). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
+		<Omschrijving>Kleiig silt, lutumgehalte vanaf 5 % tot 8 % en leemgehalte (lutumgehalte + siltgehalte) &gt;= 50 % (code "14", lutumgehalteklasse). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
 	</Textuurklasse>
 	<Textuurklasse>
 		<Waarde>zandKleiarmMatigFijn</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Kleiarm matig fijn zand, lutumgehalte minder dan 5 % en leemgehalte (lutumgehalte + siltgehalte) minder dan 50% en zandmediaan vanaf 150 tot 210 µm (code "4311", zandmediaanklasse + kleitextuur). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
+		<Omschrijving>Kleiarm matig fijn zand, lutumgehalte &lt; 5 % en leemgehalte (lutumgehalte + siltgehalte) &lt; 50% en zandmediaan vanaf 150 tot 210 µm (code "4311", zandmediaanklasse + kleitextuur). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
 	</Textuurklasse>
 	<Textuurklasse>
 		<Waarde>zandKleiarmMatigGrof</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Kleiarm matig grof zand, lutumgehalte minder dan 5 % en leemgehalte (lutumgehalte + siltgehalte) minder dan 50 % en zandmediaan vanaf 210 tot 420 µm (code "5111", zandmediaanklasse + kleitextuur). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
+		<Omschrijving>Kleiarm matig grof zand, lutumgehalte &lt; 5 % en leemgehalte (lutumgehalte + siltgehalte) &lt; 50 % en zandmediaan vanaf 210 tot 420 µm (code "5111", zandmediaanklasse + kleitextuur). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
 	</Textuurklasse>
 	<Textuurklasse>
 		<Waarde>zandKleiarmUiterstFijn</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Kleiarm uiterst fijn zand, lutumgehalte minder dan 5 % en leemgehalte (lutumgehalte + siltgehalte) minder dan 50 % en zandmediaan vanaf 50 tot 105 µm (code "4111", zandmediaanklasse + kleitextuur). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
+		<Omschrijving>Kleiarm uiterst fijn zand, lutumgehalte &lt; 5 % en leemgehalte (lutumgehalte + siltgehalte) &lt; 50 % en zandmediaan vanaf 50 tot 105 µm (code "4111", zandmediaanklasse + kleitextuur). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
 	</Textuurklasse>
 	<Textuurklasse>
 		<Waarde>zandKleiarmZeerFijn</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Kleiarm zeer fijn zand, lutumgehalte minder dan 5 % en leemgehalte (lutumgehalte + siltgehalte) minder dan 50 % en zandmediaan vanaf 105 tot 150 µm (code "4211", zandmediaanklasse + kleitextuur). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
+		<Omschrijving>Kleiarm zeer fijn zand, lutumgehalte &lt; 5 % en leemgehalte (lutumgehalte + siltgehalte) &lt; 50 % en zandmediaan vanaf 105 tot 150 µm (code "4211", zandmediaanklasse + kleitextuur). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
 	</Textuurklasse>
 	<Textuurklasse>
 		<Waarde>zandKleiarmZeerGrof</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Kleiarm zeer grof zand, lutumgehalte minder dan 5 % en leemgehalte (lutumgehalte + siltgehalte) minder dan 50 % en zandmediaan vanaf 420 tot 2000 µm (code "5211", zandmediaanklasse + kleitextuur). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
+		<Omschrijving>Kleiarm zeer grof zand, lutumgehalte &lt; 5 % en leemgehalte (lutumgehalte + siltgehalte) &lt; 50 % en zandmediaan vanaf 420 tot 2000 µm (code "5211", zandmediaanklasse + kleitextuur). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
 	</Textuurklasse>
 	<Textuurklasse>
 		<Waarde>zandKleiigMatigFijn</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Kleiig matig fijn zand, lutumgehalte vanaf 5 % tot 8% en leemgehalte (lutumgehalte + siltgehalte) minder dan 50 % en zandmediaan vanaf 150 tot 210 µm (code "4312", zandmediaanklasse + kleitextuur). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
+		<Omschrijving>Kleiig matig fijn zand, lutumgehalte vanaf 5 % tot 8% en leemgehalte (lutumgehalte + siltgehalte) &lt; 50 % en zandmediaan vanaf 150 tot 210 µm (code "4312", zandmediaanklasse + kleitextuur). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
 	</Textuurklasse>
 	<Textuurklasse>
 		<Waarde>zandKleiigMatigGrof</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Kleiig matig grof zand, lutumgehalte vanaf 5 % tot 8% en leemgehalte (lutumgehalte + siltgehalte) minder dan 50 % en zandmediaan vanaf 210 tot 420 µm (code "5112", zandmediaanklasse + kleitextuur). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
+		<Omschrijving>Kleiig matig grof zand, lutumgehalte vanaf 5 % tot 8% en leemgehalte (lutumgehalte + siltgehalte) &lt; 50 % en zandmediaan vanaf 210 tot 420 µm (code "5112", zandmediaanklasse + kleitextuur). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
 	</Textuurklasse>
 	<Textuurklasse>
 		<Waarde>zandKleiigUiterstFijn</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Kleiig uiterst fijn zand, lutumgehalte vanaf 5 % tot 8% en leemgehalte (lutumgehalte + siltgehalte) minder dan 50 % en zandmediaan vanaf 50 tot 105 µm (code "4112", zandmediaanklasse + kleitextuur). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
+		<Omschrijving>Kleiig uiterst fijn zand, lutumgehalte vanaf 5 % tot 8% en leemgehalte (lutumgehalte + siltgehalte) &lt; 50 % en zandmediaan vanaf 50 tot 105 µm (code "4112", zandmediaanklasse + kleitextuur). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
 	</Textuurklasse>
 	<Textuurklasse>
 		<Waarde>zandKleiigZeerFijn</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Kleiig zeer fijn zand, lutumgehalte vanaf 5 % tot 8% en leemgehalte (lutumgehalte + siltgehalte) minder dan 50 % en zandmediaan vanaf 105 tot 150 µm (code "4212", zandmediaanklasse + kleitextuur). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
+		<Omschrijving>Kleiig zeer fijn zand, lutumgehalte vanaf 5 % tot 8% en leemgehalte (lutumgehalte + siltgehalte) &lt; 50 % en zandmediaan vanaf 105 tot 150 µm (code "4212", zandmediaanklasse + kleitextuur). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
 	</Textuurklasse>
 	<Textuurklasse>
 		<Waarde>zandKleiigZeerGrof</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Kleiig zeer grof zand, lutumgehalte vanaf 5 % tot 8 % en leemgehalte (lutumgehalte + siltgehalte) minder dan 50 % en zandmediaan vanaf 420 tot 2000 µm (code "5212", zandmediaanklasse + kleitextuur). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
+		<Omschrijving>Kleiig zeer grof zand, lutumgehalte vanaf 5 % tot 8 % en leemgehalte (lutumgehalte + siltgehalte) &lt; 50 % en zandmediaan vanaf 420 tot 2000 µm (code "5212", zandmediaanklasse + kleitextuur). Van toepassing bij kalkhoudende zandgronden.</Omschrijving>
 	</Textuurklasse>
 	<Textuurklasse>
 		<Waarde>zandLeemarmMatigFijn</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Leemarm matig fijn zand, leemgehalte (lutumgehalte + siltgehalte) minder dan 10 % en zandmediaan vanaf 150 tot 210 µm (code "431", zandmediaanklasse + leemgehalteklasse). Van toepassing bij moerige gronden op zand, podzolgronden, kalkloze zandgronden en bij brikgronden waar de toplaag lemig zand is.</Omschrijving>
+		<Omschrijving>Leemarm matig fijn zand, leemgehalte (lutumgehalte + siltgehalte) &lt; 10 % en zandmediaan vanaf 150 tot 210 µm (code "431", zandmediaanklasse + leemgehalteklasse). Van toepassing bij moerige gronden op zand, podzolgronden, kalkloze zandgronden en bij brikgronden waar de toplaag lemig zand is.</Omschrijving>
 	</Textuurklasse>
 	<Textuurklasse>
 		<Waarde>zandLeemarmMatigGrof</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Leemarm matig grof zand, leemgehalte (lutumgehalte + siltgehalte) minder dan 10 % en zandmediaan vanaf 210 tot 420 µm (code "511", zandmediaanklasse + leemgehalteklasse). Van toepassing bij moerige gronden op zand, podzolgronden, kalkloze zandgronden en bij brikgronden waar de toplaag lemig zand is.</Omschrijving>
+		<Omschrijving>Leemarm matig grof zand, leemgehalte (lutumgehalte + siltgehalte) &lt; 10 % en zandmediaan vanaf 210 tot 420 µm (code "511", zandmediaanklasse + leemgehalteklasse). Van toepassing bij moerige gronden op zand, podzolgronden, kalkloze zandgronden en bij brikgronden waar de toplaag lemig zand is.</Omschrijving>
 	</Textuurklasse>
 	<Textuurklasse>
 		<Waarde>zandLeemarmUiterstFijn</Waarde>
@@ -130,7 +130,7 @@
 		<Waarde>zandLeemarmZeerGrof</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Leemarm zeer grof zand, leemgehalte (lutumgehalte + siltgehalte) minder dan 10 % en zandmediaan vanaf 420 tot 2000 µm ( code "521", zandmediaanklasse + leemgehalteklasse). Van toepassing bij moerige gronden op zand, podzolgronden, kalkloze zandgronden en bij brikgronden waar de toplaag lemig zand is.</Omschrijving>
+		<Omschrijving>Leemarm zeer grof zand, leemgehalte (lutumgehalte + siltgehalte) &lt; 10 % en zandmediaan vanaf 420 tot 2000 µm ( code "521", zandmediaanklasse + leemgehalteklasse). Van toepassing bij moerige gronden op zand, podzolgronden, kalkloze zandgronden en bij brikgronden waar de toplaag lemig zand is.</Omschrijving>
 	</Textuurklasse>
 	<Textuurklasse>
 		<Waarde>zandSterkLemigMatigFijn</Waarde>
