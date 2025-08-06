@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Gesteentesoort>
+		<Waarde>kalksteen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Sedimentair gesteente dat ontstaat door de opeenhoping van (kalkhoudende) stoffelijke overblijfselen van in zee levende organismen.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>schalie</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Sedimentair gesteente dat bestaat uit geharde, geconsolideerde klei.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>zandsteen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Sedimentair gesteente dat voornamelijk bestaat uit zandkorrels.</Omschrijving>
+	</Gesteentesoort>
+	<Gesteentesoort>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>De gesteentesoort is niet bekend.</Omschrijving>
+	</Gesteentesoort>
+</domeintabel>

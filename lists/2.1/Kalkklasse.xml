@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Kalkklasse>
+		<Waarde>kalkloos</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Geen opbruising (minder dan 0,5 % CaCO3).</Omschrijving>
+	</Kalkklasse>
+	<Kalkklasse>
+		<Waarde>kalkhoudend</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Hoorbare opbruising (0,5 - 1 a 2 % CaCO3).</Omschrijving>
+	</Kalkklasse>
+	<Kalkklasse>
+		<Waarde>kalkrijk</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zichtbare opbruising (meer dan 1 a 2 % CaCO3).</Omschrijving>
+	</Kalkklasse>
+	<Kalkklasse>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onbekend</Omschrijving>
+	</Kalkklasse>
+</domeintabel>
