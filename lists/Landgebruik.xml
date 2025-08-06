@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Landgebruik>
+		<Waarde>akkerAardappelen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Akkerbouw, aardappelen.</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>akkerBieten</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Akkerbouw, bieten.</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>akkerGewas</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Akkerbouwgewassen, niet zijnde aardappelen, bieten, granen of mais, niet nader gespecificeerd (o.a. ook akkerbouwmatige tuinbouw).</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>akkerGranen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Akkerbouw, granen.</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>akkerKaalBraak</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Kaal land, niet herkenbaar welk gewas gezaaid of gepoot is, of welk gewas er heeft gestaan (zoals bij geploegd land).</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>akkerMais</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Akkerbouw, mais.</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>boomkwekerij</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bos, boomkwekerij.</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>bosGemengd</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Gemengd bos.</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>geenLandelijkGebruik</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een gebied dat niet als akker, boomkwekerij, bos, fruitteelt, grasland, natuur, plantsoen, sportterrein of tuinbouw gespecificeerd wordt. Meestal is het terrein door recent menselijk ingrijpen sterk beïnvloed. Voorbeelden: bouwterrein, gronddepot, zandafgraving.</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>fruitteeltBouwland</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boomgaard met onbegroeide ondergrond.</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>fruitteeltGroen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boomgaard met grasondergrond.</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>graslandBlijvend</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Blijvend grasland.</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>graslandNietblijvend</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Niet-blijvend grasland.</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>loofbos</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Loofbos (meer dan 80% loofbomen in de directe omgeving van de boring).</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>naaldbos</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Naaldbos (meer dan 80% naaldbomen in de directe omgeving van de boring).</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>natuurVegetatieDroog</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurterrein met korte vegetatie, geen heide, op droge groeiplaatsen, zoals de natuur in de duinen langs de kust en op de Veluwe.</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>natuurVegetatieHeide</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurterrein met korte vegetatie bestaande uit heide.</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>natuurVegetatieNat</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurterrein met korte vegetatie, geen heide, op natte groeiplaatsen, zoals de kwelders en slikken langs de kust, gebieden in de Biesbosch, blauwgraslanden enz.</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>natuurVegetatieVochtig</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurterrein met korte vegetatie, geen heide, op vochtige groeiplaatsen (niet droog en niet nat).</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>plantsoen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Plantsoen.</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>sport</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Sportterrein.</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>tuinbouwGlas</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tuinbouw onder glas.</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>tuinbouwVolleGrond</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tuinbouw in de volle grond.</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>akker</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Akkerbouw, niet nader gespecificeerd.</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>bos</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Bos, niet nader gespecificeerd.</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>fruitteelt</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Boomgaard, niet nader gespecificeerd.</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>grasland</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grasland, niet nader gespecificeerd.</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>natuur</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Natuurterrein, niet nader gespecificeerd.</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>onbekend</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Onbekend.</Omschrijving>
+	</Landgebruik>
+	<Landgebruik>
+		<Waarde>tuinbouw</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Tuinbouw, niet nader gespecificeerd.</Omschrijving>
+	</Landgebruik>
+</domeintabel>
