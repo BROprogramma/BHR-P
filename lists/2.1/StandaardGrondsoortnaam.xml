@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<StandaardGrondsoortnaam>
+		<Waarde>grind</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Grind</Omschrijving>
+	</StandaardGrondsoortnaam>
+	<StandaardGrondsoortnaam>
+		<Waarde>kleiigZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand kleiig, benaming gebaseerd op NEN5104</Omschrijving>
+	</StandaardGrondsoortnaam>
+	<StandaardGrondsoortnaam>
+		<Waarde>matigSiltigeKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Klei matig siltig, benaming gebaseerd op NEN5104</Omschrijving>
+	</StandaardGrondsoortnaam>
+	<StandaardGrondsoortnaam>
+		<Waarde>matigSiltigZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand matig siltig, benaming gebaseerd op NEN5104</Omschrijving>
+	</StandaardGrondsoortnaam>
+	<StandaardGrondsoortnaam>
+		<Waarde>matigZandigeKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Klei matig zandig, benaming gebaseerd op NEN5104</Omschrijving>
+	</StandaardGrondsoortnaam>
+	<StandaardGrondsoortnaam>
+		<Waarde>mineraalarmVeen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veen mineraal arm, benaming gebaseerd op NEN5104</Omschrijving>
+	</StandaardGrondsoortnaam>
+	<StandaardGrondsoortnaam>
+		<Waarde>schelpmateriaal</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Schelpmateriaal</Omschrijving>
+	</StandaardGrondsoortnaam>
+	<StandaardGrondsoortnaam>
+		<Waarde>sterkKleiigVeen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veen sterk kleiig, benaming gebaseerd op NEN5104</Omschrijving>
+	</StandaardGrondsoortnaam>
+	<StandaardGrondsoortnaam>
+		<Waarde>sterkSiltigeKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Klei sterk siltig, benaming gebaseerd op NEN5104</Omschrijving>
+	</StandaardGrondsoortnaam>
+	<StandaardGrondsoortnaam>
+		<Waarde>sterkSiltigZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand sterk siltig, benaming gebaseerd op NEN5104</Omschrijving>
+	</StandaardGrondsoortnaam>
+	<StandaardGrondsoortnaam>
+		<Waarde>sterkZandigeKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Klei sterk zandig, benaming gebaseerd op NEN5104</Omschrijving>
+	</StandaardGrondsoortnaam>
+	<StandaardGrondsoortnaam>
+		<Waarde>sterkZandigeLeem</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Leem sterk zandig, benaming gebaseerd op NEN5104</Omschrijving>
+	</StandaardGrondsoortnaam>
+	<StandaardGrondsoortnaam>
+		<Waarde>sterkZandigVeen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veen sterk zandig, benaming gebaseerd op NEN5104</Omschrijving>
+	</StandaardGrondsoortnaam>
+	<StandaardGrondsoortnaam>
+		<Waarde>uiterstSiltigeKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Klei uiterst siltig, benaming gebaseerd op NEN5104</Omschrijving>
+	</StandaardGrondsoortnaam>
+	<StandaardGrondsoortnaam>
+		<Waarde>uiterstSiltigZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand uiterst siltig, benaming gebaseerd op NEN5104</Omschrijving>
+	</StandaardGrondsoortnaam>
+	<StandaardGrondsoortnaam>
+		<Waarde>zwakKleiigVeen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veen zwak kleiig, benaming gebaseerd op NEN5104</Omschrijving>
+	</StandaardGrondsoortnaam>
+	<StandaardGrondsoortnaam>
+		<Waarde>zwakSiltigeKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Klei zwak siltig, benaming gebaseerd op NEN5104</Omschrijving>
+	</StandaardGrondsoortnaam>
+	<StandaardGrondsoortnaam>
+		<Waarde>zwakSiltigZand</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Zand zwak siltig, benaming gebaseerd op NEN5104</Omschrijving>
+	</StandaardGrondsoortnaam>
+	<StandaardGrondsoortnaam>
+		<Waarde>zwakZandigeKlei</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Klei zwak zandig, benaming gebaseerd op NEN5104</Omschrijving>
+	</StandaardGrondsoortnaam>
+	<StandaardGrondsoortnaam>
+		<Waarde>zwakZandigeLeem</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Leem zwak zandig, benaming gebaseerd op NEN5104</Omschrijving>
+	</StandaardGrondsoortnaam>
+	<StandaardGrondsoortnaam>
+		<Waarde>zwakZandigVeen</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Veen zwak zandig, benaming gebaseerd op NEN5104</Omschrijving>
+	</StandaardGrondsoortnaam>
+	<StandaardGrondsoortnaam>
+		<Waarde>nietBepaald</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Niet bepaald</Omschrijving>
+	</StandaardGrondsoortnaam>
+</domeintabel>
