@@ -70,13 +70,13 @@
 		<Waarde>natDroogZeven</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling van grond. Het materiaal is nat gezeefd over de 50 µm-zeef en de 63 µm-zeef. De verdeling van de korrels groter dan 63 µm is bepaald door middel van droge zeving.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling van grond. Het materiaal is nat gezeefd over de 50 µm-zeef en de 63 µm-zeef. De verdeling van de korrels &gt; 63 µm is bepaald door middel van droge zeving.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>natDroogZevenPipet</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling van grond. Het materiaal is nat gezeefd over de 50 µm-zeef en de 63 µm-zeef. De verdeling van de korrels kleiner dan 50 µm is bepaald door middel van pipetteren. Wanneer de verdeling van de korrels groter dan 63 µm is bepaald, is dit gebeurd door middel van droge zeving.</Omschrijving>
+		<Omschrijving>Methode voor het bepalen van de korrelgrootteverdeling van grond. Het materiaal is nat gezeefd over de 50 µm-zeef en de 63 µm-zeef. De verdeling van de korrels &lt; 50 µm is bepaald door middel van pipetteren. Wanneer de verdeling van de korrels &gt; 63 µm is bepaald, is dit gebeurd door middel van droge zeving.</Omschrijving>
 	</Bepalingsmethode>
 	<Bepalingsmethode>
 		<Waarde>natZeven</Waarde>

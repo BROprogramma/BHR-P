@@ -52,6 +52,6 @@
 		<Waarde>zoutwaterMinstens50000</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>In de bepaling is zoutwater gebruikt met een elektrische geleidbaarheid groter dan 50000 µS/cm. De geleidbaarheid is een maat voor het zoutgehalte.</Omschrijving>
+		<Omschrijving>In de bepaling is zoutwater gebruikt met een elektrische geleidbaarheid &gt; 50000 µS/cm. De geleidbaarheid is een maat voor het zoutgehalte.</Omschrijving>
 	</GebruiktMedium>
 </domeintabel>
