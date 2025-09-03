@@ -1,30 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <domeintabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Horizontcode>
-		<Waarde>Of</Waarde>
-		<IMBRO>v</IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Een moerige horizont, die boven een A- of een E-horizont ligt en die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting (strooisellaag), met omgezette plantenresten, maar met nog herkenbare fragmenten.</Omschrijving>
-	</Horizontcode>
-	<Horizontcode>
-		<Waarde>Oh</Waarde>
-		<IMBRO>v</IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Een moerige horizont, die boven een A- of een E-horizont ligt en die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting (strooisellaag), een compacte laag omgezette organische stof zonder herkenbare plantenresten, die van het bodemoppervlak los getrokken kan worden.</Omschrijving>
-	</Horizontcode>
-	<Horizontcode>
-		<Waarde>Ol</Waarde>
-		<IMBRO>v</IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Een moerige horizont, die boven een A- of een E-horizont ligt en die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting (strooisellaag), met verse, nauwelijks aangetaste bladeren.</Omschrijving>
-	</Horizontcode>
-	<Horizontcode>
-		<Waarde>Ou</Waarde>
-		<IMBRO>v</IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Een moerige horizont, die boven een A- of een E-horizont ligt en die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting (strooisellaag), hoofd- en overgangshorizont die geen andere kleine-letter-toevoeging heeft, maar die wel onderverdeeld wordt. Zonder specifieke kenmerken.</Omschrijving>
-	</Horizontcode>
-	<Horizontcode>
 		<Waarde>Aa</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
@@ -196,13 +172,13 @@
 		<Waarde>Apb</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), wordt met enige regelmaat (meestal jaarlijks) mechanisch bewerkt (bouwvoor), na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven'.</Omschrijving>
+		<Omschrijving>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), is ooit met enige regelmaat (meestal jaarlijks) mechanisch bewerkt (bouwvoor), na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven'.</Omschrijving>
 	</Horizontcode>
 	<Horizontcode>
 		<Waarde>Apgb</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
-		<Omschrijving>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), wordt met enige regelmaat (meestal jaarlijks) mechanisch bewerkt (bouwvoor), na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven'.</Omschrijving>
+		<Omschrijving>Een horizont waarin de organische stof geheel of vrijwel geheel is omgezet (niet meer herkenbaar als resten van planten en dieren), is ooit met enige regelmaat (meestal jaarlijks) mechanisch bewerkt (bouwvoor), na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven', met roestvlekken.</Omschrijving>
 	</Horizontcode>	
 	<Horizontcode>
 		<Waarde>Bh</Waarde>
@@ -511,10 +487,22 @@
 		<Omschrijving>Een moerige horizont, die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting (strooisellaag), na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven' of verwerkt. Kenmerken niet nader gespecificeerd.</Omschrijving>
 	</Horizontcode>
 	<Horizontcode>
+		<Waarde>Of</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige horizont, die boven een A- of een E-horizont ligt en die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting (strooisellaag), met omgezette plantenresten, maar met nog herkenbare fragmenten.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
 		<Waarde>Ofb</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Een moerige horizont, die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting (strooisellaag), met omgezette plantenresten, maar met nog herkenbare fragmenten, na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven' of verwerkt.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Oh</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige horizont, die boven een A- of een E-horizont ligt en die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting (strooisellaag), een compacte laag omgezette organische stof zonder herkenbare plantenresten, die van het bodemoppervlak los getrokken kan worden.</Omschrijving>
 	</Horizontcode>
 	<Horizontcode>
 		<Waarde>Ohb</Waarde>
@@ -523,10 +511,22 @@
 		<Omschrijving>Een moerige horizont, die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting (strooisellaag), een compacte laag omgezette organische stof zonder herkenbare plantenresten, die van het bodemoppervlak los getrokken kan worden, na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven' of verwerkt.</Omschrijving>
 	</Horizontcode>
 	<Horizontcode>
+		<Waarde>Ol</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige horizont, die boven een A- of een E-horizont ligt en die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting (strooisellaag), met verse, nauwelijks aangetaste bladeren.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
 		<Waarde>Olb</Waarde>
 		<IMBRO>v</IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Een moerige horizont, die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting (strooisellaag), met verse, nauwelijks aangetaste bladeren, na de bodemvorming met een sediment, sedentaat of een dik (dikker dan 50 cm) antropogeen dek 'begraven' of verwerkt.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>Ou</Waarde>
+		<IMBRO>v</IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige horizont, die boven een A- of een E-horizont ligt en die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting (strooisellaag), hoofd- en overgangshorizont die geen andere kleine-letter-toevoeging heeft, maar die wel onderverdeeld wordt. Zonder specifieke kenmerken.</Omschrijving>
 	</Horizontcode>
 	<Horizontcode>
 		<Waarde>Oub</Waarde>
