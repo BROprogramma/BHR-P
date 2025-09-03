@@ -541,12 +541,6 @@
 		<Omschrijving>Vast gesteente.</Omschrijving>
 	</Horizontcode>
 	<Horizontcode>
-		<Waarde>O</Waarde>
-		<IMBRO> </IMBRO>
-		<IMBROA>v</IMBROA>
-		<Omschrijving>Een moerige horizont, die boven een A- of een E-horizont ligt en die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting (strooisellaag). Kenmerken niet nader gespecificeerd.</Omschrijving>
-	</Horizontcode>
-	<Horizontcode>
 		<Waarde>A</Waarde>
 		<IMBRO> </IMBRO>
 		<IMBROA>v</IMBROA>
@@ -599,5 +593,11 @@
 		<IMBRO> </IMBRO>
 		<IMBROA>v</IMBROA>
 		<Omschrijving>Geleidelijke overgang van een E- naar een B-horizont, met een minerale samenstelling, deels verarmd door uitspoeling van kleimineralen en/of sesquioxyden. Kenmerken niet nader gespecificeerd.</Omschrijving>
+	</Horizontcode>
+	<Horizontcode>
+		<Waarde>O</Waarde>
+		<IMBRO> </IMBRO>
+		<IMBROA>v</IMBROA>
+		<Omschrijving>Een moerige horizont, die boven een A- of een E-horizont ligt en die bestaat uit in een aeroob milieu opgehoopte resten van voornamelijk bovengrondse plantendelen in verschillende stadia van omzetting (strooisellaag). Kenmerken niet nader gespecificeerd.</Omschrijving>
 	</Horizontcode>
 </domeintabel>
