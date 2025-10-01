@@ -108,8 +108,8 @@
                             <bhrcom:beginDepth uom="m">0.000</bhrcom:beginDepth>
                             <bhrcom:endDepth uom="m">0.800</bhrcom:endDepth>
                             <bhrcom:removedLayer>
-                                <bhrcom:upperBoundary uom="m">12.4</bhrcom:upperBoundary>
-                                <bhrcom:lowerBoundary uom="m">18.6</bhrcom:lowerBoundary>
+                                <bhrcom:upperBoundary uom="m">12.400</bhrcom:upperBoundary>
+                                <bhrcom:lowerBoundary uom="m">18.600</bhrcom:lowerBoundary>
                                 <bhrcom:removedMaterial codeSpace="urn:bro:bhr:RemovedMaterial">puin</bhrcom:removedMaterial>
                             </bhrcom:removedLayer>
                         </bhrcom:removedTrajectory>

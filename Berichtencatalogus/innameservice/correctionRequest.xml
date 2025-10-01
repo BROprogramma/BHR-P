@@ -87,8 +87,8 @@
                     <bhrcom:sampleQuality codeSpace="urn:bro:bhr:SampleQuality">ongeroerd</bhrcom:sampleQuality>
                     <bhrcom:rootPenetrableDepthReached>nee</bhrcom:rootPenetrableDepthReached>
                     <bhrcom:soilLayer>
-                        <bhrcom:upperBoundary uom="m">0</bhrcom:upperBoundary>
-                        <bhrcom:lowerBoundary uom="m">6</bhrcom:lowerBoundary>
+                        <bhrcom:upperBoundary uom="m">0.000</bhrcom:upperBoundary>
+                        <bhrcom:lowerBoundary uom="m">6.000</bhrcom:lowerBoundary>
                         <bhrcom:anthropogenic>ja</bhrcom:anthropogenic>
                         <bhrcom:numberOfLayerComponents>2</bhrcom:numberOfLayerComponents>
                         <bhrcom:layerComponent>
@@ -146,8 +146,8 @@
                         </bhrcom:layerComponent>
                     </bhrcom:soilLayer>
                     <bhrcom:soilLayer>
-                        <bhrcom:upperBoundary uom="m">6</bhrcom:upperBoundary>
-                        <bhrcom:lowerBoundary uom="m">15</bhrcom:lowerBoundary>
+                        <bhrcom:upperBoundary uom="m">6.000</bhrcom:upperBoundary>
+                        <bhrcom:lowerBoundary uom="m">15.000</bhrcom:lowerBoundary>
                         <bhrcom:anthropogenic>nee</bhrcom:anthropogenic>
                         <bhrcom:numberOfLayerComponents>1</bhrcom:numberOfLayerComponents>
                         <bhrcom:layerComponent>
