@@ -105,8 +105,8 @@
                             <bhrcom:boringStandard codeSpace="urn:bro:bhr:BoringStandard">geen</bhrcom:boringStandard>
                         </bhrcom:boringProcedure>
                         <bhrcom:removedTrajectory>
-                            <bhrcom:beginDepth uom="m">0.00</bhrcom:beginDepth>
-                            <bhrcom:endDepth uom="m">0.80</bhrcom:endDepth>
+                            <bhrcom:beginDepth uom="m">0.000</bhrcom:beginDepth>
+                            <bhrcom:endDepth uom="m">0.800</bhrcom:endDepth>
                             <bhrcom:removedLayer>
                                 <bhrcom:upperBoundary uom="m">12.4</bhrcom:upperBoundary>
                                 <bhrcom:lowerBoundary uom="m">18.6</bhrcom:lowerBoundary>
@@ -114,15 +114,15 @@
                             </bhrcom:removedLayer>
                         </bhrcom:removedTrajectory>
                         <bhrcom:boredTrajectory>
-                            <bhrcom:beginDepth uom="m">0.80</bhrcom:beginDepth>
-                            <bhrcom:endDepth uom="m">5.80</bhrcom:endDepth>
+                            <bhrcom:beginDepth uom="m">0.800</bhrcom:beginDepth>
+                            <bhrcom:endDepth uom="m">5.800</bhrcom:endDepth>
                         </bhrcom:boredTrajectory>
                         <bhrcom:boringTool>
                             <bhrcom:boringToolType codeSpace="urn:bro:bhr:BoringToolType">edelmanboor</bhrcom:boringToolType>
                             <bhrcom:boringToolDiameter uom="mm">70</bhrcom:boringToolDiameter>
                             <bhrcom:boredInterval>
-                                <bhrcom:beginDepth uom="m">0</bhrcom:beginDepth>
-                                <bhrcom:endDepth uom="m">49.80</bhrcom:endDepth>
+                                <bhrcom:beginDepth uom="m">0.000</bhrcom:beginDepth>
+                                <bhrcom:endDepth uom="m">49.800</bhrcom:endDepth>
                             </bhrcom:boredInterval>
                         </bhrcom:boringTool>
                     </boring>
@@ -229,8 +229,8 @@
                             <!--1 or more repetitions:-->
                             <bhrcom:investigatedInterval>
                                 <bhrcom:InvestigatedInterval gml:id="id_0008">
-                                    <bhrcom:beginDepth uom="m">0.00</bhrcom:beginDepth>
-                                    <bhrcom:endDepth uom="m">25.00</bhrcom:endDepth>
+                                    <bhrcom:beginDepth uom="m">0.000</bhrcom:beginDepth>
+                                    <bhrcom:endDepth uom="m">25.000</bhrcom:endDepth>
                                     <bhrcom:locationSpecific>ja</bhrcom:locationSpecific>
                                     <bhrcom:characteristicModelled>nee</bhrcom:characteristicModelled>
                                     <bhrcom:pHDetermination>
@@ -297,8 +297,8 @@
                             </bhrcom:investigatedInterval>
                             <bhrcom:investigatedInterval>
                                 <bhrcom:InvestigatedInterval gml:id="id_0011">
-                                    <bhrcom:beginDepth uom="m">10.00</bhrcom:beginDepth>
-                                    <bhrcom:endDepth uom="m">20.00</bhrcom:endDepth>
+                                    <bhrcom:beginDepth uom="m">10.000</bhrcom:beginDepth>
+                                    <bhrcom:endDepth uom="m">20.000</bhrcom:endDepth>
                                     <bhrcom:locationSpecific>ja</bhrcom:locationSpecific>
                                     <bhrcom:characteristicModelled>nee</bhrcom:characteristicModelled>
                                     <bhrcom:shrinkageDetermination>

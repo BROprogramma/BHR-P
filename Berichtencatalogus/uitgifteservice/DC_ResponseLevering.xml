@@ -45,8 +45,8 @@
                     <boringEndDate>
                         <brocom:date>2015-02-08</brocom:date>
                     </boringEndDate>
-                    <beginDepth uom="m">0.80</beginDepth>
-                    <endDepth uom="m">5.80</endDepth>
+                    <beginDepth uom="m">0.800</beginDepth>
+                    <endDepth uom="m">5.800</endDepth>
                     <surveyPurpose codeSpace="urn:bro:bhr:SurveyPurpose">bodemfysischOnderzoek</surveyPurpose>
                     <boreholeSamplesDescribed>ja</boreholeSamplesDescribed>
                     <boreholeSamplesAnalyzed>nee</boreholeSamplesAnalyzed>

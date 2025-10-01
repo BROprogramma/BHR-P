@@ -57,15 +57,15 @@
           <bhrcom:boringStandard codeSpace="urn:bro:bhr:BoringStandard">geen</bhrcom:boringStandard>
         </bhrcom:boringProcedure>
         <bhrcom:boredTrajectory>
-          <bhrcom:beginDepth uom="m">0</bhrcom:beginDepth>
-          <bhrcom:endDepth uom="m">15.00</bhrcom:endDepth>
+          <bhrcom:beginDepth uom="m">0.000</bhrcom:beginDepth>
+          <bhrcom:endDepth uom="m">15.000</bhrcom:endDepth>
         </bhrcom:boredTrajectory>
         <bhrcom:boringTool>
           <bhrcom:boringToolType codeSpace="urn:bro:bhr:BoringToolType">edelmanboor</bhrcom:boringToolType>
           <bhrcom:boringToolDiameter uom="mm">70</bhrcom:boringToolDiameter>
           <bhrcom:boredInterval>
-            <bhrcom:beginDepth uom="m">0</bhrcom:beginDepth>
-            <bhrcom:endDepth uom="m">15.00</bhrcom:endDepth>
+            <bhrcom:beginDepth uom="m">0.000</bhrcom:beginDepth>
+            <bhrcom:endDepth uom="m">15.000</bhrcom:endDepth>
           </bhrcom:boredInterval>
         </bhrcom:boringTool>
       </boring>
@@ -188,7 +188,7 @@
           <bhrcom:featureSite codeSpace="urn:bro:bhr:FeatureSite">geen</bhrcom:featureSite>
           <bhrcom:featureBottom>
             <bhrcom:feature codeSpace="urn:bro:bhr:Feature">zandPleistoceen</bhrcom:feature>
-            <bhrcom:beginDepth uom="m">1.5</bhrcom:beginDepth>
+            <bhrcom:beginDepth uom="m">1.500</bhrcom:beginDepth>
           </bhrcom:featureBottom>
         </bhrcom:soilClassification>
       </boreholeSampleDescription>
