@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" xmlns:bhrcom="http://www.broservices.nl/xsd/bhrcommon/2.0" xmlns:msg="http://www.broservices.nl/xsd/dsbhr/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" targetNamespace="http://www.broservices.nl/xsd/dsbhr/2.0" elementFormDefault="qualified" version="1.9.0">
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3" xmlns:bhrcom="http://www.broservices.nl/xsd/bhrcommon/2" xmlns:msg="http://www.broservices.nl/xsd/dsbhr/2" xmlns:gml="http://www.opengis.net/gml/3.2" targetNamespace="http://www.broservices.nl/xsd/dsbhr/2" elementFormDefault="qualified" version="2.0.2">
   <!-- importeer datatypes -->
   <!--
-  <import namespace="http://www.broservices.nl/xsd/bhrcommon/2.0" schemaLocation="https://schema.broservices.nl/xsd/bhrcommon/2.0/bhrcommon.xsd"/>
-  <import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+  <import namespace="http://www.broservices.nl/xsd/bhrcommon/2" schemaLocation="https://schema.broservices.nl/xsd/bhrcommon/2.0/bhrcommon.xsd"/>
+  <import namespace="http://www.broservices.nl/xsd/brocommon/3" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
   <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
   -->
-  <import namespace="http://www.broservices.nl/xsd/bhrcommon/2.0" schemaLocation="bhrcommon.xsd"/>
-  <import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
+  <import namespace="http://www.broservices.nl/xsd/bhrcommon/2" schemaLocation="bhrcommon.xsd"/>
+  <import namespace="http://www.broservices.nl/xsd/brocommon/3" schemaLocation="brocommon.xsd"/>
   <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
   <!--
     uitgifteverzoek met BRO-ID, bericht van verwerking of bericht van een afwijzing
@@ -65,7 +65,7 @@
           <element name="descriptionCompletionPeriod" type="brocom:DatePeriodType" minOccurs="0" maxOccurs="1"/>
           <element name="analysisReportPeriod" type="brocom:DatePeriodType" minOccurs="0" maxOccurs="1"/>
           <element name="analysisType" type="bhrcom:AnalysisTypeType" minOccurs="0" maxOccurs="1"/>
-          <element name="characteristicsModelled" type="brocom:IndicationYesNoEnumeration" minOccurs="0" maxOccurs="1"/>
+          <element name="characteristicModelled" type="brocom:IndicationYesNoEnumeration" minOccurs="0" maxOccurs="1"/>
         </sequence>
       </extension>
     </complexContent>
@@ -83,9 +83,9 @@
           <element name="beginDepth" type="bhrcom:BoringDepthType" minOccurs="1" maxOccurs="1"/>
           <element name="endDepth" type="bhrcom:BoringDepthType" minOccurs="1" maxOccurs="1"/>
           <element name="surveyPurpose" type="bhrcom:SurveyPurposeType" minOccurs="1" maxOccurs="1"/>
-          <element name="boreholeSamplesDescribed" type="brocom:IndicationYesNoEnumeration" minOccurs="1" maxOccurs="1"/>
-          <element name="boreholeSamplesAnalyzed" type="brocom:IndicationYesNoEnumeration" minOccurs="1" maxOccurs="1"/>
-          <element name="boreholeSamplesPhotographed" type="brocom:IndicationYesNoEnumeration" minOccurs="1" maxOccurs="1"/>
+          <element name="boreholeSamplesDescribed" type="brocom:IndicationYesNoEnumeration" minOccurs="0" maxOccurs="1"/>
+          <element name="boreholeSamplesAnalyzed" type="brocom:IndicationYesNoEnumeration" minOccurs="0" maxOccurs="1"/>
+          <element name="boreholeSamplesPhotographed" type="brocom:IndicationYesNoEnumeration" minOccurs="0" maxOccurs="1"/>
           <element name="fractionDistributionDetermined" type="brocom:IndicationYesNoEnumeration" minOccurs="1" maxOccurs="1"/>
           <element name="discipline" type="bhrcom:DisciplineType" minOccurs="1" maxOccurs="1"/>
           <element name="boringToolTypeOverview" type="msg:BoringToolTypeOverviewType" minOccurs="1" maxOccurs="1"/>
@@ -132,7 +132,7 @@
   </complexType>
   <complexType name="BoringToolTypeOverviewType">
     <sequence>
-      <element name="boringToolType" type="bhrcom:BoringToolType" minOccurs="1" maxOccurs="unbounded"/>
+      <element name="boringToolType" type="bhrcom:BoringToolTypeType" minOccurs="1" maxOccurs="unbounded"/>
     </sequence>
   </complexType>
   <complexType name="VerticalPositionRangeType">

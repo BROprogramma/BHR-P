@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) by TNO Information Services (TNO Corporate Staforganen) -->
-<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" xmlns:msg="http://www.broservices.nl/xsd/isbhr/2.0" xmlns:tns="http://www.broservices.nl/wsdl/isbhr/2.0" xmlns:ns="http://www.opengis.net/gml/3.2" xmlns:ns1="http://www.w3.org/1999/xlink" name="isbhr" targetNamespace="http://www.broservices.nl/wsdl/isbhr/2.0">
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3" xmlns:msg="http://www.broservices.nl/xsd/isbhr/2" xmlns:tns="http://www.broservices.nl/wsdl/isbhr/2" xmlns:ns="http://www.opengis.net/gml/3.2" xmlns:ns1="http://www.w3.org/1999/xlink" name="isbhr" targetNamespace="http://www.broservices.nl/wsdl/isbhr/2">
   <wsdl:documentation>
         Deze WSDL beschrijft de webservice voor inname van booronderzoek voor de
         Basisregistratie Ondergrond. Deze versie is 2.0.0
@@ -13,13 +13,13 @@
         - Added operations/bindings/messages for correctPedology.
     </wsdl:documentation>
   <wsdl:types>
-    <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/isbhr/2.0" targetNamespace="http://www.broservices.nl/wsdl/isbhr/2.0">
+    <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/isbhr/2" targetNamespace="http://www.broservices.nl/wsdl/isbhr/2.0">
       <!--
-      <xsd:import namespace="http://www.broservices.nl/xsd/isbhr/2.0" schemaLocation="https://schema.broservices.nl/xsd/isbhr/2.0/isbhr-messages.xsd"/>
-      <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+      <xsd:import namespace="http://www.broservices.nl/xsd/isbhr/2" schemaLocation="https://schema.broservices.nl/xsd/isbhr/2.0/isbhr-messages.xsd"/>
+      <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
       -->
-      <xsd:import namespace="http://www.broservices.nl/xsd/isbhr/2.0" schemaLocation="isbhr-messages.xsd"/>
-      <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
+      <xsd:import namespace="http://www.broservices.nl/xsd/isbhr/2" schemaLocation="isbhr-messages.xsd"/>
+      <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3" schemaLocation="brocommon.xsd"/>
     </xsd:schema>
   </wsdl:types>
   <wsdl:message name="registrationRequest">
@@ -54,7 +54,7 @@
     <wsdl:operation name="register">
       <soap:operation soapAction="" style="document"/>
       <wsdl:input>
-        <soap:body use="encoded"/>
+        <soap:body use="literal"/>
         <soap:header message="tns:DeliveryResponsiblePartyHeader" part="deliveryResponsibleParty" use="literal"/>
       </wsdl:input>
       <wsdl:output>

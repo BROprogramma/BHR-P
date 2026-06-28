@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns:bhrcom="http://www.broservices.nl/xsd/bhrcommon/2.0" xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:om="http://www.opengis.net/om/2.0" xmlns:srcom="http://www.broservices.nl/xsd/srcommon/1.0" xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.broservices.nl/xsd/bhrcommon/2.0" elementFormDefault="qualified" version="1.9.0">
+<schema xmlns:bhrcom="http://www.broservices.nl/xsd/bhrcommon/2" xmlns:brocom="http://www.broservices.nl/xsd/brocommon/3" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:om="http://www.opengis.net/om/2.0" xmlns:srcom="http://www.broservices.nl/xsd/srcommon/1" xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.broservices.nl/xsd/bhrcommon/2" elementFormDefault="qualified" version="2.0.2">
   <!--
-  <import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
-  <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
-  <import namespace="http://www.opengis.net/om/2.0" schemaLocation="https://schema.broservices.nl/profile/om/1.0/om-profile.xsd"/>
+  <import namespace="http://www.broservices.nl/xsd/brocommon/3"
+  schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+  <import namespace="http://www.opengis.net/gml/3.2"
+  schemaLocation="https://schema.broservices.nl/profile/gml/1.0/gml-profile.xsd"/>
+  <import namespace="http://www.opengis.net/om/2.0"
+  schemaLocation="https://schema.broservices.nl/profile/om/1.0/om-profile.xsd"/>
   -->
-  <import namespace="http://www.broservices.nl/xsd/brocommon/3.0" schemaLocation="brocommon.xsd"/>
+  <import namespace="http://www.broservices.nl/xsd/srcommon/1"  schemaLocation="https://schema.broservices.nl/xsd/srcommon/1/srcommon.xsd" />
+  <import namespace="http://www.broservices.nl/xsd/brocommon/3" schemaLocation="brocommon.xsd"/>
   <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="gml-profile.xsd"/>
   <import namespace="http://www.opengis.net/om/2.0" schemaLocation="om-profile.xsd"/>
-  <!-- Import voor srcom. De inhoud is letterlijk hetzelfde als bij SFR.
-    Nadat SFR in productie is genomen, kan dit bestand gedownload worden van onderstaande schemalocation.
-    <import namespace="http://www.broservices.nl/xsd/srcommon/1.0" schemaLocation="https://schema.broservices.nl/xsd/srcommon/1.0/srcommon.xsd"/>
+  <!-- Import voor srcom. De inhoud is letterlijk hetzelfde als bij
+  SFR.
+    Nadat SFR in productie is genomen, kan dit bestand gedownload worden van onderstaande
+  schemalocation.
+    <import namespace="http://www.broservices.nl/xsd/srcommon/1.0"
+  schemaLocation="https://schema.broservices.nl/xsd/srcommon/1.0/srcommon.xsd"/>
     -->
   <import namespace="http://www.broservices.nl/xsd/srcommon/1.0" schemaLocation="srcommon.xsd"/>
   <complexType name="DeliveredLocationType">
@@ -183,64 +190,99 @@
       <element name="depositionalCharacteristic" type="bhrcom:DepositionalCharacteristicType" minOccurs="0" maxOccurs="1"/>
       <element name="horizonCode" type="bhrcom:HorizonCodeType" minOccurs="1" maxOccurs="1"/>
       <element name="saturatedPermeability" type="bhrcom:PermeabilityType" minOccurs="0" maxOccurs="1"/>
+      <element name="soilType" type="bhrcom:SoilTypeType" minOccurs="1" maxOccurs="1" />
+    </sequence>
+  </complexType>
+
+  <complexType name="SoilTypeType">
+    <sequence>
+      <element name="standardSoilName" type="bhrcom:StandardSoilNameType" minOccurs="1"
+        maxOccurs="1" />
+      <element name="soilTypeLoamBased" type="brocom:IndicationYesNoEnumeration" minOccurs="1"
+        maxOccurs="1" />
+      <element name="pedologicalSoilName" type="bhrcom:PedologicalSoilNameType" minOccurs="1"
+        maxOccurs="1" />
+      <element name="organicMatterClass" type="bhrcom:OrganicMatterClassType" minOccurs="0"
+        maxOccurs="1" />
+      <element name="sandMedian" type="bhrcom:SandMedianType" minOccurs="0" maxOccurs="1" />
+      <element name="peatType" type="bhrcom:PeatTypeType" minOccurs="0" maxOccurs="1" />
+      <element name="carbonateClass" type="bhrcom:CarbonateClassType" minOccurs="1" maxOccurs="1" />
+      <element name="ripingClass" type="bhrcom:RipingClassType" minOccurs="0" maxOccurs="1" />
+      <element name="containsGravel" type="brocom:IndicationYesNoEnumeration" minOccurs="0"
+        maxOccurs="1" />
+      <element name="gravelContentClass" type="bhrcom:GravelContentClassType" minOccurs="0"
+        maxOccurs="1" />
+      <element name="containsShellMatter" type="brocom:IndicationYesNoEnumeration" minOccurs="0"
+        maxOccurs="1" />
+      <element name="shellMatterContentClass" type="bhrcom:ShellMatterContentClassType"
+        minOccurs="0" maxOccurs="1" />
+      <element name="fractionDistribution" type="bhrcom:FractionDistributionType" minOccurs="0"
+        maxOccurs="1" />
+      <element name="incompleteFractionSpecification"
+        type="bhrcom:IncompleteFractionSpecificationType" minOccurs="0" maxOccurs="1" />
     </sequence>
   </complexType>
   <complexType name="FractionDistributionType">
     <sequence>
-      <element name="gravelContent" type="bhrcom:PercentageType" minOccurs="1" maxOccurs="1"/>
-      <element name="shellMatterContent" type="bhrcom:PercentageType" minOccurs="1" maxOccurs="1"/>
-      <element name="organicMatterContent" type="bhrcom:PercentageType" minOccurs="1" maxOccurs="1"/>
-      <element name="fineFractionContent" type="bhrcom:PercentageType" minOccurs="1" maxOccurs="1"/>
-      <element name="fineFractionDistribution" type="bhrcom:FineFractionDistributionType" minOccurs="0" maxOccurs="1"/>
+      <element name="gravelContent" type="bhrcom:PercentageType" minOccurs="1" maxOccurs="1" />
+      <element name="shellMatterContent" type="bhrcom:PercentageType" minOccurs="1" maxOccurs="1" />
+      <element name="organicMatterContent" type="bhrcom:PercentageType" minOccurs="1" maxOccurs="1" />
+      <element name="fineFractionContent" type="bhrcom:PercentageType" minOccurs="1" maxOccurs="1" />
+      <element name="fineFractionDistribution" type="bhrcom:FineFractionDistributionType"
+        minOccurs="0" maxOccurs="1" />
     </sequence>
   </complexType>
   <complexType name="IncompleteFractionSpecificationType">
     <sequence>
-      <element name="organicMatterContent" type="bhrcom:PercentageType" minOccurs="0" maxOccurs="1"/>
-      <element name="clayContent" type="bhrcom:PercentageType" minOccurs="0" maxOccurs="1"/>
-      <element name="siltContent" type="bhrcom:PercentageType" minOccurs="0" maxOccurs="1"/>
-      <element name="sandContent" type="bhrcom:PercentageType" minOccurs="0" maxOccurs="1"/>
+      <element name="organicMatterContent" type="bhrcom:PercentageType" minOccurs="0" maxOccurs="1" />
+      <element name="clayContent" type="bhrcom:PercentageType" minOccurs="0" maxOccurs="1" />
+      <element name="siltContent" type="bhrcom:PercentageType" minOccurs="0" maxOccurs="1" />
+      <element name="sandContent" type="bhrcom:PercentageType" minOccurs="0" maxOccurs="1" />
     </sequence>
   </complexType>
   <complexType name="FineFractionDistributionType">
     <sequence>
-      <element name="clayContent" type="bhrcom:PercentageType" minOccurs="1" maxOccurs="1"/>
-      <element name="siltContent" type="bhrcom:PercentageType" minOccurs="1" maxOccurs="1"/>
-      <element name="sandContent" type="bhrcom:PercentageType" minOccurs="1" maxOccurs="1"/>
+      <element name="clayContent" type="bhrcom:PercentageType" minOccurs="1" maxOccurs="1" />
+      <element name="siltContent" type="bhrcom:PercentageType" minOccurs="1" maxOccurs="1" />
+      <element name="sandContent" type="bhrcom:PercentageType" minOccurs="1" maxOccurs="1" />
     </sequence>
   </complexType>
   <complexType name="LitterLayerType">
     <sequence>
-      <element name="upperBoundary" type="bhrcom:BoringDepthType" minOccurs="1" maxOccurs="1"/>
-      <element name="lowerBoundary" type="bhrcom:BoringDepthType" minOccurs="1" maxOccurs="1"/>
-      <element name="horizonCode" type="bhrcom:HorizonCodeType" minOccurs="1" maxOccurs="1"/>
-      <element name="litterType" type="bhrcom:LitterTypeType" minOccurs="1" maxOccurs="1"/>
-      <element name="organicMatterContent" type="bhrcom:PercentageType" nillable="true" minOccurs="1" maxOccurs="1"/>
-      <element name="pHLitterLayer" type="bhrcom:PHLitterLayerType" nillable="false" minOccurs="0" maxOccurs="unbounded"/>
+      <element name="upperBoundary" type="bhrcom:BoringDepthType" minOccurs="1" maxOccurs="1" />
+      <element name="lowerBoundary" type="bhrcom:BoringDepthType" minOccurs="1" maxOccurs="1" />
+      <element name="horizonCode" type="bhrcom:HorizonCodeType" minOccurs="1" maxOccurs="1" />
+      <element name="litterType" type="bhrcom:LitterTypeType" minOccurs="1" maxOccurs="1" />
+      <element name="organicMatterContent" type="bhrcom:PercentageType" nillable="true"
+        minOccurs="1" maxOccurs="1" />
+      <element name="pHLitterLayer" type="bhrcom:PHLitterLayerType" nillable="false" minOccurs="0"
+        maxOccurs="unbounded" />
     </sequence>
   </complexType>
   <complexType name="PHLitterLayerType">
     <sequence>
       <element name="depth" minOccurs="1" maxOccurs="1">
         <annotation>
-          <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte waarop de zuurgraad is bepaald.</documentation>
+          <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition:
+            De diepte waarop de zuurgraad is bepaald.</documentation>
         </annotation>
         <complexType>
           <simpleContent>
             <restriction base="gml:MeasureType">
-              <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
+              <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m" />
             </restriction>
           </simpleContent>
         </complexType>
       </element>
       <element name="pH" minOccurs="1" maxOccurs="1">
         <annotation>
-          <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De zuurgraad.</documentation>
+          <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition:
+            De zuurgraad.</documentation>
         </annotation>
         <complexType>
           <simpleContent>
             <restriction base="gml:MeasureType">
-              <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="1"/>
+              <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="1" />
             </restriction>
           </simpleContent>
         </complexType>
@@ -249,474 +291,541 @@
   </complexType>
   <complexType name="SoilClassificationType">
     <sequence>
-      <element name="codeGroup" type="bhrcom:CodeGroupType" minOccurs="1" maxOccurs="1"/>
-      <element name="classificationCode" type="string" minOccurs="1" maxOccurs="1"/>
-      <element name="featureTop" type="bhrcom:FeatureTopType" minOccurs="1" maxOccurs="1"/>
-      <element name="soilClass" type="bhrcom:SoilClassType" minOccurs="1" maxOccurs="1"/>
-      <element name="textureClass" type="bhrcom:TextureClassType" minOccurs="0" maxOccurs="1"/>
-      <element name="peatClass" type="bhrcom:PeatClassType" minOccurs="0" maxOccurs="1"/>
-      <element name="subsoilPeat" type="bhrcom:SubsoilPeatType" minOccurs="0" maxOccurs="1"/>
-      <element name="lowerBoundaryPeat" type="bhrcom:BoringDepthType" minOccurs="0" maxOccurs="1"/>
-      <element name="subsoilDuinVagueSoil" type="bhrcom:SubsoilDuinVagueSoilType" minOccurs="0" maxOccurs="1"/>
-      <element name="textureProfile" type="bhrcom:TextureProfileType" minOccurs="0" maxOccurs="1"/>
-      <element name="carbonateProfile" type="bhrcom:CarbonateProfileType" minOccurs="0" maxOccurs="1"/>
-      <element name="reworkingClass" type="bhrcom:ReworkingClassType" minOccurs="1" maxOccurs="1"/>
-      <element name="groundwaterTableClass" type="bhrcom:GroundwaterTableClassType" minOccurs="1" maxOccurs="1"/>
-      <element name="anomalousGroundwaterRegime" type="bhrcom:AnomalousGroundwaterRegimeType" minOccurs="0" maxOccurs="1"/>
-      <element name="featureSite" type="bhrcom:FeatureSiteType" minOccurs="1" maxOccurs="1"/>
-      <element name="featureBottom" type="bhrcom:FeatureBottomType" minOccurs="1" maxOccurs="unbounded"/>
+      <element name="codeGroup" type="bhrcom:CodeGroupType" minOccurs="1" maxOccurs="1" />
+      <element name="classificationCode" type="string" minOccurs="1" maxOccurs="1" />
+      <element name="featureTop" type="bhrcom:FeatureTopType" minOccurs="1" maxOccurs="1" />
+      <element name="soilClass" type="bhrcom:SoilClassType" minOccurs="1" maxOccurs="1" />
+      <element name="textureClass" type="bhrcom:TextureClassType" minOccurs="0" maxOccurs="1" />
+      <element name="peatClass" type="bhrcom:PeatClassType" minOccurs="0" maxOccurs="1" />
+      <element name="subsoilPeat" type="bhrcom:SubsoilPeatType" minOccurs="0" maxOccurs="1" />
+      <element name="lowerBoundaryPeat" type="bhrcom:BoringDepthType" minOccurs="0" maxOccurs="1" />
+      <element name="subsoilDuinVagueSoil" type="bhrcom:SubsoilDuinVagueSoilType" minOccurs="0"
+        maxOccurs="1" />
+      <element name="textureProfile" type="bhrcom:TextureProfileType" minOccurs="0" maxOccurs="1" />
+      <element name="carbonateProfile" type="bhrcom:CarbonateProfileType" minOccurs="0"
+        maxOccurs="1" />
+      <element name="reworkingClass" type="bhrcom:ReworkingClassType" minOccurs="1" maxOccurs="1" />
+      <element name="groundwaterTableClass" type="bhrcom:GroundwaterTableClassType" minOccurs="1"
+        maxOccurs="1" />
+      <element name="anomalousGroundwaterRegime" type="bhrcom:AnomalousGroundwaterRegimeType"
+        minOccurs="0" maxOccurs="1" />
+      <element name="featureSite" type="bhrcom:FeatureSiteType" minOccurs="1" maxOccurs="1" />
+      <element name="featureBottom" type="bhrcom:FeatureBottomType" minOccurs="1"
+        maxOccurs="unbounded" />
     </sequence>
   </complexType>
   <complexType name="FeatureBottomType">
     <sequence>
-      <element name="feature" type="bhrcom:FeatureType" minOccurs="1" maxOccurs="1"/>
-      <element name="beginDepth" type="bhrcom:FeatureDepthType" minOccurs="0" maxOccurs="1"/>
+      <element name="feature" type="bhrcom:FeatureType" minOccurs="1" maxOccurs="1" />
+      <element name="beginDepth" type="bhrcom:FeatureDepthType" minOccurs="0" maxOccurs="1" />
     </sequence>
   </complexType>
   <complexType name="ToolDiameterType">
     <simpleContent>
       <restriction base="gml:MeasureType">
-        <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="mm"/>
+        <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="mm" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="LowerBoundarySandFractionType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:LowerBoundarySandFraction"/>
+        <attribute name="codeSpace" type="anyURI" use="required"
+          fixed="urn:bro:bhr:LowerBoundarySandFraction" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="RemovedMaterialType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:RemovedMaterial"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:RemovedMaterial" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="BoringStandardType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:BoringStandard"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:BoringStandard" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="LocalVerticalReferencePointType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:LocalVerticalReferencePoint"/>
+        <attribute name="codeSpace" type="anyURI" use="required"
+          fixed="urn:bro:bhr:LocalVerticalReferencePoint" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="HorizontalPositioningMethodType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:HorizontalPositioningMethod"/>
+        <attribute name="codeSpace" type="anyURI" use="required"
+          fixed="urn:bro:bhr:HorizontalPositioningMethod" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="VerticalPositioningMethodType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:VerticalPositioningMethod"/>
+        <attribute name="codeSpace" type="anyURI" use="required"
+          fixed="urn:bro:bhr:VerticalPositioningMethod" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="SampleQualityType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:SampleQuality"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:SampleQuality" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="OffsetType">
     <simpleContent>
       <restriction base="gml:MeasureType">
-        <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
+        <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="BoringDepthType">
     <simpleContent>
       <restriction base="gml:MeasureType">
-        <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
+        <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="PercentageType">
     <simpleContent>
       <restriction base="gml:MeasureType">
-        <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="%"/>
+        <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="%" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="ShellMatterContentClassType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:ShellMatterContentClass"/>
+        <attribute name="codeSpace" type="anyURI" use="required"
+          fixed="urn:bro:bhr:ShellMatterContentClass" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="GravelContentClassType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:GravelContentClass"/>
+        <attribute name="codeSpace" type="anyURI" use="required"
+          fixed="urn:bro:bhr:GravelContentClass" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="SandMedianType">
     <simpleContent>
       <restriction base="gml:MeasureType">
-        <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="um"/>
+        <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="um" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="OrganicMatterClassType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:OrganicMatterClass"/>
+        <attribute name="codeSpace" type="anyURI" use="required"
+          fixed="urn:bro:bhr:OrganicMatterClass" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="PedologicalSoilNameType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:PedologicalSoilName"/>
+        <attribute name="codeSpace" type="anyURI" use="required"
+          fixed="urn:bro:bhr:PedologicalSoilName" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="StandardSoilNameType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:StandardSoilName"/>
+        <attribute name="codeSpace" type="anyURI" use="required"
+          fixed="urn:bro:bhr:StandardSoilName" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="SurveyPurposeType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:SurveyPurpose"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:SurveyPurpose" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="DisciplineType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:Discipline"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:Discipline" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="DepositionalCharacteristicType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:DepositionalCharacteristic"/>
+        <attribute name="codeSpace" type="anyURI" use="required"
+          fixed="urn:bro:bhr:DepositionalCharacteristic" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="HorizonCodeType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:HorizonCode"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:HorizonCode" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="FeatureDepthType">
     <simpleContent>
       <restriction base="gml:MeasureType">
-        <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
+        <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="VolumePercentageType">
     <simpleContent>
       <restriction base="gml:MeasureType">
-        <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="%"/>
+        <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="%" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="FlushingMediumType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:FlushingMedium"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:FlushingMedium" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="StopCriterionType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:StopCriterion"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:StopCriterion" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="BoringToolTypeType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:BoringToolType"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:BoringToolType" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="LandUseType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:LandUse"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:LandUse" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="LitterTypeType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:LitterType"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:LitterType" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="RockTypeType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:RockType"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:RockType" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="CodeGroupType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:CodeGroup"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:CodeGroup" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="FeatureTopType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:FeatureTop"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:FeatureTop" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="SoilClassType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:SoilClass"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:SoilClass" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="TextureClassType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:TextureClass"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:TextureClass" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="PeatClassType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:PeatClass"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:PeatClass" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="SubsoilPeatType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:SubsoilPeat"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:SubsoilPeat" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="SubsoilDuinVagueSoilType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:SubsoilDuinVagueSoil"/>
+        <attribute name="codeSpace" type="anyURI" use="required"
+          fixed="urn:bro:bhr:SubsoilDuinVagueSoil" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="TextureProfileType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:TextureProfile"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:TextureProfile" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="CarbonateProfileType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:CarbonateProfile"/>
+        <attribute name="codeSpace" type="anyURI" use="required"
+          fixed="urn:bro:bhr:CarbonateProfile" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="ReworkingClassType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:ReworkingClass"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:ReworkingClass" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="GroundwaterTableClassType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:GroundwaterTableClass"/>
+        <attribute name="codeSpace" type="anyURI" use="required"
+          fixed="urn:bro:bhr:GroundwaterTableClass" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="FeatureSiteType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:FeatureSite"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:FeatureSite" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="AnomalousGroundwaterRegimeType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:AnomalousGroundwaterRegime"/>
+        <attribute name="codeSpace" type="anyURI" use="required"
+          fixed="urn:bro:bhr:AnomalousGroundwaterRegime" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="FeatureType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:Feature"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:Feature" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="DescriptionLocationType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:DescriptionLocation"/>
+        <attribute name="codeSpace" type="anyURI" use="required"
+          fixed="urn:bro:bhr:DescriptionLocation" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="DescriptionMethodType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:DescriptionMethod"/>
+        <attribute name="codeSpace" type="anyURI" use="required"
+          fixed="urn:bro:bhr:DescriptionMethod" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="CarbonateClassType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:CarbonateClass"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:CarbonateClass" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="RipingClassType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:RipingClass"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:RipingClass" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="PeatTypeType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:PeatType"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:PeatType" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="PermeabilityType">
     <simpleContent>
       <restriction base="gml:MeasureType">
-        <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m/d"/>
+        <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m/d" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="DeliveryContextType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:DeliveryContext"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:DeliveryContext" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="RegistrationStatusType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:RegistrationStatus"/>
+        <attribute name="codeSpace" type="anyURI" use="required"
+          fixed="urn:bro:bhr:RegistrationStatus" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="VerticalDatumType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:VerticalDatum"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:VerticalDatum" />
       </restriction>
     </simpleContent>
   </complexType>
-  <!-- Toevoegingen AnalysisTypeType, InvestigatedAreaType, BoreholeSampleAnalysisType en InvestigatedInterval -->
+  <!-- Toevoegingen AnalysisTypeType, InvestigatedAreaType, BoreholeSampleAnalysisType en
+  InvestigatedInterval -->
   <complexType name="AnalysisTypeType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:AnalysisType"/>
+        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:AnalysisType" />
       </restriction>
     </simpleContent>
   </complexType>
   <complexType name="InvestigatedAreaType">
     <simpleContent>
       <restriction base="gml:CodeWithAuthorityType">
-        <attribute name="codeSpace" type="anyURI" use="required" fixed="urn:bro:bhr:InvestigatedArea"/>
+        <attribute name="codeSpace" type="anyURI" use="required"
+          fixed="urn:bro:bhr:InvestigatedArea" />
       </restriction>
     </simpleContent>
   </complexType>
   <element name="BoreholeSampleAnalysis"
-      type="bhrcom:BoreholeSampleAnalysisType"
-      substitutionGroup="gml:AbstractFeature">
+    type="bhrcom:BoreholeSampleAnalysisType"
+    substitutionGroup="gml:AbstractFeature">
     <annotation>
-      <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het deel van het wandonderzoek dat betrekking heeft op uitvoeren van metingen aan monsters.
-        Explanation: De analyse richt zich in de huidige praktijk alleen op het analyseren van monsters die uit de strooisellaag of de lagen die uit grond bestaan zijn genomen. Lagen die uit bijzonder materiaal of uit gesteente bestaan worden niet onderzocht. Het op basis van hydrofysische metingen modelleren van eigenschappen zoals de waterretentiekarakteristiek, is onderdeel van de wandmonsteranalyse.</documentation>
+      <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition:
+        Het deel van het wandonderzoek dat betrekking heeft op uitvoeren van metingen aan monsters.
+        Explanation: De analyse richt zich in de huidige praktijk alleen op het analyseren van
+        monsters die uit de strooisellaag of de lagen die uit grond bestaan zijn genomen. Lagen die
+        uit bijzonder materiaal of uit gesteente bestaan worden niet onderzocht. Het op basis van
+        hydrofysische metingen modelleren van eigenschappen zoals de waterretentiekarakteristiek, is
+        onderdeel van de wandmonsteranalyse.</documentation>
     </annotation>
   </element>
   <complexType name="BoreholeSampleAnalysisType">
     <complexContent>
       <extension base="gml:AbstractFeatureType">
         <sequence>
-          <element name="analysisReportDate" type="brocom:PartialDateType" minOccurs="1" maxOccurs="1">
+          <element name="analysisReportDate" type="brocom:PartialDateType" minOccurs="1"
+            maxOccurs="1">
             <annotation>
-              <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De datum waarop de uitvoerder van de analyse alle gegevens van de boormonsteranalyse aan de bronhouder heeft overgedragen, of in het geval van historische gegevens de datum waarop alle gegevens zijn vastgesteld.
-                                Explanation: Voor hydrofysisch onderzoek dateren de oudste bepalingen in het archief van WEnR uit 1970 en voor de andere bepalingen is dat 1950.</documentation>
+              <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition:
+                De datum waarop de uitvoerder van de analyse alle gegevens van de boormonsteranalyse
+                aan de bronhouder heeft overgedragen, of in het geval van historische gegevens de
+                datum waarop alle gegevens zijn vastgesteld. Explanation: Voor hydrofysisch
+                onderzoek dateren de oudste bepalingen in het archief van WEnR uit 1970 en voor de
+                andere bepalingen is dat 1950.</documentation>
             </annotation>
           </element>
           <element name="analysisType" type="bhrcom:AnalysisTypeType" minOccurs="1" maxOccurs="1">
             <annotation>
               <appinfo>
                 <CodeListName>AnalysisType</CodeListName>
-                <CodeListURI/>
+                <CodeListURI />
               </appinfo>
-              <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft tot welke categorie de analyse hoort.
-                                Explanation: Het soort analyse geeft globaal aan welk soort bepalingen er zijn uitgevoerd en of er naast het meten van eigenschappen ook sprake kan zijn van het modelleren van eigenschappen.</documentation>
+              <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition:
+                De aanduiding die aangeeft tot welke categorie de analyse hoort. Explanation: Het
+                soort analyse geeft globaal aan welk soort bepalingen er zijn uitgevoerd en of er
+                naast het meten van eigenschappen ook sprake kan zijn van het modelleren van
+                eigenschappen.</documentation>
             </annotation>
           </element>
-          <element name="locationSpecific" type="brocom:IndicationYesNoType" minOccurs="1" maxOccurs="1">
+          <element name="locationSpecific" type="brocom:IndicationYesNoType" minOccurs="1"
+            maxOccurs="1">
             <annotation>
-              <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of de boormonsteranalyse alleen betrekking heeft op de locatie van de boring.
-                                Explanation: Boormonsteranalyse wordt vaak uitgevoerd aan monsters die afkomstig zijn uit het geboorde gat en uit de monsterkuil die vlak naast het boorgat is gegraven voor het verkrijgen van ongeroerde monsters. Dat wordt locatiespecifiek onderzoek genoemd. Voor bodemchemisch onderzoek wordt veelal een andere bemonsteringsstrategie gevolgd, waarbij de monsters worden genomen uit boringen die volgens een bepaald patroon uit een bepaald gebied rond een centrale boring worden genomen. Dat wordt niet-locatiespecifiek onderzoek genoemd. De boring in het midden van het gebied levert altijd het boorprofiel dat als referentie dient. De individuele monsters uit de andere boringen worden gemengd om een representatief monster te verkrijgen dat voor een bepaald interval en het hele oppervlak geldt.</documentation>
+              <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition:
+                De aanduiding die aangeeft of de boormonsteranalyse alleen betrekking heeft op de
+                locatie van de boring. Explanation: Boormonsteranalyse wordt vaak uitgevoerd aan
+                monsters die afkomstig zijn uit het geboorde gat en uit de monsterkuil die vlak
+                naast het boorgat is gegraven voor het verkrijgen van ongeroerde monsters. Dat wordt
+                locatiespecifiek onderzoek genoemd. Voor bodemchemisch onderzoek wordt veelal een
+                andere bemonsteringsstrategie gevolgd, waarbij de monsters worden genomen uit
+                boringen die volgens een bepaald patroon uit een bepaald gebied rond een centrale
+                boring worden genomen. Dat wordt niet-locatiespecifiek onderzoek genoemd. De boring
+                in het midden van het gebied levert altijd het boorprofiel dat als referentie dient.
+                De individuele monsters uit de andere boringen worden gemengd om een representatief
+                monster te verkrijgen dat voor een bepaald interval en het hele oppervlak geldt.</documentation>
             </annotation>
           </element>
-          <element name="investigatedArea" type="bhrcom:InvestigatedAreaType" minOccurs="0" maxOccurs="1">
+          <element name="investigatedArea" type="bhrcom:InvestigatedAreaType" minOccurs="0"
+            maxOccurs="1">
             <annotation>
               <appinfo>
                 <CodeListName>InvestigatedArea</CodeListName>
-                <CodeListURI/>
+                <CodeListURI />
               </appinfo>
-              <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De omschrijving van het onderzochte oppervlak, in het geval de analyse zich niet beperkt tot de locatie van de boring.
-                                Explanation: De bemonsteringsstrategie bij niet-locatiespecifiek onderzoek kent een aantal varianten, waarbij het onderzochte opppervlak en het patroon van bemonstering verschillen. Voor het onderzoek dat onder de basisregistratie ondergrond valt is er een grens gesteld aan de grootte van het onderzochte oppervlak, die mag niet groter zijn dan 35 bij 35 meter.</documentation>
+              <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition:
+                De omschrijving van het onderzochte oppervlak, in het geval de analyse zich niet
+                beperkt tot de locatie van de boring. Explanation: De bemonsteringsstrategie bij
+                niet-locatiespecifiek onderzoek kent een aantal varianten, waarbij het onderzochte
+                opppervlak en het patroon van bemonstering verschillen. Voor het onderzoek dat onder
+                de basisregistratie ondergrond valt is er een grens gesteld aan de grootte van het
+                onderzochte oppervlak, die mag niet groter zijn dan 35 bij 35 meter.</documentation>
             </annotation>
           </element>
-          <element name="analysisOperator" type="brocom:OrganizationType" minOccurs="1" maxOccurs="1">
+          <element name="analysisOperator" type="brocom:OrganizationType" minOccurs="1"
+            maxOccurs="1">
             <annotation>
-              <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de rechtspersoon die voor de bronhouder geldt als verantwoordelijk voor de uitvoering van de boormonsteranalyse, of het equivalent daarvan in een handelsregister van een andere lidstaat van de Europese Unie dan Nederland.
-                                Explanation: Het gegeven wordt alleen uitgeleverd aan de dataleverancier en de bronhouder.</documentation>
+              <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition:
+                Het KvK-nummer van de onderneming of de maatschappelijke activiteit van de
+                rechtspersoon die voor de bronhouder geldt als verantwoordelijk voor de uitvoering
+                van de boormonsteranalyse, of het equivalent daarvan in een handelsregister van een
+                andere lidstaat van de Europese Unie dan Nederland. Explanation: Het gegeven wordt
+                alleen uitgeleverd aan de dataleverancier en de bronhouder.</documentation>
             </annotation>
           </element>
-          <element name="investigatedInterval" type="bhrcom:InvestigatedIntervalPropertyType" nillable="false" minOccurs="1" maxOccurs="unbounded"/>
+          <element name="investigatedInterval" type="bhrcom:InvestigatedIntervalPropertyType"
+            nillable="false" minOccurs="1" maxOccurs="unbounded" />
         </sequence>
       </extension>
     </complexContent>
   </complexType>
   <complexType name="BoreholeSampleAnalysisPropertyType">
     <sequence minOccurs="1">
-      <element ref="bhrcom:BoreholeSampleAnalysis"/>
+      <element ref="bhrcom:BoreholeSampleAnalysis" />
     </sequence>
   </complexType>
-  <element name="InvestigatedInterval" type="bhrcom:InvestigatedIntervalType" substitutionGroup="gml:AbstractFeature">
+  <element name="InvestigatedInterval" type="bhrcom:InvestigatedIntervalType"
+    substitutionGroup="gml:AbstractFeature">
     <annotation>
-      <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: Het diepte-interval waarop de bepalingen betrekking hebben.
-                Explanation: Het diepte-interval heeft altijd betrekking op het boorprofiel van het onderzoek. De bodemkundige monsteranalyse kan erop gericht zijn monsters te analyseren die van een bepaalde diepte komen ongeacht de horizont die op die diepte ligt. Het doel kan ook zijn een bepaalde horizont te onderzoeken. Bij uitzondering worden de beide doelen in de monsteranalyse gecombineerd en heeft een deel van de onderzochte intervallen betrekking op een bepaalde horizont en een deel niet. Aan een interval kunnen verschillende bepalingen zijn gedaan en onderzochte intervallen kunnen elkaar overlappen.
-            </documentation>
+      <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition:
+        Het diepte-interval waarop de bepalingen betrekking hebben. Explanation: Het diepte-interval
+        heeft altijd betrekking op het boorprofiel van het onderzoek. De bodemkundige monsteranalyse
+        kan erop gericht zijn monsters te analyseren die van een bepaalde diepte komen ongeacht de
+        horizont die op die diepte ligt. Het doel kan ook zijn een bepaalde horizont te onderzoeken.
+        Bij uitzondering worden de beide doelen in de monsteranalyse gecombineerd en heeft een deel
+        van de onderzochte intervallen betrekking op een bepaalde horizont en een deel niet. Aan een
+        interval kunnen verschillende bepalingen zijn gedaan en onderzochte intervallen kunnen
+        elkaar overlappen. </documentation>
     </annotation>
   </element>
   <complexType name="InvestigatedIntervalType">
@@ -725,68 +834,104 @@
         <sequence>
           <element name="beginDepth" minOccurs="1" maxOccurs="1">
             <annotation>
-              <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte waarop het interval dat is onderzocht begint.</documentation>
+              <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition:
+                De diepte waarop het interval dat is onderzocht begint.</documentation>
             </annotation>
             <complexType>
               <simpleContent>
                 <restriction base="gml:MeasureType">
-                  <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
+                  <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m" />
                 </restriction>
               </simpleContent>
             </complexType>
           </element>
           <element name="endDepth" minOccurs="1" maxOccurs="1">
             <annotation>
-              <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De diepte waarop het interval dat is onderzocht eindigt.
-                                Explanation: De einddiepte is gewoonlijk minder dan 2 meter.</documentation>
+              <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition:
+                De diepte waarop het interval dat is onderzocht eindigt. Explanation: De einddiepte
+                is gewoonlijk minder dan 2 meter.</documentation>
             </annotation>
             <complexType>
               <simpleContent>
                 <restriction base="gml:MeasureType">
-                  <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m"/>
+                  <attribute name="uom" type="gml:UomIdentifier" use="required" fixed="m" />
                 </restriction>
               </simpleContent>
             </complexType>
           </element>
-          <element name="locationSpecific" type="brocom:IndicationYesNoType" minOccurs="1" maxOccurs="1">
+          <element name="locationSpecific" type="brocom:IndicationYesNoType" minOccurs="1"
+            maxOccurs="1">
             <annotation>
-              <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of het onderzochte interval alleen betrekking heeft op de locatie van de boring.
-                                Explanation: Wanneer de boormonsteranalyse niet locatiespecifiek is, strekt het onderzochte interval zich gewoonlijk uit over het gehele onderzochte oppervlak, maar voor sommige onderzochte intervallen geldt dat het alleen betrekking heeft op de locatie van de boring .</documentation>
+              <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition:
+                De aanduiding die aangeeft of het onderzochte interval alleen betrekking heeft op de
+                locatie van de boring. Explanation: Wanneer de boormonsteranalyse niet
+                locatiespecifiek is, strekt het onderzochte interval zich gewoonlijk uit over het
+                gehele onderzochte oppervlak, maar voor sommige onderzochte intervallen geldt dat
+                het alleen betrekking heeft op de locatie van de boring .</documentation>
             </annotation>
           </element>
-          <element name="horizonCode" type="bhrcom:HorizonCodeType" minOccurs="0" maxOccurs="unbounded">
+          <element name="horizonCode" type="bhrcom:HorizonCodeType" minOccurs="0"
+            maxOccurs="unbounded">
             <annotation>
               <appinfo>
                 <CodeListName>HorizonCode</CodeListName>
-                <CodeListURI/>
+                <CodeListURI />
               </appinfo>
-              <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De code van de horizont die door het onderzochte interval wordt vertegenwoordigd.
-                                Explanation: De horizontcode wordt gegeven wanneer het bepalen van eigenschappen van een bepaalde horizont de doelstelling is geweest. Mocht het niet zijn gelukt monsters uit alleen die bepaalde horizont te analyseren, dan omvat het interval meer dan een horizont. Voor hydrofysische bepalingen is het doel altijd het onderzoeken van bepaalde horizonten en wordt de horizontcode altijd vastgelegd. Voor chemisch onderzoek is dat betrekkelijk bijzonder.</documentation>
+              <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition:
+                De code van de horizont die door het onderzochte interval wordt vertegenwoordigd.
+                Explanation: De horizontcode wordt gegeven wanneer het bepalen van eigenschappen van
+                een bepaalde horizont de doelstelling is geweest. Mocht het niet zijn gelukt
+                monsters uit alleen die bepaalde horizont te analyseren, dan omvat het interval meer
+                dan een horizont. Voor hydrofysische bepalingen is het doel altijd het onderzoeken
+                van bepaalde horizonten en wordt de horizontcode altijd vastgelegd. Voor chemisch
+                onderzoek is dat betrekkelijk bijzonder.</documentation>
             </annotation>
           </element>
-          <element name="characteristicModelled" type="brocom:IndicationYesNoType" minOccurs="0" maxOccurs="1">
+          <element name="characteristicModelled" type="brocom:IndicationYesNoType" minOccurs="0"
+            maxOccurs="1">
             <annotation>
-              <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition: De aanduiding die aangeeft of ook het modelleren van eigenschappen is uitgevoerd.
-                                Explanation: Een karakteristiek is een functie die het resultaat is van het modelleren van meetgegevens. Een karakteristiek vereist dat er bepaalde metingen beschikbaar zijn.</documentation>
+              <documentation source="http://www.imvertor.org/model-info/technical-documentation">Definition:
+                De aanduiding die aangeeft of ook het modelleren van eigenschappen is uitgevoerd.
+                Explanation: Een karakteristiek is een functie die het resultaat is van het
+                modelleren van meetgegevens. Een karakteristiek vereist dat er bepaalde metingen
+                beschikbaar zijn.</documentation>
             </annotation>
           </element>
-          <element name="pHDetermination" type="srcom:PHDeterminationPropertyType" nillable="false" minOccurs="0" maxOccurs="1"/>
-          <element name="particleSizeDistributionDetermination" type="srcom:ParticleSizeDistributionDeterminationPropertyType" nillable="false" minOccurs="0" maxOccurs="1"/>
-          <element name="organicMatterContentDetermination" type="srcom:OrganicMatterContentDeterminationPropertyType" nillable="false" minOccurs="0" maxOccurs="1"/>
-          <element name="organicCarbonContentDetermination" type="srcom:organicCarbonContentDeterminationPropertyType" nillable="false" minOccurs="0" maxOccurs="1"/>
-          <element name="dryBulkDensityDetermination" type="srcom:DryBulkDensityDeterminationPropertyType" nillable="false" minOccurs="0" maxOccurs="10"/>
-          <element name="shrinkageDetermination" type="srcom:ShrinkageDeterminationPropertyType" nillable="false" minOccurs="0" maxOccurs="10"/>
-          <element name="hydraulicConductivityDetermination" type="srcom:HydraulicConductivityDeterminationPropertyType" nillable="false" minOccurs="0" maxOccurs="20"/>
-          <element name="waterretentionDeterminationStepwise" type="srcom:WaterretentionDeterminationStepwisePropertyType" nillable="false" minOccurs="0" maxOccurs="50"/>
-          <element name="waterContentAndConductivityUnderDecreasingSoilWaterPotentialDetermination" type="srcom:WaterContentAndConductivityUnderDecreasingSoilWaterPotentialDeterminationPropertyType" nillable="false" minOccurs="0" maxOccurs="10"/>
-          <element name="hydrophysicalCharacteristicsModelling" type="srcom:HydrophysicalCharacteristicsModellingPropertyType" nillable="false" minOccurs="0" maxOccurs="unbounded"/>
+          <element name="pHDetermination" type="srcom:PHDeterminationPropertyType" nillable="false"
+            minOccurs="0" maxOccurs="1" />
+          <element name="particleSizeDistributionDetermination"
+            type="srcom:ParticleSizeDistributionDeterminationPropertyType" nillable="false"
+            minOccurs="0" maxOccurs="1" />
+          <element name="organicMatterContentDetermination"
+            type="srcom:OrganicMatterContentDeterminationPropertyType" nillable="false"
+            minOccurs="0" maxOccurs="1" />
+          <element name="organicCarbonContentDetermination"
+            type="srcom:organicCarbonContentDeterminationPropertyType" nillable="false"
+            minOccurs="0" maxOccurs="1" />
+          <element name="dryBulkDensityDetermination"
+            type="srcom:DryBulkDensityDeterminationPropertyType" nillable="false" minOccurs="0"
+            maxOccurs="10" />
+          <element name="shrinkageDetermination" type="srcom:ShrinkageDeterminationPropertyType"
+            nillable="false" minOccurs="0" maxOccurs="10" />
+          <element name="hydraulicConductivityDetermination"
+            type="srcom:HydraulicConductivityDeterminationPropertyType" nillable="false"
+            minOccurs="0" maxOccurs="20" />
+          <element name="waterretentionDeterminationStepwise"
+            type="srcom:WaterretentionDeterminationStepwisePropertyType" nillable="false"
+            minOccurs="0" maxOccurs="50" />
+          <element name="waterContentAndConductivityUnderDecreasingSoilWaterPotentialDetermination"
+            type="srcom:WaterContentAndConductivityUnderDecreasingSoilWaterPotentialDeterminationPropertyType"
+            nillable="false" minOccurs="0" maxOccurs="10" />
+          <element name="hydrophysicalCharacteristicsModelling"
+            type="srcom:HydrophysicalCharacteristicsModellingPropertyType" nillable="false"
+            minOccurs="0" maxOccurs="unbounded" />
         </sequence>
       </extension>
     </complexContent>
   </complexType>
   <complexType name="InvestigatedIntervalPropertyType">
     <sequence minOccurs="1">
-      <element ref="bhrcom:InvestigatedInterval"/>
+      <element ref="bhrcom:InvestigatedInterval" />
     </sequence>
   </complexType>
 </schema>
