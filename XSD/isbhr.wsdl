@@ -34,9 +34,9 @@
   <wsdl:message name="parseSoapFault">
     <wsdl:part name="parseFault" element="msg:parseFault"/>
   </wsdl:message>
-  <wsdl:message name="DeliveryResponsiblePartyHeader">
+  <!-- <wsdl:message name="DeliveryResponsiblePartyHeader">
     <wsdl:part name="deliveryResponsibleParty" element="brocom:deliveryResponsibleParty"/>
-  </wsdl:message>
+  </wsdl:message> -->
   <wsdl:portType name="isbhr">
     <wsdl:operation name="register">
       <wsdl:input message="tns:registrationRequest" wsam:Action="http://www.broservices.nl/wus/isbhr/registrationRequest"/>

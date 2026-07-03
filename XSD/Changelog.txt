@@ -1,4 +1,26 @@
 Changelog
+
+
+----------------------------
+Versie 1.1.0 - 02.07.2026
+----------------------------
+
+1. Voor het bestand bhrcommon:
+   - Regel 22: verwijderd (dubbele namespace)
+
+2. Voor het bestand isbhr-messages:
+   - Versie nummers in namespaces van brocommon en bhrcommon gewijzigd van 3.0 en 2.0 naar 3 en 2
+
+3. Voor het bestand srcommon:
+   - DeterminationMethodType en DeterminationMethodVolumetricWaterContentType omgedraaid
+
+4. Voor het bestand isbhr.wsdl:
+   - DeliveryResponsiblePartyHeader verwijderd.
+
+5. Voor het bestand dsbhr-messages:
+   - dubbele namespaces opgeschoond.
+   
+
 ----------------------------
 Versie 1.0.0 - 25.06.2026
 ----------------------------
@@ -25,3 +47,4 @@ Versie 1.0.0 - 25.06.2026
 4. Voor het bestand isbhr.wsdl:
    - Namespaceversie voor brocommon bijgewerkt van 3.0 naar 3, isbhr van 2.0 naar 2 enz;
    - <soap:body use="encoded"> bijgewerkt aan <..."literal"> (lijn 57).
+   
