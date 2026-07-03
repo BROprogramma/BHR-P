@@ -1,5 +1,11 @@
 Changelog
 
+----------------------------
+Versie 1.2.0 - 03.07.2026
+----------------------------
+
+Voor alle voorbeeldberichten:
+   - namespaces bijgewerkt van 3.0 naar 3 (2.0 naar 2 enz)
 
 ----------------------------
 Versie 1.1.0 - 02.07.2026
