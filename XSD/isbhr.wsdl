@@ -13,10 +13,10 @@
         - Added operations/bindings/messages for correctPedology.
     </wsdl:documentation>
   <wsdl:types>
-    <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/isbhr/2" targetNamespace="http://www.broservices.nl/wsdl/isbhr/2.0">
+    <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/isbhr/2" targetNamespace="http://www.broservices.nl/wsdl/isbhr/2">
       <!--
-      <xsd:import namespace="http://www.broservices.nl/xsd/isbhr/2" schemaLocation="https://schema.broservices.nl/xsd/isbhr/2.0/isbhr-messages.xsd"/>
-      <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3.0/brocommon.xsd"/>
+      <xsd:import namespace="http://www.broservices.nl/xsd/isbhr/2" schemaLocation="https://schema.broservices.nl/xsd/isbhr/2/isbhr-messages.xsd"/>
+      <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3" schemaLocation="https://schema.broservices.nl/xsd/brocommon/3/brocommon.xsd"/>
       -->
       <xsd:import namespace="http://www.broservices.nl/xsd/isbhr/2" schemaLocation="isbhr-messages.xsd"/>
       <xsd:import namespace="http://www.broservices.nl/xsd/brocommon/3" schemaLocation="brocommon.xsd"/>

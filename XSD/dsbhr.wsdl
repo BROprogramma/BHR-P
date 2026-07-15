@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:msg="http://www.broservices.nl/xsd/dsbhr/2.0" xmlns:tns="http://www.broservices.nl/wsdl/dsbhr/2.0" name="dsbhr" targetNamespace="http://www.broservices.nl/wsdl/dsbhr/2.0">
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:msg="http://www.broservices.nl/xsd/dsbhr/2" xmlns:tns="http://www.broservices.nl/wsdl/dsbhr/2" name="dsbhr" targetNamespace="http://www.broservices.nl/wsdl/dsbhr/2">
   <wsdl:documentation>
         Deze WSDL beschrijft de webservice voor uitgifte van booronderzoek voor de
         Basisregistratie Ondergrond. Deze versie is 2.0.0
@@ -11,11 +11,11 @@
         - Added operations/bindings/messages for dispatchCharacteristics.
     </wsdl:documentation>
   <wsdl:types>
-    <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/dsbhr/2.0" targetNamespace="http://www.broservices.nl/wsdl/dsbhr/2.0">
+    <xsd:schema xmlns:tns="http://www.broservices.nl/wsdl/dsbhr/2" targetNamespace="http://www.broservices.nl/wsdl/dsbhr/2">
       <!--
-      <xsd:import namespace="http://www.broservices.nl/xsd/dsbhr/2.0" schemaLocation="https://schema.broservices.nl/xsd/dsbhr/2.0/dsbhr-messages.xsd"/>
+      <xsd:import namespace="http://www.broservices.nl/xsd/dsbhr/2" schemaLocation="https://schema.broservices.nl/xsd/dsbhr/2/dsbhr-messages.xsd"/>
       -->
-      <xsd:import namespace="http://www.broservices.nl/xsd/dsbhr/2.0" schemaLocation="dsbhr-messages.xsd"/>
+      <xsd:import namespace="http://www.broservices.nl/xsd/dsbhr/2" schemaLocation="dsbhr-messages.xsd"/>
     </xsd:schema>
   </wsdl:types>
   <wsdl:message name="dispatchDataRequest">
