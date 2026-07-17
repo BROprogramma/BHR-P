@@ -1,4 +1,11 @@
 Changelog:
+
+----------------------------
+Versie 1.4.0 - 16.07.2026
+----------------------------
+
+Voor isbhr.wsdl - Toegeovoegd DeliveryResponsiblePartyHeader
+
 ----------------------------
 Versie 1.3.0 - 15.07.2026
 ----------------------------
