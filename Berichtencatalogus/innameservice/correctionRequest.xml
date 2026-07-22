@@ -66,15 +66,15 @@
                     <bhrcom:boringStandard codeSpace="urn:bro:bhr:BoringStandard">geen</bhrcom:boringStandard>
                 </bhrcom:boringProcedure>
                 <bhrcom:boredTrajectory>
-                    <bhrcom:beginDepth uom="m">0</bhrcom:beginDepth>
-                    <bhrcom:endDepth uom="m">15.00</bhrcom:endDepth>
+                    <bhrcom:beginDepth uom="m">0.000</bhrcom:beginDepth>
+                    <bhrcom:endDepth uom="m">15.000</bhrcom:endDepth>
                 </bhrcom:boredTrajectory>
                 <bhrcom:boringTool>
                     <bhrcom:boringToolType codeSpace="urn:bro:bhr:BoringToolType">edelmanboor</bhrcom:boringToolType>
                     <bhrcom:boringToolDiameter uom="mm">70</bhrcom:boringToolDiameter>
                     <bhrcom:boredInterval>
-                        <bhrcom:beginDepth uom="m">0</bhrcom:beginDepth>
-                        <bhrcom:endDepth uom="m">15.00</bhrcom:endDepth>
+                        <bhrcom:beginDepth uom="m">0.000</bhrcom:beginDepth>
+                        <bhrcom:endDepth uom="m">15.000</bhrcom:endDepth>
                     </bhrcom:boredInterval>
                 </bhrcom:boringTool>
             </boring>
@@ -214,7 +214,7 @@
                     <bhrcom:featureSite codeSpace="urn:bro:bhr:FeatureSite">geen</bhrcom:featureSite>
                     <bhrcom:featureBottom>
                         <bhrcom:feature codeSpace="urn:bro:bhr:Feature">zandPleistoceen</bhrcom:feature>
-                        <bhrcom:beginDepth uom="m">1.5</bhrcom:beginDepth>
+                        <bhrcom:beginDepth uom="m">1.500</bhrcom:beginDepth>
                     </bhrcom:featureBottom>
                 </bhrcom:soilClassification>
             </boreholeSampleDescription>
@@ -244,8 +244,8 @@
                     <!--1 or more repetitions:-->
                     <bhrcom:investigatedInterval>
                         <bhrcom:InvestigatedInterval gml:id="id-7">
-                            <bhrcom:beginDepth uom="m">0.00</bhrcom:beginDepth>
-                            <bhrcom:endDepth uom="m">6.00</bhrcom:endDepth>
+                            <bhrcom:beginDepth uom="m">0.000</bhrcom:beginDepth>
+                            <bhrcom:endDepth uom="m">6.000</bhrcom:endDepth>
                             <bhrcom:locationSpecific>ja</bhrcom:locationSpecific>
                             <bhrcom:characteristicModelled>nee</bhrcom:characteristicModelled>
                             <bhrcom:pHDetermination>
@@ -316,8 +316,8 @@
                     </bhrcom:investigatedInterval>
                     <bhrcom:investigatedInterval>
                         <bhrcom:InvestigatedInterval gml:id="id-10">
-                            <bhrcom:beginDepth uom="m">6.00</bhrcom:beginDepth>
-                            <bhrcom:endDepth uom="m">9.00</bhrcom:endDepth>
+                            <bhrcom:beginDepth uom="m">6.000</bhrcom:beginDepth>
+                            <bhrcom:endDepth uom="m">9.000</bhrcom:endDepth>
                             <bhrcom:locationSpecific>ja</bhrcom:locationSpecific>
                             <bhrcom:characteristicModelled>nee</bhrcom:characteristicModelled>
                             <bhrcom:shrinkageDetermination>
