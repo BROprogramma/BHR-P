@@ -11,6 +11,9 @@ Voor inname voorbeeldberichten, bestanden correcton en registration Requests
 Voor srcommon.xsd
    - nieuwe korrelgrootte (105-150 en 150-210) toegeovoegd volgens werkafspraken voor StandardDistributionFraction63to2000umType en voor DetailedDistributionFraction63to2000umType
 
+Voor dsbhr-p-messages. xsd
+   - commentaar toegevoegd dat 3 elementen (boreholeSmaplesDescribed, boreholeSamplesAnalyzed,boreholeSamplesPhotographed) worden niet meer uitgeleveerd
+
 
 ----------------------------
 Versie 1.4.0 - 17.07.2026
