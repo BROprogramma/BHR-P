@@ -3,8 +3,8 @@ let respecConfig = {
   useLabel: true,
   //-- title is verplicht! Neem hier de titel van het document op ----------------------
   title:
-    "Catalogus registratie ondergrond Booronderzoek",
-  subtitle: "Bodemkundige boormonsterbeschrijving en boormonsteranalyse",
+    "Catalogus registratie ondergrond Booronderzoek  - Bodemkundige boormonsterbeschrijving en boormonsteranalyse",
+  //subtitle: "Bodemkundige boormonsterbeschrijving en boormonsteranalyse",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   //specStatus: "wv",               // Werkversie
   specStatus: "wv",                 // Werkversie
