@@ -1,5 +1,13 @@
 Changelog:
 
+----------------------------
+Versie 1.6.0 - 25.08.2026
+----------------------------
+
+Voor srcommon.xsd
+   -  korrelgrootte 105-210 optioneel gemaakt
+
+
 
 ----------------------------
 Versie 1.5.0 - 22.07.2026
