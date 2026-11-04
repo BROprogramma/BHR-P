@@ -1,4 +1,11 @@
 Changelog:
+----------------------------
+Versie 1.7.0 - 25.08.2026
+----------------------------
+
+Voor dsbhr-p-messages. xsd
+   - 3 elementen (boreholeSmaplesDescribed, boreholeSamplesAnalyzed,boreholeSamplesPhotographed)  zijn verwijderd
+
 
 ----------------------------
 Versie 1.6.0 - 25.08.2026
